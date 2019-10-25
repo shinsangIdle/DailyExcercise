@@ -1,10 +1,6 @@
 result-view {
 	match : resultManageGrade(result)
 	
-	message{
-		template ("등급 변경 결과입니다.")
-	}
-	
 	render{
 		//	if (result.isValid == "up"){ // Result가 1개 이상일 경우
 		layout{
