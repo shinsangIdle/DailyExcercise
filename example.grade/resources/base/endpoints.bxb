@@ -1,0 +1,15 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (ManageGrade) {
+      accepted-inputs ($vivContext, need, gradeCommend)
+      local-endpoint (manageGrade.js)
+    }
+
+    action-endpoint (InformGrade) {
+      accepted-inputs ($vivContext)
+      local-endpoint (informGrade.js)
+    }
+  
+  
+  }
+}
