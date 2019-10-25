@@ -7,7 +7,7 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   let action = "";
   let user_id = "&user_id="
   let name = "&name=";
-
+//git Test
   user_id += bixbyUserId;
   action = "count_exercise_get_grade";
   //console.log(link+action+user_id);
