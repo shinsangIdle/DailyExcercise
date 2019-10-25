@@ -19,7 +19,7 @@ module.exports.function = function manageGrade ($vivContext){
   console.log("user_data: " + user_data);
 
 
-  let originalGrade = grades[user_data[0].user_grade];
+  let originalGrade = grades[user_data[0].user_grade-1];
 
 
   return originalGrade;
