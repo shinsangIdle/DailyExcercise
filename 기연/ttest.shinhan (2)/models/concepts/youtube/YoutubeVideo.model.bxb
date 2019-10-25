@@ -1,0 +1,21 @@
+structure (YoutubeVideo) {
+  description (영상 정보)
+  property (videoUrl) {
+    type (VideoUrl)
+    min (Required) max (One)
+  }
+  property (videoTitle) {
+    type (VideoTitle)
+    min (Required) max (One)
+  }
+  property (thumbnailUrl) {
+    type (ThumbnailUrl)
+    min (Required) max (One)
+  }
+   property (channelTitle) {
+    type (ChannelTitle)
+    min (Required) max (One)
+  }
+}
+
+

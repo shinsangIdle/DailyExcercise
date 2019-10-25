@@ -1,0 +1,3 @@
+integer (SetNum) {
+  description (몇 세트 반복해야하는지)
+}

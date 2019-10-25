@@ -1,0 +1,25 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (PlayCount) {
+      local-endpoint (audioForCount/PlayCount.js)
+    }
+     action-endpoint (BuildCountAudioInfo) {
+      accepted-inputs (countAudio)
+      local-endpoint (audioForCount/BuildCountAudioInfo.js)
+    }
+    action-endpoint (FindCount) {
+      accepted-inputs (power, searchTerm, setNum)
+      local-endpoint (audioForCount/FindCount.js)
+    }
+
+    action-endpoint (GetCountSet) {
+      accepted-inputs ($vivContext,countCom, exeName)
+      local-endpoint (getCount/getCountSet.js)
+    }
+
+    action-endpoint (YoutubeSearch) {
+      accepted-inputs (keyword)
+      local-endpoint (youtube/youtubeSearch.js)
+    }
+  }
+}
