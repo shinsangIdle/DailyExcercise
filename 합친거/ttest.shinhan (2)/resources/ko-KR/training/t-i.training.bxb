@@ -1,0 +1,10 @@
+train (t-i2y4l81qo6m3aw1leu1fygm9k) {
+  utterance ("[g:PlayCount] (shoulder)[v:ExeName] (세주ㅏㅓ)[v:CountCom]")
+  plan (bU5LCsIwEH1aq17AH668QO6gRcSNiJ4gpVMaSBMwE2hvb9KFNeLAwPvCwxIrZnIsXKNMI414kPOaHTapfNeyL6w3jH2purIX0lfKRpVe4hjx1dQWh7R18kpXQ22MbNPI6GKXOhfiwXwSY/2nVNj2d/y5o5tsCQtMMEWGGXLMA8MXzwPG5+NlAQ2pNw==)
+  last-modified (1571827587590)
+}
+train (t-i54sz9op9bbpnw736bayv5a6e) {
+  utterance ("[g:RecentExercise] (최근)[v:Recent]한 운동 보여줘")
+  plan (Y2BmUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmywDEwMjEDMASUYGEIDyAQ==)
+  last-modified (1571998040303)
+}

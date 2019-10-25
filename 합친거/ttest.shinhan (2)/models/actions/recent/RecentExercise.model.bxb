@@ -1,0 +1,11 @@
+action (RecentExercise) {
+  description (최근에 한 운동 안내)
+  collect {
+    input (recent) {
+      type (Recent)
+      min (Required) max (One)
+    }
+  }
+  type(Search)
+  output (RecentExerciseResult)
+}

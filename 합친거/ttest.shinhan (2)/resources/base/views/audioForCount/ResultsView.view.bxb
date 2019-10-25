@@ -1,0 +1,57 @@
+result-view{
+  match: Results(this)
+
+  message{  // 맨위 다이알로그 부분
+    template("카운트를 시작 합니다."){ //speech가 없다면 template가 읽힌다
+      speech ("카운트를 시작 합니다")
+    }
+  }
+
+  render{ // 중간내용
+
+    layout{
+      section{
+        title{
+          template ("15회 3세트 카운트중 입니다")
+        }
+        content{
+          image{
+            url(images/exee.gif)
+          }
+        }
+      }
+      section{
+        content {
+          cell-card {
+            on-click{
+              intent{   //이거 누르면 DB 저장 하게 자바 스크립트 짜주세요
+                goal: PlayCount
+              }
+            }
+
+            slot2 {
+              content {
+                order (PrimarySecondary)
+                primary ("데드리프트")
+                secondary ("15회")
+              }
+            }
+
+          }
+        }
+      }
+    }
+
+  }
+
+  conversation-drivers{  // 맨 아래 팔로우 업
+    conversation-driver{
+      template ("다음 동작 실행")
+    }
+
+    conversation-driver{
+      template ("운동 기록하기")
+    }
+  }
+
+}
