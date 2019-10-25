@@ -6,9 +6,8 @@ result-view {
 	}
 	
 	render{
-		//	if (result.isValid == "up"){ // Result가 1개 이상일 경우
+		//	if (result.isValid == "up"){ // Result�� 1개 이상일 경우
 		layout{
-			
 			section{
 				content{
 					paragraph{
