@@ -1,0 +1,5 @@
+train (t-s3gijzqswka8jy1prk0avctl3) {
+  utterance ("[g:ManageGrade] 내 등급 (올려)[v:Need:up]줘")
+  plan (Y2BmkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwlhCrll5qawsDEwAjEDECSkQEEoHwA)
+  last-modified (1572002368701)
+}
