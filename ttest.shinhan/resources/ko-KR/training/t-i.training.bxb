@@ -8,3 +8,8 @@ train (t-i54sz9op9bbpnw736bayv5a6e) {
   plan (Y2BmUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmywDEwMjEDMASUYGEIDyAQ==)
   last-modified (1571998040303)
 }
+train (t-iekvfq3cty2as0jgwkoct716d) {
+  utterance ("[g:YoutubeSearchResults] (데드리프트 자세)[v:Keyword] 검색해줘")
+  plan (Y2BmUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1572003851470)
+}
