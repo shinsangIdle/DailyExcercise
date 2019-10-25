@@ -1,3 +1,0 @@
-structure (CountAudio) {
-  role-of (audioPlayer.AudioItem)
-}

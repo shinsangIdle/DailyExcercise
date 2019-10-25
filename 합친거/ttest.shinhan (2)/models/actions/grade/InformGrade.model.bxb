@@ -1,6 +1,0 @@
-action (InformGrade) {
-  type(Search)
-  description (__DESCRIPTION__)
-
-  output (OriginalGrade)
-}

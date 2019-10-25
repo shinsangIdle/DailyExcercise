@@ -1,5 +1,0 @@
-enum (Need) {
-  description (__DESCRIPTION__)
-  symbol (up)
-  symbol (down)
-}
