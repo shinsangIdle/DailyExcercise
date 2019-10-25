@@ -1,0 +1,5 @@
+train (t-0v2kxs8jvs3mgiay0ocbxenx8) {
+  utterance ("[g:resultManageGrade] 내 등급 (내려줘)[v:Need:down]")
+  plan (Y2BmkE+tSMwtyEnVS84vzSvRK0otLs0p8U3MS0xPdS9KTEllkERVgCwlhCrll5qawsDEwAjEDECSkQEEmCAYAA==)
+  last-modified (1571826562409)
+}
