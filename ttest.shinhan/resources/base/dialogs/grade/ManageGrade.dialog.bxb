@@ -1,23 +1,5 @@
 dialog (Result) {
 	match: resultManageGrade (this)
-	if(this.isValid == 'up'){
-		template("당신의 등급을 #{value(result.originalGrade)}에서 #{value(result.afterGrade)} 으로 올렸습니다.") {
-			speech ("당신의 등급을 #{value(result.originalGrade)}에서 #{value(result.afterGrade)} 으로 올렸습니다.")
-		}
-	}else-if (this.isValid == 'down'){
-			template("당신의 등급을 #{value(result.originalGrade)}에서 #{value(result.afterGrade)} 으로 내렸습니다."){
-			speech("당신의 등급을 #{value(result.originalGrade)}에서 #{value(result.afterGrade)} 으로 내렸습니다.")
-		}
-	}else{
-		if(this.originalGrade == 3){
-			template("당신의 등급은 #{value(result.originalGrade)}으로 더 이상 올릴 수 없습니다."){
-				speech("당신의 등급은 #{value(result.originalGrade)}으로 더 이상 올릴 수 없습니다.")
-			}
-		}else{
-			template("당신의 등급은 #{value(result.originalGrade)}으로 더 이상 내릴 수 없습니다."){
-				speech("당신의 등급은 #{value(result.originalGrade)}으로 더 이상 내릴 수 없습니다.")
-			}
-		}
-	}
+	
 }
 
