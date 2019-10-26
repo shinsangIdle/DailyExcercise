@@ -21,7 +21,7 @@ result-view {
 							}
 						}
 						aspect-ratio(9:16)
-						image-url(images/mountain.jpg)
+						image-url(images/start1.gif)
 					}
 					
 					if(value(result)=='중급'){
