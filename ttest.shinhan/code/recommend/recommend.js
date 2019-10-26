@@ -1,8 +1,7 @@
-module.exports.function = function getRecommend($vivContext) {
+module.exports.function = function recommend($vivContext) {
 
   const bixbyUserId = $vivContext.userId;
   let http = require('http');
-  //------------------------------------------------------------------------------------------------------
   let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
   let action = "";
   let console = require('console');
