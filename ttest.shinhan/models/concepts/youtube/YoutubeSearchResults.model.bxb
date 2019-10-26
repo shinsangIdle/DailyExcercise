@@ -1,5 +1,4 @@
 structure (YoutubeSearchResults) { // 여러 결과가 담기기 때문에 Structure
-  // {계산된 결과(10), 이것은 더하기된 결과입니다.} -> 두 가지로 나뉘기 때문에 property 2개
   description (검색 결과와 설명이 담기는 Output Concept)
   property (youtubeVideo) {
     type (YoutubeVideo)

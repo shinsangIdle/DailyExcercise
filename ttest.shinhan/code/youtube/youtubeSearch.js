@@ -1,7 +1,11 @@
-module.exports.function = function youtubeSearch (keyword) {
+module.exports.function = function youtubeSearch (keyword, pose) {
  
   const console = require('console');
   const http = require('http');
+
+  if(pose != null){
+    keyword = keyword + " " + pose;
+  }
 
   var optionParams={
     q:keyword,
