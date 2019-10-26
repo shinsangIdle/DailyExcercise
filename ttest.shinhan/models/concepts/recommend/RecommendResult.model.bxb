@@ -1,0 +1,11 @@
+structure (RecommendResult) {
+  description (유저등급과 추천 루틴 리스트가 있는 컨셉)
+  property (exerciseGrade) {
+    type (ExerciseGrade)
+    min (Required) max (One)
+  }
+  property (routine) {
+    type (Routine)
+    min (Required) max (Many)
+  }
+}

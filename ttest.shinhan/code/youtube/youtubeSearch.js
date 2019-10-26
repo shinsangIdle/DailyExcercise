@@ -32,9 +32,6 @@ let items = data.items;
 console.log(items[0].kind);
 
 
-//if (!data.list) {
-  //  throw "영상을 얻어오지 못했어요.";
-  //}
 
 let videoList = [];
 
