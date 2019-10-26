@@ -1,3 +1,4 @@
+
 dialog (Result) {
 	match: resultManageGrade (result)
 	if(result.isValid == 'up'){
@@ -20,4 +21,5 @@ dialog (Result) {
 		}
 	}
 }
+
 

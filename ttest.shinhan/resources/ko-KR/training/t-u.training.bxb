@@ -1,0 +1,5 @@
+train (t-ukculkgiz82w53hgn50w8tdll) {
+  utterance ("[g:resultManageGrade] 현재보다 (약하게)[v:Need:down] 해줘")
+  plan (Y2BmkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwlhCrll5qawsDEwAjEDECSkQEEmCAYAA==)
+  last-modified (1572081363489)
+}

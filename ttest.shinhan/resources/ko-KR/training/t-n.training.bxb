@@ -1,0 +1,5 @@
+train (t-ny0rc5zlwmo5mig59fp1eu4kj) {
+  utterance ("[g:InformGrade] 현재 (강도)[v:Grade:Grade]가 뭐야")
+  plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
+  last-modified (1572080542382)
+}
