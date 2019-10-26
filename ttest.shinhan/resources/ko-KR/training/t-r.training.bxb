@@ -1,5 +1,15 @@
+train (t-rc8g2u5z4uhq2ies7rsnhfp7r) {
+  utterance ("[g:resultManageGrade] 루틴 (강도)[v:Grade:Grade] (세게)[v:Need:up]하고싶어")
+  plan (Y2BhkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwljCoFERRCFfRLTU1hYGZgZGACkgxAGgQhAMQHiwIA)
+  last-modified (1572079804604)
+}
 train (t-rmxbx45gkkb63bfhck75hloje) {
   utterance ("[g:YoutubeSearchResults] (스쿼트 자세)[v:Keyword] 찾아줘")
   plan (Y2BmUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFgYmBEYgZgCQjAwgwQTAA)
   last-modified (1571730158731)
+}
+train (t-rskho0xhrbmmhz7hb2vbcmq07) {
+  utterance ("[g:resultManageGrade] 나의 (레벨)[v:Grade:Grade] (낮출래)[v:Need:down]")
+  plan (Y2BhkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwljCoFERRCFfRLTU1hYGZgZGACkgxAGgQhAMQHiwIA)
+  last-modified (1572079249492)
 }

@@ -23,12 +23,12 @@ endpoints {
     }
 
     action-endpoint (RecentExercise) {
-      // accepted-inputs (past)
+      accepted-inputs (recent)
       local-endpoint (recent/recentExercise.js)
     }
 
     action-endpoint (ManageGrade) {
-      accepted-inputs ($vivContext, need, gradeCommend)
+      accepted-inputs ($vivContext, need, grade)
       local-endpoint (grade/manageGrade.js)
     }
 
