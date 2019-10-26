@@ -23,7 +23,7 @@ endpoints {
     }
 
     action-endpoint (RecentExercise) {
-      accepted-inputs (recent)
+      // accepted-inputs (past)
       local-endpoint (recent/recentExercise.js)
     }
 
