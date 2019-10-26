@@ -36,7 +36,6 @@ result-view {
 								}
 							}
 						}
-						
 						 image-url ("#{value(result.exerciseImgUrl)}")
 						 image-position (Start)
 					}
