@@ -33,7 +33,7 @@ endpoints {
     }
 
     action-endpoint (InformGrade) {
-      accepted-inputs ($vivContext)
+      accepted-inputs ($vivContext, grade)
       local-endpoint (grade/informGrade.js)
     }
   }

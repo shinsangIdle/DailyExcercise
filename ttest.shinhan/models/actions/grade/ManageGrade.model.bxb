@@ -10,7 +10,7 @@ action (ManageGrade) {
 
     input (grade) {
       type (Grade)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
   }
   output (resultManageGrade)

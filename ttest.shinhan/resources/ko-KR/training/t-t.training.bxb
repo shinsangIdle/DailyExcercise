@@ -1,0 +1,5 @@
+train (t-twakbyr40oin7f4705092rg4b) {
+  utterance ("[g:InformGrade] 내 (등급)[v:Grade:Grade] 알려줘")
+  plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
+  last-modified (1572080462000)
+}

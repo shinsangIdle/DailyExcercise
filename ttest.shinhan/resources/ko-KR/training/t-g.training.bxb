@@ -1,0 +1,5 @@
+train (t-gsmbdhiykhp4lxiqz7v183uu4) {
+  utterance ("[g:InformGrade] 지금 (레벨)[v:Grade:Grade]이 어떻게 돼")
+  plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
+  last-modified (1572080603400)
+}
