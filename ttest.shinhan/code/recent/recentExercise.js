@@ -1,4 +1,5 @@
-module.exports.function = function yesterdayExercise (recent,$vivContext) {
+// module.exports.function = function yesterdayExercise (recent,$vivContext) {
+module.exports.function = function yesterdayExercise ($vivContext) {
   const console = require('console');
   let http = require('http')
   let result = null
