@@ -1,9 +1,17 @@
 module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   // if bixby id == null >> insert 
+
+  let options = {
+    format: 'json',
+    cacheTime: 0,
+    headers: {
+      // 'X-API-Key': apikey
+    }
+  };
  
   const bixbyUserId = $vivContext.userId;
   let http = require('http');
-  http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=isExist&user_id="+bixbyUserId);
+  http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=isExist&user_id="+bixbyUserId ,options);
 
 
   //----------------------------------------------------------------------------------------------
@@ -18,16 +26,15 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   user_id += bixbyUserId;
   action = "count_exercise_get_grade";
   console.log(link+action+user_id);
-  let user_data = http.getUrl(link+action+user_id, {format : 'json'});
+  let user_data = http.getUrl(link+action+user_id, options );
   console.log("user_data: " + user_data);
-
 
   let user_grade = user_data[0].user_grade;
 
   name += exeName;
   action="count_exercise_get_exercise";
   console.log(link+action+name);
-  let exercise = http.getUrl(link+action+name, {format : 'json'});
+  let exercise = http.getUrl(link+action+name, options );
   console.log("exercise: " + exercise);
 
   let exerciseName, exercisePart, setNum, searchTerm;
@@ -56,7 +63,7 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   action = "insertExeRocord";
   var exe_id = "&exe_id=" + exercise[0].exe_id;
   var grade = "&grade=" + user_grade;
-  http.getUrl(link+action+exe_id+user_id+grade);
+  http.getUrl(link+action+exe_id+user_id+grade ,options );
 
   //-------------------------------------------------------------------------------------------------------------------
   //return countAudio 
