@@ -1,6 +1,6 @@
 action (InformGrade) {
   type(Search)
-  description (__DESCRIPTION__)
+  description (운동 난이도 확인)
 
   collect {
     input (grade) {
