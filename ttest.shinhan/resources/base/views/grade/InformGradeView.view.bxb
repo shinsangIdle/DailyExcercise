@@ -9,7 +9,6 @@ result-view {
 		//	if (result.isValid == "up"){ // Result�� 1개 이상일 경우
 		layout{
 			section{
-			
 				content{
 					paragraph{
 						value("당신의 등급은 #{value(result)} 입니다.")
