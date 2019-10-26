@@ -1,0 +1,5 @@
+train (t-xyvaxd3oj588l88rn2523wyl3) {
+  utterance ("[g:resultManageGrade] 내 운동 (등급)[v:Grade:Grade] (올려줘)[v:Need:up]")
+  plan (Y2BhkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwljCoFERRCFfRLTU1hYGZgZGACkgxAGgQhAMQHiwIA)
+  last-modified (1572077666880)
+}

@@ -3,7 +3,7 @@ action (RecentExercise) {
   collect {
     input (recent) {
       type (Recent)
-      min (Required) max (One)
+      min (Required) max (Many)
     }
   }
   type(Search)

@@ -1,26 +1,43 @@
 module.exports.function = function getCountSet ($vivContext,countCom, exeName){
+  // if bixby id == null >> insert 
+
+  let options = {
+    format: 'json',
+    cacheTime: 0,
+    headers: {
+      // 'X-API-Key': apikey
+    }
+  };
+ 
   const bixbyUserId = $vivContext.userId;
+  let http = require('http');
+  http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=isExist&user_id="+bixbyUserId ,options);
+
+
+  //----------------------------------------------------------------------------------------------
+  //My Logic
+
   const console = require('console');
 
-  let http = require('http');
   let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action="
   let action = "";
   let user_id = "&user_id="
   let name = "&name=";
-//git Test
   user_id += bixbyUserId;
   action = "count_exercise_get_grade";
-  //console.log(link+action+user_id);
-  let user_data = http.getUrl(link+action+user_id, {format : 'json'});
+  console.log(link+action+user_id);
+  let user_data = http.getUrl(link+action+user_id, options );
   console.log("user_data: " + user_data);
-
 
   let user_grade = user_data[0].user_grade;
 
   name += exeName;
   action="count_exercise_get_exercise";
-  //console.log(link+action+name);
-  let exercise = http.getUrl(link+action+name, {format : 'json'});
+  console.log(link+action+name);
+
+  var enc = encodeURI(link+action+name);
+  let exercise = http.getUrl(enc, options );
+
   console.log("exercise: " + exercise);
 
   let exerciseName, exercisePart, setNum, searchTerm;
@@ -41,15 +58,22 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
     searchTerm = exercise[0].pro_cnt;
   }
   console.log("setNum: "+setNum+", searchTerm: "+searchTerm);
-  //return resultCountSet;
-  /////////////////////////////////////////////////////////
+
+
+  //------------------------------------------------------------------------------------------------------------------
+  //insert rocord
+
+  action = "insertExeRocord";
+  var exe_id = "&exe_id=" + exercise[0].exe_id;
+  var grade = "&grade=" + user_grade;
+  http.getUrl(link+action+exe_id+user_id+grade ,options );
+
+  //-------------------------------------------------------------------------------------------------------------------
+  //return countAudio 
   var countAudio = require('audioForCount/countAudio.js')
 
   const keysToSearchOn = ['title', 'artist', 'subtitle', 'albumName']
   let countAudioFound = []
-  // 뭐로 찾을지 들어온다면 Play kitten과 같이
-  // 긴거 틀어줘 와 같이 특정 단어가 들어온다면 title, artist, subtitle, albunName에서 긴거를 찾고 틀어줌
-  //searchTerm = searchTerm.toLowerCase()
 
   var temp = function (audioItem) {
       return keysToSearchOn.some(function (key) {
@@ -58,6 +82,7 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
     }
   countAudioFound = countAudio.audioItems.filter(temp)
 
+  let flag  = countAudioFound;
 
   for(var i = 0; i< setNum-1;i++){
     countAudioFound.push(countAudio.audioItems[10])

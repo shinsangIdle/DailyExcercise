@@ -4,9 +4,9 @@ train (t-i2y4l81qo6m3aw1leu1fygm9k) {
   last-modified (1571827587590)
 }
 train (t-i54sz9op9bbpnw736bayv5a6e) {
-  utterance ("[g:RecentExercise] (최근)[v:Recent]한 운동 보여줘")
-  plan (Y2BmUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmywDEwMjEDMASUYGEIDyAQ==)
-  last-modified (1571998040303)
+  utterance ("[g:RecentExercise] (최근)[v:Recent:Recent](한)[v:Recent:Past] 운동 보여줘")
+  plan (Y2BlUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmyxJoiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)
+  last-modified (1572073498064)
 }
 train (t-iekvfq3cty2as0jgwkoct716d) {
   utterance ("[g:YoutubeSearchResults] (데드리프트 자세)[v:Keyword] 검색해줘")

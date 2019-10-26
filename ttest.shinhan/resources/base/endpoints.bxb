@@ -28,7 +28,7 @@ endpoints {
     }
 
     action-endpoint (ManageGrade) {
-      accepted-inputs ($vivContext, need, gradeCommend)
+      accepted-inputs ($vivContext, need, grade)
       local-endpoint (grade/manageGrade.js)
     }
 
