@@ -1,0 +1,6 @@
+action (GetRecommend) {
+  description (__DESCRIPTION__)
+  
+  output (RecommendResult)
+  
+}
