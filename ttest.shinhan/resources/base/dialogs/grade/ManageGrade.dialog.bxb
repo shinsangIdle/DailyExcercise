@@ -1,5 +1,5 @@
-dialog (Result) {
+﻿dialog (Result) {
 	match: resultManageGrade (this)
-	
+
 }
 
