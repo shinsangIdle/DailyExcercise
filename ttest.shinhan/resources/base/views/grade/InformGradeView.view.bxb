@@ -26,7 +26,7 @@ result-view {
 							}
 							image-url(images/middle.png)
 						}
-					}else-if (value(result)=='상급'){
+					}else-if (value(result)=='고급'){
 						paragraph{
 							value("당신이 최고예요.")
 						}
