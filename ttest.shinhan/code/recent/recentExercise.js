@@ -1,9 +1,15 @@
-module.exports.function = function yesterdayExercise (recent) {
+module.exports.function = function yesterdayExercise (recent,$vivContext) {
   const console = require('console');
-
   let http = require('http')
   let result = null
-  result = http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=recent", {format : 'json'});
+  const bixbyUserId = $vivContext.userId;
+
+  let user_id = "&user_id="+bixbyUserId;
+
+
+  http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=isExist&user_id="+user_id)
+
+  result = http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=recent&userid="+user_id, {format : 'json'});
   
   console.log("http : " + http);
   console.log("result : " + result);

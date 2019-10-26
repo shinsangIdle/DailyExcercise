@@ -20,6 +20,7 @@ result-view {
 								paragraph("언제나 열심히")
 							}
 						}
+						aspect-ratio(9:16)
 						image-url(images/mountain.jpg)
 					}
 					
