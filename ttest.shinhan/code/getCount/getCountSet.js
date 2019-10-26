@@ -34,7 +34,10 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   name += exeName;
   action="count_exercise_get_exercise";
   console.log(link+action+name);
-  let exercise = http.getUrl(link+action+name, options );
+
+  var enc = encodeURI(link+action+name);
+  let exercise = http.getUrl(enc, options );
+
   console.log("exercise: " + exercise);
 
   let exerciseName, exercisePart, setNum, searchTerm;
@@ -78,6 +81,8 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
       })
     }
   countAudioFound = countAudio.audioItems.filter(temp)
+
+  let flag  = countAudioFound;
 
   for(var i = 0; i< setNum-1;i++){
     countAudioFound.push(countAudio.audioItems[10])
