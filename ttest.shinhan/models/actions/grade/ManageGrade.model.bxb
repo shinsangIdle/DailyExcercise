@@ -7,6 +7,11 @@ action (ManageGrade) {
       type (Need)
       min (Required) max (One)
     }
+
+    input (grade) {
+      type (Grade)
+      min (Required) max (One)
+    }
   }
   output (resultManageGrade)
 }
