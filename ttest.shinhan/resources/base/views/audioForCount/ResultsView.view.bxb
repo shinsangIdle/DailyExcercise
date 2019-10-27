@@ -46,11 +46,7 @@ result-view{
 
   conversation-drivers{  // 맨 아래 팔로우 업
     conversation-driver{
-      template ("다음 동작 실행")
-    }
-
-    conversation-driver{
-      template ("운동 기록하기")
+      template ("다음 운동 할래")
     }
   }
 
