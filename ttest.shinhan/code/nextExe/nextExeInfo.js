@@ -23,13 +23,12 @@ module.exports.function = function nextExe ($vivContext) {
   let user_grade = user_data[0].user_grade;
 
   var link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
-  var action = "nextExe";
-  var user_id = "&user_id="+bixbyUserId;
-  
+  var action = "nextExe";  
   let exerciseInfo = http.getUrl(link+action+user_id,options);
   
   let exerList = [];
   exerList.push({
+    exerciseID: exerciseInfo[0].exe_id,
     exerciseName: exerciseInfo[0].name,
     exercisePart: exerciseInfo[0].part,
     exerciseGrade: user_grade,

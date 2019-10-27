@@ -1,6 +1,9 @@
 structure (Exercise) {
   description (운동 별 컨셉)
-  
+  property (exerciseID) {
+    type (ExerciseID)
+    min (Required) max (One)
+  }
   property (exercisePart) {
     type (ExercisePart)
     min (Required)
