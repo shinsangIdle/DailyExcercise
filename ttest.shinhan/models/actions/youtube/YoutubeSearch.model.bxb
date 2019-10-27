@@ -5,6 +5,11 @@ action (YoutubeSearch) {
       type (Keyword)
       min (Required) max (One)
     }
+
+    input (pose) {
+      type (Pose)
+      min (Optional) max (One)
+    }
   }
   type(Search)
   output (YoutubeSearchResults)  
