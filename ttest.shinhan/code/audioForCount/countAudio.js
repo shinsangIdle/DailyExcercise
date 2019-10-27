@@ -10,7 +10,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     subtitle: "10",
     artist: "Cool Cat",
     albumName: "Catatonic",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/ten.PNG"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     subtitle: "11",
     artist: "Tom Cat",
     albumName: "You gotta be kitten me!",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat-in-a-basket.jpg"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/eleven.PNG"
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "천천히",
     subtitle: "12",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/twelve.PNG"
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "천천히",
     subtitle: "13",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/thirteen.PNG"
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "천천히",
     subtitle: "14",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/fourteen.PNG"
   },
   {
     id: 6,
@@ -76,7 +76,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "천천히",
     subtitle: "15",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/fifteen.PNG"
   },
   {
     id: 7,
@@ -89,7 +89,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "빠르게",
     subtitle: "10",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/ten.PNG"
   },
   {
     id: 8,
@@ -102,7 +102,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "빠르게",
     subtitle: "11",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/eleven.PNG"
   },
   {
     id: 9,
@@ -115,7 +115,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "빠르게",
     subtitle: "12",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/twelve.PNG"
   },
   {
     id: 10,
@@ -128,7 +128,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "빠르게",
     subtitle: "13",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/thirteen.PNG"
   },
   {
     id: 11,
@@ -141,7 +141,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "빠르게",
     subtitle: "14",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/fourteen.PNG"
   },
   {
     id: 12,
@@ -154,7 +154,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "빠르게",
     subtitle: "15",
     artist: "Radi-claw",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/fifteen.PNG"
   },
   {
     id: 13,
