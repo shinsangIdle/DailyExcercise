@@ -39,9 +39,7 @@ module.exports.function = function yesterdayExercise($vivContext) {
     })
   }
   if (result.length > 0) {
-    let tmpDate = result[0].date;
-    console.log(tmpDate);
-    date = tmpDate.substr(0, 4) + "년 " + tmpDate.substr(3, 5) + "월 " + tmpDate.substr(8, 10) + "일";
+    let date = result[0].date;
   }
 
 
