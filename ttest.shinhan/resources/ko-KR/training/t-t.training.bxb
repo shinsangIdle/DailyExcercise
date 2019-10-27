@@ -1,7 +1,7 @@
 train (t-tiio112e5c7mmr520c4uibibp) {
-  utterance ("[g:RecommendResult] (오늘)[v:Today:Today] 운동 추천해줘")
-  plan (Y2BmkC0pSS0u0SvOyMzLSMzTC0pNzs/NTc1LCUotLs0pYZBClXZPLYGrYBBGlQvJT0msZGBiYARiBiDJyAACTBAMAA==)
-  last-modified (1572164070212)
+  utterance ("[g:RecommendResult] (오늘)[v:Recommend:Today] (운동)[v:Recommend:Routine] 추천해줘")
+  plan (Y2BlkC0pSS0u0SvOyMzLSMzTC0pNzs/NTc1LCUotLs0pYZBClXZPLYGrYBDHoZUMCRYGRgYmBmYgzQBmMQFJBgYeIGQAijJAZAA=)
+  last-modified (1572167169121)
 }
 train (t-twakbyr40oin7f4705092rg4b) {
   utterance ("[g:InformGrade] 내 (등급)[v:Grade:Grade] 알려줘")

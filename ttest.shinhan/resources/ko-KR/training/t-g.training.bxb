@@ -1,3 +1,8 @@
+train (t-gq4pcdtfxyg8dx6bytspzkmkk) {
+  utterance ("[g:RecommendResult] (루틴)[v:Recommend:Routine] 추천 부탁해")
+  plan (Y2BmkC0pSS0u0SvOyMzLSMzTC0pNzs/NTc1LCUotLs0pYZBClXZPLYGrYBDHoZWBiYERiBmAJCMDCDBBMAA=)
+  last-modified (1572167370641)
+}
 train (t-gsmbdhiykhp4lxiqz7v183uu4) {
   utterance ("[g:InformGrade] 지금 (레벨)[v:Grade:Grade]이 어떻게 돼")
   plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
