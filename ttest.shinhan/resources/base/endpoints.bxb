@@ -1,6 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (PlayCount) {
+      accepted-inputs (count)
       local-endpoint (audioForCount/PlayCount.js)
     }
      action-endpoint (BuildCountAudioInfo) {
@@ -23,7 +24,7 @@ endpoints {
     }
 
     action-endpoint (RecentExercise) {
-      accepted-inputs (recent)
+      accepted-inputs ($vivContext,recent)
       local-endpoint (recent/recentExercise.js)
     }
 

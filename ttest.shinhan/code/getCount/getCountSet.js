@@ -2,35 +2,35 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   // if bixby id == null >> insert 
   var secret = require('secret');
   var apikey = secret.get('apikey');
-  
+  var config = require('config');
+  var baseUrl=config.get('baseUrl');
+  const console = require('console');
   let options = {
     format: 'json',
     cacheTime: 0,
     headers: {
-      // 'X-API-Key': apikey
+      'X-API-Key': apikey
     }
   };
  
+  console.log(baseUrl);
   const bixbyUserId = $vivContext.userId;
   let http = require('http');
-  http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=isExist&user_id="+bixbyUserId ,options);
+  http.getUrl(baseUrl+"isExist&user_id="+bixbyUserId ,options);
 
 
   //----------------------------------------------------------------------------------------------
   //My Logic
 
-  const console = require('console');
-
-  let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action="
   let user_id = "&user_id="+bixbyUserId;
   let action = "count_exercise_get_grade";
-  let user_data = http.getUrl(link+action+user_id, options );
+  let user_data = http.getUrl(baseUrl+action+user_id, options );
 
   let user_grade = user_data[0].user_grade;
 
   let name = "&name=" + exeName;
   action="count_exercise_get_exercise";
-  var enc = encodeURI(link+action+name);
+  var enc = encodeURI(baseUrl+action+name);
   let exercise = http.getUrl(enc, options );
 
   console.log("exercise: " + exercise);
@@ -61,7 +61,7 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   action = "insertExeRocord";
   var exe_id = "&exe_id=" + exercise[0].exe_id;
   var grade = "&grade=" + user_grade;
-  http.getUrl(link+action+exe_id+user_id+grade ,options );
+  http.getUrl(baseUrl+action+exe_id+user_id+grade ,options );
 
   //-------------------------------------------------------------------------------------------------------------------
   //return countAudio 
