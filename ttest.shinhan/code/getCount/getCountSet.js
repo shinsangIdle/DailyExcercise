@@ -2,7 +2,9 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   // if bixby id == null >> insert 
   var secret = require('secret');
   var apikey = secret.get('apikey');
-  var baseUrl=secret.get('baseUrl');
+  var config = require('config');
+  var baseUrl=config.get('baseUrl');
+  const console = require('console');
   let options = {
     format: 'json',
     cacheTime: 0,
@@ -11,6 +13,7 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
     }
   };
  
+  console.log(baseUrl);
   const bixbyUserId = $vivContext.userId;
   let http = require('http');
   http.getUrl(baseUrl+"isExist&user_id="+bixbyUserId ,options);
@@ -19,7 +22,6 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   //----------------------------------------------------------------------------------------------
   //My Logic
 
-  const console = require('console');
   let user_id = "&user_id="+bixbyUserId;
   let action = "count_exercise_get_grade";
   let user_data = http.getUrl(baseUrl+action+user_id, options );

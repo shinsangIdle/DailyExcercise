@@ -5,7 +5,8 @@ module.exports.function = function manageGrade($vivContext, need) {
   let http = require('http');
   var secret=require('secret');
   var apikey=secret.get('apikey');
-  var baseUrl=secret.get('baseUrl');
+  var config = require('config');
+  var baseUrl=config.get('baseUrl');
   let options = {
     format: 'json',
     cacheTime: 0,
@@ -20,7 +21,7 @@ module.exports.function = function manageGrade($vivContext, need) {
   http.getUrl(baseUrl+"isExist&user_id=" + bixbyUserId,options);
 
   let action = "";
-  let user_id = "&user_id=" + $vivContext.userId;
+  let user_id = "&user_id=" + bixbyUserId;
 
   console.log(user_id);
 

@@ -3,7 +3,8 @@ module.exports.function = function manageGrade ($vivContext){
   let http = require('http');
   var secret = require('secret');
   var apikey = secret.get('apikey');
-  var baseUrl=secret.get('baseUrl');
+  var config = require('config');
+  var baseUrl=config.get('baseUrl');
 
   const bixbyUserId = $vivContext.userId;
 

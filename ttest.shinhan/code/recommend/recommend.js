@@ -2,8 +2,10 @@ module.exports.function = function recommend($vivContext) {
 
   var secret=require('secret');
   var apikey=secret.get('apikey');
-  var baseUrl=secret.get('baseUrl');
+  var config = require('config');
+  var baseUrl=config.get('baseUrl');
   let http = require('http');
+  let console = require('console');
   let options={
     format : 'json',
     cacheTime : 0,
@@ -12,12 +14,12 @@ module.exports.function = function recommend($vivContext) {
     }
   };
   const bixbyUserId = $vivContext.userId;
-  http.getUrl(baseUrl+"isExist&user_id="+bixbyUserId ,options);
+  let url = baseUrl+"isExist&user_id="+bixbyUserId;
+  http.getUrl(url ,options);
   //////////////////////////////////////////////////////////가장 기본이 되는 코드///////////////////////////////////////////
   
  // let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
   let action = "";
-  let console = require('console');
   let user_id = "&user_id=" //input 
 
   let result = new Array();
@@ -65,7 +67,7 @@ module.exports.function = function recommend($vivContext) {
     
     console.log(exerList);
     routineList.push({
-      routineNum:routines[iter]["routineNum"] ,
+      routineNum: iter,
       exercisePart: part,
       exercise: exerList
     })

@@ -9,7 +9,8 @@ module.exports.function = function yesterdayExercise($vivContext) {
 
  var secret=require('secret');
   var apikey=secret.get('apikey');
-  var baseUrl=secret.get('baseUrl');
+  var config = require('config');
+  var baseUrl=config.get('baseUrl');
   let options = {
     format: 'json',
     cacheTime: 0,
