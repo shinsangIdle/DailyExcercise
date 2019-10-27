@@ -20,21 +20,14 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   const console = require('console');
 
   let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action="
-  let action = "";
-  let user_id = "&user_id="
-  let name = "&name=";
-  user_id += bixbyUserId;
-  action = "count_exercise_get_grade";
-  console.log(link+action+user_id);
+  let user_id = "&user_id="+bixbyUserId;
+  let action = "count_exercise_get_grade";
   let user_data = http.getUrl(link+action+user_id, options );
-  console.log("user_data: " + user_data);
 
   let user_grade = user_data[0].user_grade;
 
-  name += exeName;
+  let name = "&name=" + exeName;
   action="count_exercise_get_exercise";
-  console.log(link+action+name);
-
   var enc = encodeURI(link+action+name);
   let exercise = http.getUrl(enc, options );
 
