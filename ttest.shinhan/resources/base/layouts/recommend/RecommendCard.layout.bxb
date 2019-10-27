@@ -8,14 +8,28 @@ layout-macro-def (RecommendCard) {
 	
 	content {
 		compound-card {
-
+			
 			content {
+				title-area{
+					halign (Center)
+					slot2{
+						single-line{
+							text{
+									color (Blue)
+								style(Title_S)
+								value("#{value(routine.exercisePart)} 운동 루틴입니다.")
+							}
+						}
+						
+					}
+				}
 				for-each (routine.exercise){
 					as (ex) {
 						title-area{
+							halign (Center)
 							slot1 {
 								text {
-									style(Title_S)
+									style(Detail_M)
 									value ("#{value(ex.exerciseName)}")
 								}
 							}

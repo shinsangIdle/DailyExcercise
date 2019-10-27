@@ -4,6 +4,10 @@ structure (Routine) {
     type (RoutineNum)
     min (Required) max (One)
   }
+  property (exercisePart) {
+    type (ExercisePart)
+    min (Required) max (One)
+  }
   property (exercise) {
     type (Exercise)
     min (Required) max (Many)

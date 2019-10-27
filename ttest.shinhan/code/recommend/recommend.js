@@ -1,4 +1,5 @@
 module.exports.function = function recommend($vivContext) {
+
   var secret = require('secret');
   var apikey = secret.get('apikey');
   let http = require('http');
@@ -17,10 +18,17 @@ module.exports.function = function recommend($vivContext) {
   let action = "";
   let console = require('console');
   let user_id = "&user_id=" //input 
-  user_id+=bixbyUserId;
 
   let result = new Array();
-  let user_grade = "1";
+
+  user_id += bixbyUserId;
+  action = "count_exercise_get_grade";
+  console.log(link+action+user_id);
+  let user_data = http.getUrl(link+action+user_id, options );
+  console.log("user_data: " + user_data);
+
+  let user_grade = user_data[0].user_grade;
+
 
   action = "getRoutines";
   let routines = http.getUrl(link + action + user_id, options); //3개 날라올거임
@@ -34,13 +42,19 @@ module.exports.function = function recommend($vivContext) {
     let exerList = [];
     let exercises = http.getUrl(link + action + routine, options);
 
+    let part = "";
     for (var it = 0; it < 4; it++) {
       let exercise = "&exe_id=";
       action = "getInfo";
       exercise += exercises[it]["exe_id"];
       let exerciseInfo = http.getUrl(link + action + exercise, options);
+
+      console.log(exercise);
+      let exerciseInfo = http.getUrl(link + action + exercise,options);
       console.log(exerciseInfo);
+      part = exerciseInfo[0].part;
       exerList.push({
+        exerciseID: exerciseInfo[0].exe_id,
         exerciseName: exerciseInfo[0].name,
         exercisePart: exerciseInfo[0].part,
         exerciseGrade: user_grade,
@@ -50,8 +64,11 @@ module.exports.function = function recommend($vivContext) {
       })
 
     }
+    
+    console.log(exerList);
     routineList.push({
-      routineNum: 1,
+      routineNum: iter,
+      exercisePart: part,
       exercise: exerList
     })
 
@@ -104,68 +121,3 @@ function getImg(part) {
       return "images/core.png";
   }
 }
-
-
-
-//결과
-// {유저 등급: 등급,
-//  루틴 리스트: [{루틴 번호: 1,
-                  // 운동리스트: [{운동ID:1,
-                  //             운동명:사이드~~~,
-                  //             파트: 상체,
-                  //             세트: 3
-                  //             횟수: 10,
-                  //             이미지: upper.png},
-                  //             {운동ID:2,
-                  //             운동명:사이드~~~,
-                  //             파트: 상체,
-                  //             세트: 3
-                  //             횟수: 10,
-                  //             이미지: upper.png},
-                  //             {운동ID:3,
-                  //             운동명:사이드~~~,
-                  //             파트: 상체,
-                  //             세트: 3
-                  //             횟수: 10,
-                  //             이미지: upper.png}]},
-                  // {루틴 번호:2,
-                  // 운동리스트: [{운동ID:1,
-                  //             운동명:사이드~~~,
-                  //             파트: 상체,
-                  //             세트: 3
-                  //             횟수: 10,
-                  //             이미지: upper.png},
-                  //             {운동ID:2,
-                  //             운동명:사이드~~~,
-                  //             파트: 상체,
-                  //             세트: 3
-                  //             횟수: 10,
-                  //             이미지: upper.png},
-                  //             {운동ID:3,
-                  //             운동명:사이드~~~,
-                  //             파트: 상체,
-                  //             세트: 3
-                  //             횟수: 10,
-                  //             이미지: upper.png}]},
-                  //  {루틴 번호: 3,
-                  // 운동리스트: [{운동ID:1,
-                  //             운동명:사이드~~~,
-                  //             파트: 상체,
-                  //             세트: 3
-                  //             횟수: 10,
-                  //             이미지: upper.png},
-                  //             {운동ID:2,
-                  //             운동명:사이드~~~,
-                  //             파트: 상체,
-                  //             세트: 3
-                  //             횟수: 10,
-                  //             이미지: upper.png},
-                  //             {운동ID:3,
-                  //             운동명:사이드~~~,
-                  //             파트: 상체,
-                  //             세트: 3
-                  //             횟수: 10,
-                  //             이미지: upper.png}]}           
-
-//  }]
-// }
