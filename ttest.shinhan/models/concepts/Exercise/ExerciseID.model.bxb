@@ -1,0 +1,3 @@
+integer (ExerciseID) {
+  description (해당 운동의 DB PK)
+}

@@ -1,4 +1,21 @@
-module.exports.function = function nextExePlay (exercise) {
+module.exports.function = function nextExePlay ($vivContext, exercise) {
+  let options = {
+    format: 'json',
+    cacheTime: 0,
+    headers: {
+      // 'X-API-Key': apikey
+    }
+  };
+
+  let http = require('http');
+  //insert rocord
+  action = "insertExeRocord";
+  var exe_id = "&exe_id=" + exercise.exerciseID;
+  let user_id = "&user_id="+$vivContext.userId;
+  var grade = "&grade=" + exercise.exerciseGrade;
+  http.getUrl(link+action+exe_id+user_id+grade ,options );
+
+
   let setNum=exercise.exerciseSet;
   let searchTerm= exercise.exerciseCnt;
 
