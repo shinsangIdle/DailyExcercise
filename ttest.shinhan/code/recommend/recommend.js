@@ -82,11 +82,11 @@ module.exports.function = function recommend($vivContext) {
 
 function getCnt(exInfo, grade) {
   switch (grade) {
-    case "1":
+    case 1:
       return exInfo.im_cnt;
-    case "2":
+    case 2:
       return exInfo.ad_cnt;
-    case "3":
+    case 3:
       return exInfo.pro_cnt;
 
   }
@@ -95,11 +95,11 @@ function getCnt(exInfo, grade) {
 
 function getSet(exInfo, grade) {
   switch (grade) {
-    case "1":
+    case 1:
       return exInfo.im_set;
-    case "2":
+    case 2:
       return exInfo.ad_set;
-    case "3":
+    case 3:
       return exInfo.pro_set;
 
   }
