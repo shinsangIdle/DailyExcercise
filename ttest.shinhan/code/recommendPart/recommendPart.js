@@ -26,36 +26,42 @@ module.exports.function = function recommendPart($vivContext, partInput) {
 
   user_id += bixbyUserId;
   action = "count_exercise_get_grade";
-  console.log(baseUrl + action + user_id);
+  
+  // console.log(baseUrl + action + user_id);
   let user_data = http.getUrl(baseUrl + action + user_id, options);
-  console.log("user_data: " + user_data);
+  console.log("user_data: " + user_data[0].user_grade);
 
   let grade = user_data[0].user_grade;
   let user_grade = "&user_grade=" + grade;
+  let part_param = "&part="+partInput;
 
-  action = "recommed_part"
-  let exerciseInfo = http.getUrl(baseUrl + action + user_grade, options);
-  console.log(exerciseInfo.length);
+  action = "recommend_part";
+  let encUrl = encodeURI(baseUrl + action + user_grade + part_param);
+  let exerciseInfo = http.getUrl(encUrl, options);
+  console.log(exerciseInfo);
 
   let routineList = [];
-  for (var iter = 0; iter < exerciseInfo.length / 4; iter++) {
+  for (var iter = 0; iter < exerciseInfo.length/4; iter++) {
 
     let exerList = [];
-    for (var it = 0; it < 4; iter++) {
-
+    for (var it = 0; it < 4; it++) {
+      // console.log(iter*4 + it)
+      // console.log(exerciseInfo[iter * 4 + it])
+      
+      
       exerList.push({
         exerciseID: exerciseInfo[iter * 4 + it].exe_id,
         exerciseName: exerciseInfo[iter * 4 + it].name,
         exercisePart: exerciseInfo[iter * 4 + it].partInput,
-        exerciseGrade: user_grade,
-        exerciseSet: exerciseInfo[iter * 4 + it],
-        exerciseCnt: exerciseInfo[iter * 4 + it],
+        exerciseGrade: grade,
+        exerciseSet: exerciseInfo[iter * 4 + it].setn,
+        exerciseCnt: exerciseInfo[iter * 4 + it].cnt,
         exerciseImgUrl: getImg(exerciseInfo[iter * 4 + it].partInput)
       })
 
     }
 
-    console.log(exerList);
+    // console.log(exerList);
     routineList.push({
       routineNum: iter,
       exercisePart: partInput,
@@ -67,7 +73,7 @@ module.exports.function = function recommendPart($vivContext, partInput) {
   console.log(routineList);
 
   return {
-    exerciseGrade: user_grade,
+    exerciseGrade: grade,
     routine: routineList
   };
 }

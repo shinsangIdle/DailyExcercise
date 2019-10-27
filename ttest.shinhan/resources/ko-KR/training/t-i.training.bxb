@@ -3,6 +3,11 @@ train (t-i2y4l81qo6m3aw1leu1fygm9k) {
   plan (bU5LCsIwEH1aq17AH668QO6gRcSNiJ4gpVMaSBMwE2hvb9KFNeLAwPvCwxIrZnIsXKNMI414kPOaHTapfNeyL6w3jH2purIX0lfKRpVe4hjx1dQWh7R18kpXQ22MbNPI6GKXOhfiwXwSY/2nVNj2d/y5o5tsCQtMMEWGGXLMA8MXzwPG5+NlAQ2pNw==)
   last-modified (1571827587590)
 }
+train (t-i3bkydwa1ctvd8nagyv4lzrl8) {
+  utterance ("[g:RecommendPart] (상체)[v:PartInput:상체] 운동 추천해줘")
+  plan (Y2BmkC0pSS0u0SvOyMzLSMzTC0pNzs/NTc1LCUotLs0pYZDGIR2QWFTCII4qCRLzzCsoLWFgYmAEYgYgycgAAlA+AA==)
+  last-modified (1572183909758)
+}
 train (t-i54sz9op9bbpnw736bayv5a6e) {
   utterance ("[g:RecentExercise] (최근)[v:Recent:Recent](한)[v:Recent:Past] 운동 보여줘")
   plan (Y2BlUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmyxJoiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)

@@ -1,4 +1,6 @@
 enum (PartInput) {
-  description (__DESCRIPTION__)
-  symbol (__SYMBOL__)
+  description (추천 받을 부위)
+  symbol ("상체")
+  symbol ("하체")
+  symbol ("코어")
 }

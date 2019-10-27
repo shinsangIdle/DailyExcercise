@@ -4,7 +4,7 @@ action (RecommendPart) {
 
 		input (partInput) {
 			type (PartInput)
-			min (Optional) max (One)
+			min (Required) max (One)
 		}
 	}
 	output (RecommendResult)
