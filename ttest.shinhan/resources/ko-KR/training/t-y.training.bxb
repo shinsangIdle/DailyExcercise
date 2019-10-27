@@ -1,5 +1,5 @@
 train (t-yhfy8tmj5mbbubr02ubkrqfwo) {
-  utterance ("[g:PlayCount] (11)[v:SearchTerm]회 (3)[v:SetNum]세트 틀어줘")
-  plan (Y+BgEC0pSS0u0SvOyMzLSMzTC0otLs0pKWYQRxUOyEmsdM4vzSthkE7KrEiq1EssTcnMB4mmFuk5gtieeWn5DIqoupxKM3NSwNoQSiRQlSBk0a10y8yD6EXXEpyaWJScEZJalMsggi5T4leay8DOwMjAxMDMwMLAysAG5DEg8VmBbAY4BgFmIAusCgA=)
-  last-modified (1571368361055)
+  utterance ("[g:PlayCount] (11)[v:SearchTerm:11](회)[v:Count:회] (3)[v:SetNum:3](세트)[v:Count:세트] 틀어줘")
+  plan (jY5NCsIwEEa/aqv1Z6dFwZUXyB1UENyIqBdIbSSBNoEmAXt7k3QhLV2YEPjmzbwhWCAzhmlDNBeSU0nuTNvSaGy6+FbS5qSsNNjl4pM3hNpCKE9ZTQ4+X+RbYd+1jlaURdB+I6vuSLv0f7gdgGF5/8dnIYtB5cFo/eJPVldY9zvmaivMEWGEMWIkmGCKFDPHEGjkaOx6nqauQnhLd9vkT+KSN4P1BQ==)
+  last-modified (1572175055166)
 }

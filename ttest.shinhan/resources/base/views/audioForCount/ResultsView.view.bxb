@@ -12,7 +12,7 @@ result-view{
     layout{
       section{
         title{
-          template ("15회 3세트 카운트중 입니다")
+          template ("카운트중 입니다. 뮤직플레이어를 확인해 주세요.")
         }
         content{
           image{
@@ -20,26 +20,26 @@ result-view{
           }
         }
       }
-      section{
-        content {
-          cell-card {
-            on-click{
-              intent{   //이거 누르면 DB 저장 하게 자바 스크립트 짜주세요
-                goal: PlayCount
-              }
-            }
+      // section{
+      //   content {
+      //     cell-card {
+      //       on-click{
+      //         intent{   //이거 누르면 DB 저장 하게 자바 스크립트 짜주세요
+      //           goal: PlayCount
+      //         }
+      //       }
 
-            slot2 {
-              content {
-                order (PrimarySecondary)
-                primary ("데드리프트")
-                secondary ("15회")
-              }
-            }
+      //       slot2 {
+      //         content {
+      //           order (PrimarySecondary)
+      //           primary ("데드리프트")
+      //           secondary ("15회")
+      //         }
+      //       }
 
-          }
-        }
-      }
+      //     }
+      //   }
+      // }
     }
 
   }

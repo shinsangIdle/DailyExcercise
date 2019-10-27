@@ -1,0 +1,5 @@
+train (t-vku4p8yw1uxisamb43bqm3zsz) {
+  utterance ([g:ttest.shinhan.RecommendResult] 운동 추천해줘)
+  plan (Y2BkkC0pSS0u0SvOyMzLSMzTC0pNzs/NTc1LCUotLs0pYQABRhABAA==)
+  last-modified (1572174500659)
+}

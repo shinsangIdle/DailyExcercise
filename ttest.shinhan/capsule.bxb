@@ -1,6 +1,6 @@
 capsule {
   id (ttest.shinhan)
-  version (0.1.0)
+  version (0.1.0) //public publicsh 할 때마다 버젼 올려줘야 함
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
@@ -13,6 +13,11 @@ capsule {
    use-input-views-for-selection-list-detail
    modern-default-view-behavior
   }
+  store-sections{
+    section (Sports)
+    section (HealthAndFitness)
+  }
+
   permissions {
       bixby-user-id-access
   }

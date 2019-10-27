@@ -1,0 +1,5 @@
+train (t-my470nmwys8g4z6blbziu6vba) {
+  utterance ("[g:PlayCount] (14)[v:SearchTerm:14](번)[v:Count:회] 운동 가자")
+  plan (Y+BgEC0pSS0u0SvOyMzLSMzTC0otLs0pKWYQRxUOyEmsdM4vzSthkE7KrEiq1EssTcnMB4mmFuk5gtieeWn5DIqoupxKM3NSwNoQSoRRlUAMlcAiCNaC7g63zLwUrFqCUxOLkjNCUotyGdgZGBmYGJgZWBhYGdiAPAYwnxEoAuIzgvkMcJIZSLOAVAEA)
+  last-modified (1572175155774)
+}

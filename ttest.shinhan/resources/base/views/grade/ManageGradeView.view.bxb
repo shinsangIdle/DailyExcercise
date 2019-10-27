@@ -56,7 +56,7 @@ result-view {
 							}
 						}
 					}else{
-						if(result.originalGrade == '고급'){
+						if(result.originalGrade == '상급'){
 							paragraph{
 								value("당신의 등급은 #{value(result.originalGrade)}으로 더 이상 올릴 수 없습니다.")
 							}
