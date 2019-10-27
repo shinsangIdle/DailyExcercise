@@ -65,7 +65,7 @@ module.exports.function = function recommend($vivContext) {
     
     console.log(exerList);
     routineList.push({
-      routineNum: iter,
+      routineNum:routines[iter]["routineNum"] ,
       exercisePart: part,
       exercise: exerList
     })
