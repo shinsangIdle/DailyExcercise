@@ -28,11 +28,11 @@ module.exports.function = function recommend($vivContext) {
   action = "count_exercise_get_grade";
   console.log(baseUrl+action+user_id);
   let user_data = http.getUrl(baseUrl+action+user_id, options );
-  console.log("user_data: " + user_data);
+  console.log( user_data);
 
   let user_grade = user_data[0].user_grade;
 
-
+  console.log("user_grade: " + user_grade);
   action = "getRoutines";
   let routines = http.getUrl(baseUrl + action + user_id, options); //3개 날라올거임
 
