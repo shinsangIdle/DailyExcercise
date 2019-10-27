@@ -69,7 +69,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     id: 6,
     stream: [
       {
-        url: "http://static1.grsites.com/archive/sounds/aircraft/aircraft006.mp3", 
+        url: "https://docs.google.com/uc?id=1kURFKGFzfH97iwp3ca3Y-3lUCYO8IDd1&export=dowload", 
         format: "mp3"
       }
     ],
