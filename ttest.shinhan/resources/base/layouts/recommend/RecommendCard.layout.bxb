@@ -22,9 +22,6 @@ layout-macro-def (RecommendCard) {
 						}
 					}
 				}
-				image-card{
-					image-url()
-				}
 			}
 			on-click {
 				intent {

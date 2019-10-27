@@ -37,7 +37,7 @@ endpoints {
       local-endpoint (grade/informGrade.js)
     }
     action-endpoint (GetRecommend) {
-      accepted-inputs ($vivContext)
+      accepted-inputs ($vivContext, today)
       local-endpoint (recommend/recommend.js)
     }
   }
