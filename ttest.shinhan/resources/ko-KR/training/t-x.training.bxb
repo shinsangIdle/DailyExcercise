@@ -1,3 +1,8 @@
+train (t-xedacrk3uyf6sn29ny0ssluna) {
+  utterance ("[g:PlayCount] (세게)[v:Power] (12)[v:SearchTerm:12](회)[v:Count:회]를 (3)[v:SetNum:3](번)[v:Count:세트] 반복 해줘")
+  plan (jY7NCsIwEISnWutfbyoKnnyBvIMKghcp6gukNtJAm0CaoH17k1SQlh7cuQzf7gyLGCutWaVJlXORU0GurDKFrrBu46Sg9VEaobFN+TutCTUZl44yRfbOn8VTYtdOHQwvMh/7nSzaJ03p/3DTA3159+MTF1lvTyJfTHV7boyqR35nqsSyu9EXU2KOAAMMEWKECGNMMMXMUngeWB7areNOgedAbNW4ZiLrXf6b/QA=)
+  last-modified (1572180441491)
+}
 train (t-xlhszc97i1z3nvofzx9hykq4n) {
   utterance ("[g:YoutubeSearchResults] (레그프레스)[v:Keyword] (동작)[v:Pose]을 찾아줘")
   plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)

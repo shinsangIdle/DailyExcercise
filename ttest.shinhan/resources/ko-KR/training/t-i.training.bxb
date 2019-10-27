@@ -8,3 +8,8 @@ train (t-i54sz9op9bbpnw736bayv5a6e) {
   plan (Y2BlUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmyxJoiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)
   last-modified (1572073498064)
 }
+train (t-ir4bzm31ut0hzu1pvqtjyaf9c) {
+  utterance ("[g:resultManageGrade] 지금 좀 (쉬운거같아)[v:Need:up]")
+  plan (Y2BmkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwlhCrll5qawsDEwAjEDECSkQEEmCAYAA==)
+  last-modified (1572179135928)
+}
