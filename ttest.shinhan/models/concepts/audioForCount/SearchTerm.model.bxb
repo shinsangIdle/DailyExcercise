@@ -1,3 +1,9 @@
-text (SearchTerm) {
+enum (SearchTerm) {
   description (주어진 키값으로 플레이리스트 찾기)
+  symbol (10)
+  symbol (11)
+  symbol (12)
+  symbol (13)
+  symbol (14)
+  symbol (15)
 }
