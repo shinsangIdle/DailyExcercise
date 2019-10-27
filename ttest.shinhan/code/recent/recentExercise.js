@@ -35,6 +35,7 @@ module.exports.function = function yesterdayExercise($vivContext) {
 
     console.log(obj.name);
     exlist.push({
+      exerciseID: obj.exe_id,
       exerciseName: obj.name,
       exercisePart: obj.part,
       exerciseGrade: obj.grade,

@@ -8,3 +8,8 @@ train (t-lmvoqyzscwrrwm0j80hm63pqb) {
   plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)
   last-modified (1572094171461)
 }
+train (t-lnbx4801yjofxhbhxi9m76krp) {
+  utterance ("[g:resultManageGrade] 이건 너무 (쉬운데)[v:Need:up]")
+  plan (Y2BmkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwlhCrll5qawsDEwAjEDECSkQEEmCAYAA==)
+  last-modified (1572179347628)
+}
