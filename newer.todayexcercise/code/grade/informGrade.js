@@ -3,6 +3,7 @@ module.exports.function = function manageGrade($vivContext) {
   let http = require('http');
   var secret = require('secret');
   var apikey = secret.get('apikey');
+
   var config = require('config');
   var baseUrl = config.get('baseUrl');
 
@@ -11,8 +12,8 @@ module.exports.function = function manageGrade($vivContext) {
   let user_id = "&user_id=" + bixbyUserId;
   let options = {
     format: 'json',
+    cacheTime: 0,
     headers: {
-      cacheTime: 0,
       'X-API-Key': apikey
     }
   };
@@ -24,7 +25,7 @@ module.exports.function = function manageGrade($vivContext) {
   let action = "isExist";
   http.getUrl(baseUrl + action + user_id, options);
 
-
+  console.log("여기까지는 오나?");
   action = "count_exercise_get_grade";
 
 

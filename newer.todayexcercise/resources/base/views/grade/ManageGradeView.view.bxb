@@ -36,7 +36,7 @@ result-view {
 						paragraph{
 							value("당신의 등급을 #{value(result.originalGrade)}에서 #{value(result.afterGrade)} 으로 내렸습니다.")
 						}
-						if(result.originalGrade == '고급'){
+						if(result.originalGrade == '상급'){
 							image-card{
 								title-area{
 									slot2{
@@ -63,7 +63,7 @@ result-view {
 							image-card{
 								title-area{
 									slot2{
-										paragraph("운동의 최고수")
+										paragraph("운동의 초고수")
 									}
 								}
 								image-url(images/high.png)

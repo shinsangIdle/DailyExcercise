@@ -32,8 +32,9 @@ module.exports.function = function manageGrade($vivContext, need) {
 
   action = "manage_grade";
   let originalGrade = user_data[0].user_grade;
+  console.log(originalGrade);
   let isValid = "no", afterGrade = originalGrade;
-  let grades = ["초급", "중급", "고급"];
+  let grades = ["초급", "중급", "상급"];
 
   if (need == "up") {
     if (originalGrade == 3) {
