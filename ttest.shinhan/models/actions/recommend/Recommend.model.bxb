@@ -1,5 +1,5 @@
 action (GetRecommend) {
-  description (원하는 동작 자세를 검색하는 액션)
+  description (운동루틴을 추천받는 액션)
   collect {
     input (recommend) {
       type (Recommend)

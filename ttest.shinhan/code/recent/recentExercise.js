@@ -7,18 +7,22 @@ module.exports.function = function yesterdayExercise($vivContext) {
 
   let user_id = "&user_id=" + bixbyUserId;
 
+ var secret=require('secret');
+  var apikey=secret.get('apikey');
+  var config = require('config');
+  var baseUrl=config.get('baseUrl');
   let options = {
     format: 'json',
     cacheTime: 0,
     headers: {
-      // 'X-API-Key': apikey
+      'X-API-Key': apikey
     }
   };
 
 
-  http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=isExist&user_id=" + user_id,options)
+  http.getUrl(baseUrl+"isExist&user_id=" + user_id,options)
 
-  result = http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=recent&userid=" + user_id, options);
+  result = http.getUrl(baseUrl+"recent&userid=" + user_id, options);
 
   console.log("http : " + http);
   console.log("result : " + result);

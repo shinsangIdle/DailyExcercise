@@ -1,8 +1,11 @@
 module.exports.function = function recommend($vivContext) {
 
-  var secret = require('secret');
-  var apikey = secret.get('apikey');
+  var secret=require('secret');
+  var apikey=secret.get('apikey');
+  var config = require('config');
+  var baseUrl=config.get('baseUrl');
   let http = require('http');
+  let console = require('console');
   let options={
     format : 'json',
     cacheTime : 0,
@@ -11,27 +14,27 @@ module.exports.function = function recommend($vivContext) {
     }
   };
   const bixbyUserId = $vivContext.userId;
-  http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=isExist&user_id="+bixbyUserId ,options);
+  let url = baseUrl+"isExist&user_id="+bixbyUserId;
+  http.getUrl(url ,options);
   //////////////////////////////////////////////////////////가장 기본이 되는 코드///////////////////////////////////////////
   
-  let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
+ // let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
   let action = "";
-  let console = require('console');
   let user_id = "&user_id=" //input 
 
   let result = new Array();
 
   user_id += bixbyUserId;
   action = "count_exercise_get_grade";
-  console.log(link+action+user_id);
-  let user_data = http.getUrl(link+action+user_id, options );
+  console.log(baseUrl+action+user_id);
+  let user_data = http.getUrl(baseUrl+action+user_id, options );
   console.log("user_data: " + user_data);
 
   let user_grade = user_data[0].user_grade;
 
 
   action = "getRoutines";
-  let routines = http.getUrl(link + action + user_id, options); //3개 날라올거임
+  let routines = http.getUrl(baseUrl + action + user_id, options); //3개 날라올거임
 
   let routineList = [];
   for (var iter = 0; iter < 3; iter++) {
@@ -40,16 +43,18 @@ module.exports.function = function recommend($vivContext) {
     let routine = "&routineId=";
     routine += routines[iter]["routineNum"];
     let exerList = [];
-    let exercises = http.getUrl(link + action + routine,options);
+    let exercises = http.getUrl(baseUrl + action + routine, options);
+
     let part = "";
     for (var it = 0; it < 4; it++) {
       let exercise = "&exe_id=";
       action = "getInfo";
       exercise += exercises[it]["exe_id"];
-      let exerciseInfo = http.getUrl(link + action + exercise,options);
+      let exerciseInfo = http.getUrl(baseUrl + action + exercise, options);
       console.log(exerciseInfo);
       part = exerciseInfo[0].part;
       exerList.push({
+        exerciseID: exerciseInfo[0].exe_id,
         exerciseName: exerciseInfo[0].name,
         exercisePart: exerciseInfo[0].part,
         exerciseGrade: user_grade,
@@ -59,6 +64,8 @@ module.exports.function = function recommend($vivContext) {
       })
 
     }
+    
+    console.log(exerList);
     routineList.push({
       routineNum: iter,
       exercisePart: part,
