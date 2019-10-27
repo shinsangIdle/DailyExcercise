@@ -1,0 +1,102 @@
+result-view{
+	match : Routine(this)
+	
+	
+	message{
+		template("오늘의 추천 루틴이에요."){
+			speech ("오늘의 추천 루틴이에요. 항목을 눌러 루틴을 선택하세요.")
+		}
+	}
+	
+	render{
+		if (size(this)>1){
+			layout{
+				section{
+					content{
+						for-each (this){
+							as (routine){
+								compound-card {
+									on-click{
+										intent {
+											goal: SaveRoutine
+											value: $expr(routine)
+										}
+									
+									}
+									
+									content {
+										
+										title-area{
+											halign (Center)
+											slot2{
+												single-line{
+													text{
+														color (Blue)
+														style(Title_S)
+														value("#{value(routine.exercisePart)} 운동")
+													}
+												}
+												
+											}
+										}
+										for-each (routine.exercise){
+											as (ex) {
+												title-area{
+													halign (Center)
+													slot1 {
+														text {
+															style(Detail_M)
+															value ("#{value(ex.exerciseName)}")
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			
+		}else{
+			layout{
+				section{
+					content{
+						for-each (this.exercise){
+							as (result){
+								thumbnail-card{
+									title-area{
+										slot1{
+											text{
+												style(Title_S)
+												value("#{value(result.exerciseName)}")
+											}
+										}
+										slot2{
+											paragraph{
+												style(Detail_M_Soft)
+												value("#{value(result.exerciseCnt)}회 #{value(result.exerciseSet)}세트")
+											}
+										}
+									}
+									image-url ("#{value(result.exerciseImgUrl)}")
+									image-position (Start)
+									on-click {
+										intent {
+											goal: Exercise
+											value: $expr(result)
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}

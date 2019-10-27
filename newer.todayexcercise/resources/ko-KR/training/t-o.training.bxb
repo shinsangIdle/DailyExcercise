@@ -1,0 +1,10 @@
+train (t-o144di6suxot8gzyekf33kvsr) {
+  utterance ([g:Routine] 오늘 운동 추천해줘)
+  plan (Y2BkEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2UAAUYQAQA=)
+  last-modified (1572173479875)
+}
+train (t-okwdnganb7v3llfjeao3on306) {
+  utterance ("[g:InformGrade] 나 현재 (등급)[v:Grade:Grade] 뭐야")
+  plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
+  last-modified (1572194180398)
+}

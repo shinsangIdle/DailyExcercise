@@ -1,0 +1,67 @@
+result-view {
+	match : OriginalGrade(result)
+	
+	message{
+		template ("등급 확인 결과입니다.")
+	}
+	
+	render{
+		//	if (result.isValid == "up"){ // Result�� 1개 이상일 경우
+		layout{
+			section{
+				content{
+					paragraph{
+						value("당신의 등급은 #{value(result)} 입니다.")
+					}
+					if(value(result)=='중급'){
+						paragraph{
+							value("조금 더 열심히 열심히 해야 하겠네요.")
+						}
+						image-card{
+							title-area{
+								slot2{
+									paragraph("중급")
+								}
+							}
+							image-url(images/middle.png)
+						}
+					}else-if (value(result)=='고급'){
+						paragraph{
+							value("당신이 최고예요.")
+						}
+						image-card{
+							title-area{
+								slot2{
+									paragraph("상급")
+								}
+							}
+							image-url(images/high.png)
+						}
+					}else{
+						paragraph{
+							value("많이 노력 해야 겠네요.")
+						}
+						image-card{
+							title-area{
+								slot2{
+									paragraph("초급")
+								}
+							}
+							image-url(images/low.png)
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	conversation-drivers{
+		conversation-driver{
+			template ("등급 올려줘")
+		}
+		conversation-driver{
+			template ("등급 내려줘")
+		}
+	}
+	
+}

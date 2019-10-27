@@ -1,0 +1,10 @@
+train (t-v04wx9rw1t3o5tfbs3rlme6b4) {
+  utterance ("[g:Routine] (루틴)[v:Recommend:Routine] 보여줘")
+  plan (Y2BmEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2WQQhV2Ty0JSk3Oz81NzUthEEfTApdgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572184274429)
+}
+train (t-vku4p8yw1uxisamb43bqm3zsz) {
+  utterance ([g:ttest.shinhan.RecommendResult] 운동 추천해줘)
+  plan (Y2BkkC0pSS0u0SvOyMzLSMzTC0pNzs/NTc1LCUotLs0pYQABRhABAA==)
+  last-modified (1572174500659)
+}

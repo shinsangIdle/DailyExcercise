@@ -1,0 +1,5 @@
+train (t-wdbddpg2i7n6ixapqrl70m0hw) {
+  utterance ("[g:RecentExercise] (마지막)[v:Recent:Recent]에 (했던)[v:Recent:Past]거 알려줘")
+  plan (Y2BlUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmyxJoiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)
+  last-modified (1572178376830)
+}

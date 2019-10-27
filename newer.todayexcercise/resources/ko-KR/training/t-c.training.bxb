@@ -1,0 +1,5 @@
+train (t-c0237i32rfdn5rcck7fgjzccl) {
+  utterance ("[g:InformGrade] 나의 (난이도)[v:Grade:Grade]가 궁금해")
+  plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
+  last-modified (1572080514181)
+}

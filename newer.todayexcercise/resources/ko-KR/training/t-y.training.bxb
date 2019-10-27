@@ -1,0 +1,9 @@
+train (t-yhfy8tmj5mbbubr02ubkrqfwo) {
+  utterance ("[g:PlayCount] (11)[v:SearchTerm:11](회)[v:Count:회] (3)[v:SetNum:3](세트)[v:Count:세트] 틀어줘")
+  last-modified (1572198633023)
+}
+train (t-yxwgqotbolfqr08vxnnisuf19) {
+  utterance ("[g:YoutubeSearchResults] (힙 레이즈)[v:Keyword] 보여줘봐")
+  plan (Y2BmUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1572180112692)
+}

@@ -1,0 +1,15 @@
+train (t-l0vs8l58gwy9lx7x91mzorshv) {
+  utterance ("[g:RecentExercise] 내가 (했던)[v:Recent:Past] 운동 궁금해")
+  plan (Y2BmUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmywDEwMjEDMASUYGEIDyAQ==)
+  last-modified (1572073569811)
+}
+train (t-lmvoqyzscwrrwm0j80hm63pqb) {
+  utterance ("[g:YoutubeSearchResults] (굿모닝)[v:Keyword] (운동법)[v:Pose] 보여줘")
+  plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)
+  last-modified (1572094171461)
+}
+train (t-lnbx4801yjofxhbhxi9m76krp) {
+  utterance ("[g:resultManageGrade] 이건 너무 (쉬운데)[v:Need:up]")
+  plan (Y2BmkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwlhCrll5qawsDEwAjEDECSkQEEmCAYAA==)
+  last-modified (1572179347628)
+}
