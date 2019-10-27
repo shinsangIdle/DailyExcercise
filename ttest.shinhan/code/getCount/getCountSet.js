@@ -1,6 +1,8 @@
 module.exports.function = function getCountSet ($vivContext,countCom, exeName){
   // if bixby id == null >> insert 
-
+  var secret = require('secret');
+  var apikey = secret.get('apikey');
+  
   let options = {
     format: 'json',
     cacheTime: 0,
