@@ -65,66 +65,64 @@ result-view{
 		}else{
 			layout{
 				section{
-					title{
-						template ("#{value(this.exercisePart)} 중식 #{size(this)}")
-					}
+					
 					content{
-						image{
-							url(images/core.jpg)
-						}
-						partitioned{
-							content{
-								for-each (this.exercise){
-									as(side){
-										if(exists(side)){
-											single-line{
-												text{
-													value("#{value(side.exerciseName)}")
-													style(Detail_L)
-												}
+						for-each (this.exercise){
+							as (result){
+								thumbnail-card{
+									title-area{
+										halign (Start)
+										slot1{
+											text{
+												style(Title_M)
+												value("#{value(result.exerciseName)}")
 											}
 										}
+										slot2{
+											paragraph{
+												style(Detail_M_Soft)
+												value("운동부위 : #{value(result.exercisePart)}")
+											}
+										}
+										
 									}
+									image-url ("#{value(result.exerciseImgUrl)}")
+									image-position (Start)
+									
+									
+									// on-click {
+									// 	intent {
+									// 		goal: Exercise
+									// 		value: $expr(result)
+									// 	}
+									// }
+									
 								}
 							}
 						}
+						// image{
+						// 	url(images/core.jpg)
+						// }
+						// partitioned{
+						// 	content{
+						// 		for-each (this.exercise){
+						// 			as(side){
+						// 				if(exists(side)){
+						// 					single-line{
+						// 						text{
+						// 							value("#{value(side.exerciseName)}")
+						// 							style(Detail_L)
+						// 						}
+						// 					}
+						// 				}
+						// 			}
+						// 		}
+						// 	}
+						// }
 					}
 				}
 			}
-			// list-of (this.exercise){
-			// 	where-each (result){
-			// 		thumbnail-card{
-			// 			title-area{
-			// 				halign (Start)
-			// 				slot1{
-			// 					text{
-			// 						style(Title_M)
-			// 						value("#{value(result.exerciseName)}")
-			// 					}
-			// 				}
-			// 				slot2{
-			// 					paragraph{
-			// 						style(Detail_M_Soft)
-			// 						value("운동부위 : #{value(result.exercisePart)}")
-			// 					}
-			// 				}
-			
-			// 			}
-			// 			image-url ("#{value(result.exerciseImgUrl)}")
-			// 			image-position (Start)
-			
-			
-			// 			// on-click {
-			// 			// 	intent {
-			// 			// 		goal: Exercise
-			// 			// 		value: $expr(result)
-			// 			// 	}
-			// 			// }
-			
-			// 		}
-			// 	}
-			// }
 		}
-		
 	}
+	
 }
