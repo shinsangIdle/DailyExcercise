@@ -72,15 +72,22 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
 
   var temp = function (audioItem) {
       return keysToSearchOn.some(function (key) {
+        return audioItem[key] && audioItem[key].toLowerCase().includes('천천히')
+      })
+    }
+    countAudioFound = countAudio.audioItems.filter(temp)
+
+    var temp2 = function (audioItem) {
+      return keysToSearchOn.some(function (key) {
         return audioItem[key] && audioItem[key].toLowerCase().includes(searchTerm)
       })
     }
-  countAudioFound = countAudio.audioItems.filter(temp)
+    countAudioFound = countAudioFound.filter(temp2)
 
   let flag  = countAudioFound;
 
   for(var i = 0; i< setNum-1;i++){
-    countAudioFound.push(countAudio.audioItems[10])
+    countAudioFound.push(countAudio.audioItems[12])
     countAudioFound.push(flag[0])
   }
   return countAudioFound
