@@ -19,6 +19,7 @@ result-view {
 							halign (Start)
 							slot1{
 								text{
+									color (Blue)
 									style(Title_M)
 									value("#{value(result.exerciseName)}")
 								}
