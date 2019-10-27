@@ -8,7 +8,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "천천히",  //제목
     subtitle: "10",
-    artist: "Cool Cat",
+    artist: "hajung",
     albumName: "Catatonic",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/ten.PNG"
   },
@@ -22,7 +22,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "천천히",
     subtitle: "11",
-    artist: "Tom Cat",
+    artist: "hajung",
     albumName: "You gotta be kitten me!",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/eleven.PNG"
   },
@@ -36,7 +36,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "천천히",
     subtitle: "12",
-    artist: "Radi-claw",
+    artist: "hajung",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/twelve.PNG"
   },
   {
@@ -49,7 +49,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "천천히",
     subtitle: "13",
-    artist: "Radi-claw",
+    artist: "hajung",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/thirteen.PNG"
   },
   {
@@ -62,7 +62,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "천천히",
     subtitle: "14",
-    artist: "Radi-claw",
+    artist: "hajung",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/fourteen.PNG"
   },
   {
@@ -75,7 +75,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "천천히",
     subtitle: "15",
-    artist: "Radi-claw",
+    artist: "hajung",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/fifteen.PNG"
   },
   {
@@ -88,7 +88,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "빠르게",
     subtitle: "10",
-    artist: "Radi-claw",
+    artist: "sangyeop",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/ten.PNG"
   },
   {
@@ -101,7 +101,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "빠르게",
     subtitle: "11",
-    artist: "Radi-claw",
+    artist: "sangyeop",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/eleven.PNG"
   },
   {
@@ -114,7 +114,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "빠르게",
     subtitle: "12",
-    artist: "Radi-claw",
+    artist: "sangyeop",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/twelve.PNG"
   },
   {
@@ -140,7 +140,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "빠르게",
     subtitle: "14",
-    artist: "Radi-claw",
+    artist: "sangyeop",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/fourteen.PNG"
   },
   {
@@ -153,23 +153,22 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "빠르게",
     subtitle: "15",
-    artist: "Radi-claw",
+    artist: "sangyeop",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/fifteen.PNG"
   },
   {
     id: 13,
     stream: [
       {
-        url: "http://static1.grsites.com/archive/sounds/aircraft/aircraft006.mp3",  
+        url: "https://docs.google.com/uc?id=1buW7D0mjMRx79QtQb0ZBYQabkWKyAGKX&export=dowload",  
         format: "mp3"
       }
     ],
     title: "rest",
-    subtitle: "15",
-    artist: "Radi-claw",
+    subtitle: "home-base-groove",//구글 무료 오디오 라이브러리
+    artist: "kevin-macleod",
     albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
   }
-  
   ]
 
   exports.audioItems = audioItems
