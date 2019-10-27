@@ -1,0 +1,26 @@
+capsule-info {
+	display-name (오늘운동)
+	developer-name (신상아이들)
+	icon-asset (images/logo5.png)
+	description ("헬스 운동에 대한 정보를 제공하고 개인별 관리를 해줄수 있습니다.")
+	
+	search-keywords{
+    keyword(헬스)
+    keyword(운동)
+    keyword(트레이너)
+    keyword(건강)
+    keyword(오늘)
+	}
+	
+	
+	dispatch-name (오늘운동)
+	dispatch-aliases{
+		alias (오늘 운동)
+		alias (오느룬동)
+		alias (매일운동)
+	}
+	
+	
+	
+	
+}

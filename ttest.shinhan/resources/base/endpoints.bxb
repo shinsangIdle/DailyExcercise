@@ -24,7 +24,7 @@ endpoints {
     }
 
     action-endpoint (RecentExercise) {
-      accepted-inputs (recent)
+      accepted-inputs ($vivContext,recent)
       local-endpoint (recent/recentExercise.js)
     }
 
@@ -40,6 +40,11 @@ endpoints {
     action-endpoint (GetRecommend) {
       accepted-inputs ($vivContext, recommend)
       local-endpoint (recommend/recommend.js)
+    }
+
+    action-endpoint (SaveRoutine) {
+      accepted-inputs (routine)
+      local-endpoint (recommend/saveRoutine.js)
     }
   }
 }

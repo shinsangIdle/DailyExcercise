@@ -7,6 +7,6 @@ action (GetRecommend) {
     }
   }
   type(Search)  
-  output (RecommendResult)
+  output (Routine)
   
 }
