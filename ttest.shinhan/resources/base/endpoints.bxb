@@ -1,45 +1,50 @@
 endpoints {
-  action-endpoints {
-    action-endpoint (PlayCount) {
-      accepted-inputs (count)
-      local-endpoint (audioForCount/PlayCount.js)
-    }
-     action-endpoint (BuildCountAudioInfo) {
-      accepted-inputs (countAudio)
-      local-endpoint (audioForCount/BuildCountAudioInfo.js)
-    }
-    action-endpoint (FindCount) {
-      accepted-inputs (power, searchTerm, setNum)
-      local-endpoint (audioForCount/FindCount.js)
-    }
-
-    action-endpoint (GetCountSet) {
-      accepted-inputs ($vivContext,countCom, exeName)
-      local-endpoint (getCount/getCountSet.js)
-    }
-
-    action-endpoint (YoutubeSearch) {
-      accepted-inputs (keyword, pose)
-      local-endpoint (youtube/youtubeSearch.js)
-    }
-
-    action-endpoint (RecentExercise) {
-      accepted-inputs ($vivContext,recent)
-      local-endpoint (recent/recentExercise.js)
-    }
-
-    action-endpoint (ManageGrade) {
-      accepted-inputs ($vivContext, need, grade)
-      local-endpoint (grade/manageGrade.js)
-    }
-
-    action-endpoint (InformGrade) {
-      accepted-inputs ($vivContext, grade)
-      local-endpoint (grade/informGrade.js)
-    }
-    action-endpoint (GetRecommend) {
-      accepted-inputs ($vivContext, recommend)
-      local-endpoint (recommend/recommend.js)
-    }
-  }
+	action-endpoints {
+		action-endpoint (PlayCount) {
+			accepted-inputs (count)
+			local-endpoint (audioForCount/PlayCount.js)
+		}
+		action-endpoint (BuildCountAudioInfo) {
+			accepted-inputs (countAudio)
+			local-endpoint (audioForCount/BuildCountAudioInfo.js)
+		}
+		action-endpoint (FindCount) {
+			accepted-inputs (power, searchTerm, setNum)
+			local-endpoint (audioForCount/FindCount.js)
+		}
+		
+		action-endpoint (GetCountSet) {
+			accepted-inputs ($vivContext,countCom, exeName)
+			local-endpoint (getCount/getCountSet.js)
+		}
+		
+		action-endpoint (YoutubeSearch) {
+			accepted-inputs (keyword, pose)
+			local-endpoint (youtube/youtubeSearch.js)
+		}
+		
+		action-endpoint (RecentExercise) {
+			accepted-inputs ($vivContext,recent)
+			local-endpoint (recent/recentExercise.js)
+		}
+		
+		action-endpoint (ManageGrade) {
+			accepted-inputs ($vivContext, need, grade)
+			local-endpoint (grade/manageGrade.js)
+		}
+		
+		action-endpoint (InformGrade) {
+			accepted-inputs ($vivContext, grade)
+			local-endpoint (grade/informGrade.js)
+		}
+		action-endpoint (GetRecommend) {
+			accepted-inputs ($vivContext, recommend)
+			local-endpoint (recommend/recommend.js)
+		}
+		
+		action-endpoint (RecommendPart) {
+			accepted-inputs ($vivContext, recommend,partInput)
+			local-endpoint (recommendPart/recommendPart.js)
+		}
+	}
 }
