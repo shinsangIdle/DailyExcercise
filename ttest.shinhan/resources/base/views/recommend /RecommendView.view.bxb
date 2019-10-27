@@ -6,78 +6,22 @@ result-view{
 	}
 	
 	
-	
 	render{
 		
-		if(size(this.routine)>1){
-			list-of (this.routine){
-				where-each (rou){
-					thumbnail-card{
-						title-area{
-							halign (Start)
-							slot1{
-								text{
-									style(Title_M)
-									value("#{value(result.exerciseName)}")
-								}
-							}
-							slot2{
-								paragraph{
-									style(Detail_M_Soft)
-									value("운동부위 : #{value(result.exercisePart)}")
-								}
-							}
-							slot3{
-								paragraph{
-									style(Detail_M_Soft)
-									value("난이도 : #{value(result.exerciseGrade)}")
-								}
-							}
-						}
-						
-						image-url ("#{value(result.exerciseImgUrl)}")
-						image-position (Start)
+		list-of (this.routine){
+			where-each (rou){
+				
+				layout-macro (RecommendCard){
+					param (routine){
+						expression (rou)
 					}
 				}
-			}
-			
-		}
-		layout{
-			section{
-				title{
-					template ("여기에 날짜 넣어도 좋을듯")
-				}
-				content{
-					image{
-						url(images/upper.png)
-					}
-					partitioned{
-						content{
-							paragraph{
-								value("#{value(this.routine_type)}운동 추천 코스입니다.")
-							}
-						}
-					}
-					partitioned{
-						content{
-							for-each (this.ename){
-								as(item){
-									if(exists(item)){
-										single-line{
-											text{
-												value("#{value(item)}운동 #{value(item)}회 #{value(this.number)}세트 ")
-												style(Detail_L)
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
+				
 			}
 		}
+		
 	}
+	
 	
 	conversation-drivers{
 		conversation-driver{
