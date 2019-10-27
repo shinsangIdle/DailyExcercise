@@ -1,4 +1,4 @@
-module.exports.function = function nextExePlay ($vivContext, exercise) {
+module.exports.function = function saveRoutine ($vivContext,routine) {
   var secret = require('secret');
   var apikey = secret.get('apikey');
   
@@ -12,9 +12,9 @@ module.exports.function = function nextExePlay ($vivContext, exercise) {
 
   let http = require('http');
   //insert rocord
-  action = "insertExeRocord";
+  action = "insertRouRocord";
   let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action="
-  var exe_id = "&exe_id=" + exercise.exerciseID;
+  var routine_id = "&routine_id=" + routine.routineNum;
   let user_id = "&user_id="+$vivContext.userId;
   var grade = "&grade=" + exercise.exerciseGrade;
   http.getUrl(link+action+exe_id+user_id+grade ,options );
