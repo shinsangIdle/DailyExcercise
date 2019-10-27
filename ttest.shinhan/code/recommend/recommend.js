@@ -60,7 +60,7 @@ module.exports.function = function recommend($vivContext) {
         exerciseGrade: user_grade,
         exerciseSet: getSet(exerciseInfo[0], user_grade),
         exerciseCnt: getCnt(exerciseInfo[0], user_grade),
-        exerciseImgUrl: getImg(exerciseInfo[0].part)
+        exerciseImgUrl: exerciseInfo[0].img
       })
 
     }
@@ -76,7 +76,10 @@ module.exports.function = function recommend($vivContext) {
 
   console.log(routineList);
 
-  return routineList;
+  return {
+    exerciseGrade: user_grade,
+    routine: routineList
+  };
 }
 
 
@@ -104,17 +107,4 @@ function getSet(exInfo, grade) {
 
   }
 
-}
-
-
-function getImg(part) {
-
-  switch (part) {
-    case "상체":
-      return "images/upper.png";
-    case "하체":
-      return "images/lower.png";
-    case "코어":
-      return "images/core.png";
-  }
 }
