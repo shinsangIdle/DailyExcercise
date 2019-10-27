@@ -15,12 +15,15 @@ layout-macro-def (RecommendCard) {
 						title-area{
 							slot1 {
 								text {
-									style(Detail_M_Soft)
+									style(Title_S)
 									value ("#{value(ex.exerciseName)}")
 								}
 							}
 						}
 					}
+				}
+				image-card{
+					image-url()
 				}
 			}
 			on-click {

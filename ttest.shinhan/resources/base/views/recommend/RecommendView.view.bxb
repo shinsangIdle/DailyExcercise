@@ -1,46 +1,24 @@
-result-view {
-    match : RecentExerciseResult(this)
+result-view{
+    match : RecommendResult(this)
     
     message{
-        if (size(this.exercise) >= 1){
-            template ("#{value(this.date)}의 운동기록입니다")
-        }else{
-            template ("최근 일주일간 운동기록이 없습니다.")
-        }
+        template ("오늘의 추천 루틴입니다. 원하는 루틴을 선택해주세요.")
     }
     
+    
     render{
-        if (size(this.exercise) >= 1){ // Result가 1개 이상일 경우
-            list-of (this.exercise){
-                has-details (false)
-                where-each (result){
-                     thumbnail-card{
-                        title-area{
-                            halign (Start)
-                            slot1{
-                                text{
-                                    style(Title_M)
-                                    value("#{value(result.exerciseName)}")
-                                }
-                            }
-                            slot2{
-                                paragraph{
-                                    style(Detail_M_Soft)
-                                    value("운동부위 : #{value(result.exercisePart)}")
-                                }
-                            }
-                            slot3{
-                                paragraph{
-                                    style(Detail_M_Soft)
-                                    value("난이도 : #{value(result.exerciseGrade)}")
-                                }
-                            }
-                        }
-                         image-url ("#{value(result.exerciseImgUrl)}")
-                         image-position (Start)
+        
+        list-of (this.routine){
+            where-each (rou){
+                
+                layout-macro (RecommendCard){
+                    param (routine){
+                        expression (rou)
                     }
                 }
+                
             }
         }
+        
     }
 }

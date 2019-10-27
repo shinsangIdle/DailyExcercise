@@ -1,0 +1,5 @@
+train (t-o144di6suxot8gzyekf33kvsr) {
+  utterance ([g:RecommendResult] 오늘 운동 추천해줘)
+  plan (Y2BkkC0pSS0u0SvOyMzLSMzTC0pNzs/NTc1LCUotLs0pYQABRhABAA==)
+  last-modified (1572155436507)
+}
