@@ -21,20 +21,30 @@ module.exports.function = function findCount(power, searchTerm, setNum) { //sear
     }
     countAudioFound = countAudioFound.filter(temp2)
   }else{
+
     var temp = function (audioItem) {
+      return keysToSearchOn.some(function (key) {
+        return audioItem[key] && audioItem[key].toLowerCase().includes('천천히')
+      })
+    }
+    countAudioFound = countAudio.audioItems.filter(temp)
+
+    var temp2 = function (audioItem) {
       return keysToSearchOn.some(function (key) {
         return audioItem[key] && audioItem[key].toLowerCase().includes(searchTerm)
       })
     }
-    countAudioFound = countAudio.audioItems.filter(temp)
+    countAudioFound = countAudioFound.filter(temp2)
   }
 
   let flag  = countAudioFound;
+  console.log(setNum)
 
-
-  for(var i = 0; i< setNum-1;i++){
-    countAudioFound.push(countAudio.audioItems[10])
-    countAudioFound.push(flag[0])
+  if(setNum){
+    for(var i = 0; i< setNum-1;i++){
+      countAudioFound.push(countAudio.audioItems[12])
+      countAudioFound.push(flag[0])
+    }
   }
   return countAudioFound
 }
