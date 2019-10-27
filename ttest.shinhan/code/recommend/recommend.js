@@ -10,11 +10,8 @@ module.exports.function = function recommend($vivContext) {
     }
   };
   const bixbyUserId = $vivContext.userId;
-  let http = require('http');
   http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=isExist&user_id="+bixbyUserId ,options);
   //////////////////////////////////////////////////////////가장 기본이 되는 코드///////////////////////////////////////////
-  
-  
   
   let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
   let action = "";
@@ -26,7 +23,7 @@ module.exports.function = function recommend($vivContext) {
   let user_grade = "1";
 
   action = "getRoutines";
-  let routines = http.getUrl(link + action + user_id, { format: 'json' }); //3개 날라올거임
+  let routines = http.getUrl(link + action + user_id, options); //3개 날라올거임
 
   let routineList = [];
   for (var iter = 0; iter < 3; iter++) {
@@ -35,13 +32,13 @@ module.exports.function = function recommend($vivContext) {
     let routine = "&routineId=";
     routine += routines[iter]["routineNum"];
     let exerList = [];
-    let exercises = http.getUrl(link + action + routine, { format: 'json' });
+    let exercises = http.getUrl(link + action + routine, options);
 
     for (var it = 0; it < 4; it++) {
       let exercise = "&exe_id=";
       action = "getInfo";
       exercise += exercises[it]["exe_id"];
-      let exerciseInfo = http.getUrl(link + action + exercise, { format: 'json' });
+      let exerciseInfo = http.getUrl(link + action + exercise, options);
       console.log(exerciseInfo);
       exerList.push({
         exerciseName: exerciseInfo[0].name,
