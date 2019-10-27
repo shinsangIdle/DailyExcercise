@@ -4,7 +4,7 @@ train (t-pbq63y8g14372pj138pxgtdui) {
   last-modified (1572144734391)
 }
 train (t-pwyscrd6om4s4gveuadgihhzy) {
-  utterance ([g:InformGrade] 내 등급 알려줘)
-  plan (Y2BikC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSDECIQMUA0kA)
-  last-modified (1572058364423)
+  utterance ("[g:InformGrade] 내 (등급)[v:Grade:Grade] 알려줘")
+  plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
+  last-modified (1572161602223)
 }

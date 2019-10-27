@@ -1,3 +1,8 @@
+train (t-jmdvx3xm2fzm581rotwpzgp72) {
+  utterance ("[g:RecommendResult] (지금)[v:Today:Today] 할만한 운동 알려줘")
+  plan (Y2BmkC0pSS0u0SvOyMzLSMzTC0pNzs/NTc1LCUotLs0pYZBClXZPLYGrYBBGlQvJT0msZGBiYARiBiDJyAACTBAMAA==)
+  last-modified (1572164191883)
+}
 train (t-joyhbzvlopnwciw60end5gusy) {
   utterance ("[g:YoutubeSearchResults] (엘보 니 터치)[v:Keyword] (방법)[v:Pose] 알려줘")
   plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)

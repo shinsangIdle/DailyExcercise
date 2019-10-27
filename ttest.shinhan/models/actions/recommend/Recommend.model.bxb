@@ -1,6 +1,12 @@
 action (GetRecommend) {
-  description (__DESCRIPTION__)
-  
+  description (원하는 동작 자세를 검색하는 액션)
+  collect {
+    input (today) {
+      type (Today)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)  
   output (RecommendResult)
   
 }
