@@ -1,7 +1,7 @@
 train (t-jmdvx3xm2fzm581rotwpzgp72) {
-  utterance ("[g:RecommendResult] (지금)[v:Recommend:Today] 할만한 (운동)[v:Recommend:Routine] 알려줘")
-  plan (Y2BlkC0pSS0u0SvOyMzLSMzTC0pNzs/NTc1LCUotLs0pYZBClXZPLYGrYBDHoZUMCRYGRgYmBmYgzQBmMQFJBgYeIGQAijJAZAA=)
-  last-modified (1572167342171)
+  utterance ("[g:Routine] (지금)[v:Recommend:Today] 할만한 (운동)[v:Recommend:Routine] 알려줘")
+  plan (Y2BlEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2WQQhV2Ty0JSk3Oz81NzUthEEfTQoEECwMjAxMDM5BmALOYgCQDAw8QMgBFGSAyAA==)
+  last-modified (1572181117161)
 }
 train (t-joyhbzvlopnwciw60end5gusy) {
   utterance ("[g:YoutubeSearchResults] (엘보 니 터치)[v:Keyword] (방법)[v:Pose] 알려줘")
