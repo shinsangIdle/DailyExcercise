@@ -19,7 +19,7 @@ module.exports.function = function recommend($vivContext) {
 
   action = "getExercises";
     let routine = "&routineId=";
-    routine += 1;
+    routine += routines[iter]["routineNum"];
     let exerList = [];
     let exercises = http.getUrl(link + action + routine, { format: 'json' });
 
