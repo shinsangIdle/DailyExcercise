@@ -82,7 +82,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     id: 7,
     stream: [
       {
-        url: "http://static1.grsites.com/archive/sounds/aircraft/aircraft006.mp3", 
+        url: "https://docs.google.com/uc?id=1J7pnj0bRG1l4zgzORS28TSkSDx37xEG2&export=dowload", 
         format: "mp3"
       }
     ],
@@ -95,7 +95,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     id: 8,
     stream: [
       {
-        url: "http://static1.grsites.com/archive/sounds/aircraft/aircraft006.mp3",
+        url: "https://docs.google.com/uc?id=1yOjS0VaCB-TdOqEk6UEOzk13si2nI6iw&export=dowload",
         format: "mp3"
       }
     ],
@@ -108,7 +108,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     id: 9,
     stream: [
       {
-        url: "http://static1.grsites.com/archive/sounds/aircraft/aircraft006.mp3",  
+        url: "https://docs.google.com/uc?id=1FVD6HSdEPLNIFD5pk8Ue44L-MwV75YNR&export=dowload",  
         format: "mp3"
       }
     ],
@@ -121,7 +121,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     id: 10,
     stream: [
       {
-        url: "http://static1.grsites.com/archive/sounds/aircraft/aircraft006.mp3",  
+        url: "https://docs.google.com/uc?id=12rOIajxOCOW6QW8Aw3HCBSzGu5LxIG72&export=dowload",  
         format: "mp3"
       }
     ],
@@ -134,7 +134,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     id: 11,
     stream: [
       {
-        url: "http://static1.grsites.com/archive/sounds/aircraft/aircraft006.mp3", 
+        url: "https://docs.google.com/uc?id=1BjbjSn3VSwEM5zZBXQ4c1iLDypH9NWVk&export=dowload", 
         format: "mp3"
       }
     ],
@@ -147,7 +147,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     id: 12,
     stream: [
       {
-        url: "http://static1.grsites.com/archive/sounds/aircraft/aircraft006.mp3", 
+        url: "https://docs.google.com/uc?id=1sNznkiFN8uu670NtNn-vP8AOeJBihgdA&export=dowload", 
         format: "mp3"
       }
     ],
@@ -167,7 +167,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "rest",
     subtitle: "home-base-groove",//구글 무료 오디오 라이브러리
     artist: "kevin-macleod",
-    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/cat.png"
+    albumArtUrl: "https://storage.googleapis.com/bixby-audio-player-example/meows/logo.png"
   }
   ]
 
