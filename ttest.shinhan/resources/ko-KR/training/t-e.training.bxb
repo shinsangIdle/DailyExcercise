@@ -1,0 +1,5 @@
+train (t-e8isqsd90wrhj6yrpna2w5npc) {
+  utterance ("[g:YoutubeSearchResults] (페이스 풀)[v:Keyword] (운동)[v:Pose] 알려주라")
+  plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)
+  last-modified (1572143926732)
+}

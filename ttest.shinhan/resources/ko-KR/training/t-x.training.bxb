@@ -1,3 +1,8 @@
+train (t-xlhszc97i1z3nvofzx9hykq4n) {
+  utterance ("[g:YoutubeSearchResults] (레그프레스)[v:Keyword] (동작)[v:Pose]을 찾아줘")
+  plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)
+  last-modified (1572143055880)
+}
 train (t-xyvaxd3oj588l88rn2523wyl3) {
   utterance ("[g:resultManageGrade] 내 운동 (등급)[v:Grade:Grade] (올려줘)[v:Need:up]")
   plan (Y2BhkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwljCoFERRCFfRLTU1hYGZgZGACkgxAGgQhAMQHiwIA)
