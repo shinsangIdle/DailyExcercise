@@ -1,4 +1,0 @@
-enum (Today) {
-  description (오늘 운동 추천 요청)
-  symbol (Today)
-}
