@@ -1,9 +1,6 @@
 result-view{
     match : RecommendResult(this)
     
-    message{
-        template ("오늘의 추천 루틴입니다. 원하는 루틴을 선택해주세요.")
-    }
     
     
     render{
