@@ -46,10 +46,12 @@ module.exports.function = function recommend($vivContext) {
       let exercise = "&exe_id=";
       action = "getInfo";
       exercise += exercises[it]["exe_id"];
+      console.log(exercise);
       let exerciseInfo = http.getUrl(link + action + exercise,options);
       console.log(exerciseInfo);
       part = exerciseInfo[0].part;
       exerList.push({
+        exerciseID: exerciseInfo[0].exe_id,
         exerciseName: exerciseInfo[0].name,
         exercisePart: exerciseInfo[0].part,
         exerciseGrade: user_grade,
@@ -59,6 +61,8 @@ module.exports.function = function recommend($vivContext) {
       })
 
     }
+    
+    console.log(exerList);
     routineList.push({
       routineNum: iter,
       exercisePart: part,
