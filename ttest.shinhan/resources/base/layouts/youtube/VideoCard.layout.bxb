@@ -25,12 +25,6 @@ layout-macro-def (VideoCard) {
         }
         title-card{
           title-area {
-            //slot2 {
-            //  paragraph{
-						//			style(Title_S)
-						//			value("#{value(youtubeVideo.videoTitle)}")
-						//		}
-            //}
             halign (End)
           slot2{
 								paragraph{

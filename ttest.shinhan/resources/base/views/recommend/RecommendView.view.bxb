@@ -3,69 +3,67 @@ result-view{
 	
 	
 	message{
-		
 		template("오늘의 추천 루틴이에요."){
 			speech ("오늘의 추천 루틴이에요. 항목을 눌러 루틴을 선택하세요.")
 		}
-		
 	}
 	
 	render{
 		if (size(this)>1){
-			list-of (this){
-				where-each (routine){
-					compound-card {
-						
-						content {
-							
-							title-area{
-								halign (Center)
-								slot2{
-									single-line{
-										text{
-											color (Blue)
-											style(Title_S)
-											value("#{value(routine.exercisePart)} 운동 루틴입니다.")
+			layout{
+				section{
+					content{
+						for-each (this){
+							as (routine){
+								compound-card {
+									on-click{
+										intent {
+											goal: SaveRoutine
+											value: $expr(routine)
 										}
+									
 									}
 									
-								}
-							}
-							for-each (routine.exercise){
-								as (ex) {
-									title-area{
-										halign (Center)
-										slot1 {
-											text {
-												style(Detail_M)
-												value ("#{value(ex.exerciseName)}")
+									content {
+										
+										title-area{
+											halign (Center)
+											slot2{
+												single-line{
+													text{
+														color (Blue)
+														style(Title_S)
+														value("#{value(routine.exercisePart)} 운동")
+													}
+												}
+												
+											}
+										}
+										for-each (routine.exercise){
+											as (ex) {
+												title-area{
+													halign (Center)
+													slot1 {
+														text {
+															style(Detail_M)
+															value ("#{value(ex.exerciseName)}")
+														}
+													}
+												}
 											}
 										}
 									}
 								}
 							}
 						}
-						on-click {
-							intent {
-								goal: SaveRoutine
-								value: $expr(routine)
-							}
-						}
 					}
-					// layout-macro (RecommendCard){
-					// 	param (routine){
-					// 		expression (rou)
-					// 	}
-					
-					// }
-					
 				}
 			}
+			
 			
 		}else{
 			layout{
 				section{
-					
 					content{
 						for-each (this.exercise){
 							as (result){
@@ -83,23 +81,18 @@ result-view{
 												value("#{value(result.exerciseCnt)}회 #{value(result.exerciseSet)}세트")
 											}
 										}
-										
 									}
 									image-url ("#{value(result.exerciseImgUrl)}")
 									image-position (Start)
-									
-									
-									// on-click {
-									// 	intent {
-									// 		goal: Exercise
-									// 		value: $expr(result)
-									// 	}
-									// }
-									
+									on-click {
+										intent {
+											goal: Exercise
+											value: $expr(result)
+										}
+									}
 								}
 							}
 						}
-						
 					}
 				}
 			}

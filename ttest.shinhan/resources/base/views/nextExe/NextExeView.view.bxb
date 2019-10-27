@@ -1,0 +1,57 @@
+result-view{
+	match : Exercise(this)
+	
+	
+	message{
+		template("오늘 해야할 운동이에요."){
+			speech ("오늘 남은 운동 목록이에요.  먼저 시작할 운동을 선택해주세요")
+		}
+	}
+	
+	render{
+		if (size(this)>1){
+      layout{
+				section{
+					content{
+						for-each (this){
+							as (result){
+								thumbnail-card{
+									title-area{
+										slot1{
+											text{
+												style(Title_S)
+												value("#{value(result.exerciseName)}")
+											}
+										}
+										slot2{
+											paragraph{
+												style(Detail_M_Soft)
+												value("#{value(result.exerciseCnt)}회 #{value(result.exerciseSet)}세트")
+											}
+										}
+									}
+									image-url ("#{value(result.exerciseImgUrl)}")
+									image-position (Start)
+									on-click {
+										intent {
+											goal: Exercise
+											value: $expr(result)
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}else{
+		layout{
+      section{
+        title("아무것도 아직")
+      }
+    }
+
+		}
+	}
+	
+}
