@@ -10,6 +10,7 @@ module.exports.function = function nextExePlay ($vivContext, exercise) {
   let http = require('http');
   //insert rocord
   action = "insertExeRocord";
+  let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action="
   var exe_id = "&exe_id=" + exercise.exerciseID;
   let user_id = "&user_id="+$vivContext.userId;
   var grade = "&grade=" + exercise.exerciseGrade;
