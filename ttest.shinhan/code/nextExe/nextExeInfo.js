@@ -1,4 +1,6 @@
 module.exports.function = function nextExe ($vivContext) {
+  var secret = require('secret');
+  var apikey = secret.get('apikey');
   let options = {
     format: 'json',
     cacheTime: 0,

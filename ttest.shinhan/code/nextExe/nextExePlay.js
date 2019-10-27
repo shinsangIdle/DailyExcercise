@@ -1,4 +1,7 @@
 module.exports.function = function nextExePlay ($vivContext, exercise) {
+  var secret = require('secret');
+  var apikey = secret.get('apikey');
+  
   let options = {
     format: 'json',
     cacheTime: 0,
