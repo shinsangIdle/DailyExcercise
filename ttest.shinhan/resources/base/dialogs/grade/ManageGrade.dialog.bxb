@@ -2,20 +2,20 @@
 dialog (Result) {
 	match: resultManageGrade (result)
 	if(result.isValid == 'up'){
-		template("당신의 등급을 #{value(result.originalGrade)}에서 #{value(result.afterGrade)} 으로 올렸습니다.") {
+		template("등급을 변경했습니다.") {
 			speech ("당신의 등급을 #{value(result.originalGrade)}에서 #{value(result.afterGrade)} 으로 올렸습니다.")
 		}
 	}else-if (result.isValid == 'down'){
-			template("당신의 등급을 #{value(result.originalGrade)}에서 #{value(result.afterGrade)} 으로 내렸습니다."){
+			template("등급을 변경했습니다."){
 			speech("당신의 등급을 #{value(result.originalGrade)}에서 #{value(result.afterGrade)} 으로 내렸습니다.")
 		}
 	}else{
 		if(result.originalGrade == 3){
-			template("당신의 등급은 #{value(result.originalGrade)}으로 더 이상 올릴 수 없습니다."){
+			template("등급변경을 실패했습니다."){
 				speech("당신의 등급은 #{value(result.originalGrade)}으로 더 이상 올릴 수 없습니다.")
 			}
 		}else{
-			template("당신의 등급은 #{value(result.originalGrade)}으로 더 이상 내릴 수 없습니다."){
+			template("등급변경을 실패했습니다."){
 				speech("당신의 등급은 #{value(result.originalGrade)}으로 더 이상 내릴 수 없습니다.")
 			}
 		}
