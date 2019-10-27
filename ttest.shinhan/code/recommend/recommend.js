@@ -1,12 +1,26 @@
 module.exports.function = function recommend($vivContext) {
-
+  var secret = require('secret');
+  var apikey = secret.get('apikey');
+  let http = require('http');
+  let options={
+    format : 'json',
+    cacheTime : 0,
+    headers:{
+      'X-API-Key' : apikey
+    }
+  };
   const bixbyUserId = $vivContext.userId;
   let http = require('http');
+  http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=isExist&user_id="+bixbyUserId ,options);
+  //////////////////////////////////////////////////////////가장 기본이 되는 코드///////////////////////////////////////////
+  
+  
+  
   let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
   let action = "";
   let console = require('console');
   let user_id = "&user_id=" //input 
-  user_id += '13c78c55f603992cee75681b6bb5932dd3616989347e73f6e7f338ea0cc2bb0f';
+  user_id+=bixbyUserId;
 
   let result = new Array();
   let user_grade = "1";
