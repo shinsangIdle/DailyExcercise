@@ -28,9 +28,6 @@ module.exports.function = function buildCountAudioInfo(countAudio) {
   audioInfo.displayName = 'Count Capsule';
   audioInfo.repeatMode = 'OFF';  //오디오 반복모드
   audioInfo.doNotWaitForTTS = false;  //오디오가 빅스비의 말을 끝나고 할지(false) 빅스비말이랑 같이 시작할지(true)
-  return {
-    audioInfo:audioInfo,
-    exercise: exerciseList
-};
+  return audioInfo;
 }
 
