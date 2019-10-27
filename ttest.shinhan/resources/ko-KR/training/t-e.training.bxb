@@ -3,3 +3,8 @@ train (t-e8isqsd90wrhj6yrpna2w5npc) {
   plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)
   last-modified (1572143926732)
 }
+train (t-elax2iwoe0oow8re70ek8fikk) {
+  utterance ("[g:RecentExercise] (최근)[v:Recent:Recent]에 운동(한거)[v:Recent:Past] 말해봐")
+  plan (Y2BlUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmyxJoiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)
+  last-modified (1572148787285)
+}
