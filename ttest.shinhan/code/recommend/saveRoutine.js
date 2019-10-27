@@ -1,6 +1,7 @@
 module.exports.function = function saveRoutine ($vivContext,routine) {
   var secret = require('secret');
   var apikey = secret.get('apikey');
+  let console = require('console');
   var config = require('config');
   var baseUrl=config.get('baseUrl');
   let options = {
@@ -12,11 +13,13 @@ module.exports.function = function saveRoutine ($vivContext,routine) {
   };
   let http = require('http');
   
+
   //insert rocord
   action = "insertRouRocord";
   let user_id = "&user_id="+$vivContext.userId;
   var routine_id = "&routine_id=" + routine.routineNum;
   http.getUrl(baseUrl+action+user_id+routine_id ,options );
 
+  console.log("저장함")
   return routine;
 }

@@ -37,12 +37,12 @@ layout-macro-def (RecommendCard) {
 					}
 				}
 			}
-			on-click {
-				intent {
-					goal: Routine
-					value: $expr(routine)
-				}
-			}
+			// on-click {
+			// 	intent {
+			// 		goal: Routine
+			// 		value: $expr(routine)
+			// 	}
+			// }
 		}
 	}
 	

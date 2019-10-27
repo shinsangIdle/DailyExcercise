@@ -14,7 +14,7 @@ result-view {
 			list-of (this.exercise){
 				has-details (false)
 				where-each (result){
-					 thumbnail-card{
+					thumbnail-card{
 						title-area{
 							halign (Start)
 							slot1{
@@ -37,13 +37,18 @@ result-view {
 								}
 							}
 						}
-						 image-url ("#{value(result.exerciseImgUrl)}")
-						 image-position (Start)
+						image-url ("#{value(result.exerciseImgUrl)}")
+						image-position (Start)
 					}
 				}
 			}
 		}
-
+		
+	}
+	conversation-drivers{
+		conversation-driver{
+			template ("루틴 추천해줘")
+		}
 	}
 }
 

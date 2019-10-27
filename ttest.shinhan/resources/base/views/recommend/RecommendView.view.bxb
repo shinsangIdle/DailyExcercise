@@ -1,21 +1,130 @@
 result-view{
-    match : RecommendResult(this)
-    
-    
-    
-    render{
-        
-        list-of (this.routine){
-            where-each (rou){
-                
-                layout-macro (RecommendCard){
-                    param (routine){
-                        expression (rou)
-                    }
-                }
-                
-            }
-        }
-        
-    }
+	match : Routine(this)
+	
+	
+	message{
+		
+		template("오늘의 추천 루틴이에요."){
+			speech ("오늘의 추천 루틴이에요. 항목을 눌러 루틴을 선택하세요.")
+		}
+		
+	}
+	
+	render{
+		if (size(this)>1){
+			list-of (this){
+				where-each (routine){
+					compound-card {
+						
+						content {
+							
+							title-area{
+								halign (Center)
+								slot2{
+									single-line{
+										text{
+											color (Blue)
+											style(Title_S)
+											value("#{value(routine.exercisePart)} 운동 루틴입니다.")
+										}
+									}
+									
+								}
+							}
+							for-each (routine.exercise){
+								as (ex) {
+									title-area{
+										halign (Center)
+										slot1 {
+											text {
+												style(Detail_M)
+												value ("#{value(ex.exerciseName)}")
+											}
+										}
+									}
+								}
+							}
+						}
+						on-click {
+							intent {
+								goal: SaveRoutine
+								value: $expr(routine)
+							}
+						}
+					}
+					// layout-macro (RecommendCard){
+					// 	param (routine){
+					// 		expression (rou)
+					// 	}
+					
+					// }
+					
+				}
+			}
+			
+		}else{
+			layout{
+				section{
+					title{
+						template ("#{value(this.exercisePart)} 중식 #{size(this)}")
+					}
+					content{
+						image{
+							url(images/core.jpg)
+						}
+						partitioned{
+							content{
+								for-each (this.exercise){
+									as(side){
+										if(exists(side)){
+											single-line{
+												text{
+													value("#{value(side.exerciseName)}")
+													style(Detail_L)
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			// list-of (this.exercise){
+			// 	where-each (result){
+			// 		thumbnail-card{
+			// 			title-area{
+			// 				halign (Start)
+			// 				slot1{
+			// 					text{
+			// 						style(Title_M)
+			// 						value("#{value(result.exerciseName)}")
+			// 					}
+			// 				}
+			// 				slot2{
+			// 					paragraph{
+			// 						style(Detail_M_Soft)
+			// 						value("운동부위 : #{value(result.exercisePart)}")
+			// 					}
+			// 				}
+			
+			// 			}
+			// 			image-url ("#{value(result.exerciseImgUrl)}")
+			// 			image-position (Start)
+			
+			
+			// 			// on-click {
+			// 			// 	intent {
+			// 			// 		goal: Exercise
+			// 			// 		value: $expr(result)
+			// 			// 	}
+			// 			// }
+			
+			// 		}
+			// 	}
+			// }
+		}
+		
+	}
 }
