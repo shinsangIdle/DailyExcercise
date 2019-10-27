@@ -1,5 +1,5 @@
 result-view{
-  match: Exercise(this)
+  match: Results(this)
 
   message{  // 맨위 다이알로그 부분
     template("카운트를 시작 합니다."){ //speech가 없다면 template가 읽힌다
