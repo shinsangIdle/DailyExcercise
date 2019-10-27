@@ -1,0 +1,10 @@
+action (SaveRoutine) {
+  description (루틴 선택 시 저장되는 액션)
+  collect {
+    input (routine) {
+      type (Routine)
+      min (Required) max (One)
+    }
+  }
+  output (Routine)
+}
