@@ -1,0 +1,35 @@
+layout-macro-def (RecommendCard) {
+	params {
+		param (routine) {
+			type (Routine)
+			min (Required) max (One)
+		}
+	}
+	
+	content {
+		compound-card {
+
+			content {
+				for-each (routine.exercise){
+					as (ex) {
+						title-area{
+							slot1 {
+								text {
+									style(Detail_M_Soft)
+									value ("#{value(ex.exerciseName)}")
+								}
+							}
+						}
+					}
+				}
+			}
+			on-click {
+				intent {
+					goal: Routine
+					value: $expr(routine)
+				}
+			}
+		}
+	}
+	
+}
