@@ -73,10 +73,7 @@ module.exports.function = function recommend($vivContext) {
 
   console.log(routineList);
 
-  return {
-    exerciseGrade: user_grade,
-    routine: routineList
-  };
+  return routineList;
 }
 
 

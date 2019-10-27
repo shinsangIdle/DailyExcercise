@@ -40,5 +40,10 @@ endpoints {
       accepted-inputs ($vivContext, recommend)
       local-endpoint (recommend/recommend.js)
     }
+
+    action-endpoint (SaveRoutine) {
+      accepted-inputs (routine)
+      local-endpoint (recommend/saveRoutine.js)
+    }
   }
 }
