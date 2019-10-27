@@ -4,7 +4,7 @@ train (t-v04wx9rw1t3o5tfbs3rlme6b4) {
   last-modified (1572184274429)
 }
 train (t-vku4p8yw1uxisamb43bqm3zsz) {
-  utterance ([g:ttest.shinhan.RecommendResult] 운동 추천해줘)
-  plan (Y2BkkC0pSS0u0SvOyMzLSMzTC0pNzs/NTc1LCUotLs0pYQABRhABAA==)
-  last-modified (1572174500659)
+  utterance ([g:newer.todayexcercise.RecommendResult] 운동 추천해줘)
+  plan (Y2BkUMlLLU8t0ivJT0msTK1ITi1KzixO1QtKTc7PzU3NSwlKLS7NKWEAAUYQAQA=)
+  last-modified (1572199101327)
 }
