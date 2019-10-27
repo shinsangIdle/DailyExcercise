@@ -18,5 +18,17 @@ action (FindCount) {
     }
   }
   
-  output (CountAudio)
+  output (CountAudio){
+    throws {
+      error (UnsupportedCondition) {
+        on-catch {
+          halt {
+            dialog{
+              template ("카운트 횟수는 10회에서 15회까지 지원합니다.")
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -31,17 +31,5 @@ action (PlayCount) {  //명령어가 들어왔을때 가장 먼저 실행되는�
     }
   }
   
-  output (Results){
-    throws{
-      unknown-error{
-        on-catch {
-          halt {
-            dialog {
-              template ("문제가 생겼네요. 다시 한번 말씀해주세요.")
-            }
-          }
-        }
-      }
-    }
-  }
+  output (Results)
 }
