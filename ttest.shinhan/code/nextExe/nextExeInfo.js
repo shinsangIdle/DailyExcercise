@@ -3,6 +3,7 @@ module.exports.function = function nextExe ($vivContext) {
   var apikey=secret.get('apikey');
   var config = require('config');
   var baseUrl=config.get('baseUrl');
+  const console = require('console');
   let options = {
     format: 'json',
     cacheTime: 0,
@@ -27,7 +28,7 @@ module.exports.function = function nextExe ($vivContext) {
   let user_grade = user_data[0].user_grade;
 
  // var link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
-  var action = "nextExe";  
+  action = "nextExe";  
   let exerciseInfo = http.getUrl(baseUrl+action+user_id,options);
   
   let exerList = [];
@@ -38,30 +39,30 @@ module.exports.function = function nextExe ($vivContext) {
     exerciseGrade: user_grade,
     exerciseSet: getSet(exerciseInfo[0], user_grade),
     exerciseCnt: getCnt(exerciseInfo[0], user_grade),
-    exerciseImgUrl: getImg(exerciseInfo[0].part)
+    exerciseImgUrl: exerciseInfo[0].img
   })
-
+  console.log(exerList);
   return exerList;
 }
 
 function getCnt(exInfo, grade) {
   switch (grade) {
-    case "1":
+    case 1:
       return exInfo.im_cnt;
-    case "2":
+    case 2:
       return exInfo.ad_cnt;
-    case "3":
+    case 3:
       return exInfo.pro_cnt;
   }
 }
 
 function getSet(exInfo, grade) {
   switch (grade) {
-    case "1":
+    case 1:
       return exInfo.im_set;
-    case "2":
+    case 2:
       return exInfo.ad_set;
-    case "3":
+    case 3:
       return exInfo.pro_set;
 
   }
