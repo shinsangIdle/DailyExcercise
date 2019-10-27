@@ -1,0 +1,7 @@
+enum (Count) {
+  description (-)
+  symbol (회)
+  symbol (세트)
+  symbol (천천히)
+  symbol (빠르게)
+}

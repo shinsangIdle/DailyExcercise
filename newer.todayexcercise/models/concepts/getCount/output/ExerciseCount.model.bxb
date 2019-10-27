@@ -1,0 +1,3 @@
+integer (ExerciseCount) {
+  description (__DESCRIPTION__)
+}

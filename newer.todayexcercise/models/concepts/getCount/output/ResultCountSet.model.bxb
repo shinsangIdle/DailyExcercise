@@ -1,0 +1,13 @@
+structure (ResultCountSet) {
+  description (__DESCRIPTION__)
+  property (exerciseCount) {
+    type (ExerciseCount)
+    min (Optional) max (One)
+  }
+
+  property (exerciseSet) {
+    type (ExerciseSet)
+    min (Optional) max (One)
+  }
+
+}

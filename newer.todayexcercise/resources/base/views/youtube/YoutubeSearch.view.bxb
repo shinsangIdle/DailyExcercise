@@ -1,0 +1,36 @@
+result-view {
+  match: YoutubeSearchResults (this)
+  
+  render {
+    if (size(this.youtubeVideo) > 0) {
+      list-of (this.youtubeVideo) {
+        has-details (true)
+        where-each (item) {
+          layout-macro (VideoCard) {
+            param (youtubeVideo) {
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    else {
+      layout {
+        section {
+          content {
+            single-line {
+              text {
+                value {
+                  template ("영상이 없네요.")
+                }
+                style (Title_S)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
