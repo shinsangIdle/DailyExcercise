@@ -54,11 +54,10 @@ endpoints {
     action-endpoint (GetNextExe) {
       local-endpoint (nextExe/nextExeInfo.js)
     }
-  }
 
-		action-endpoint (RecommendPart) {
-			accepted-inputs ( partInput)
+    action-endpoint (RecommendPart) {
+			accepted-inputs (partInput)
 		local-endpoint (recommendPart/recommendPart.js)
 		}
-	}
+  }	
 }
