@@ -48,7 +48,7 @@ endpoints {
 		}
 		
 		action-endpoint (SaveRoutine) {
-			accepted-inputs ($vivContext,routineNum,routine)
+			accepted-inputs (routineNum,routine)
 			local-endpoint (recommend/saveRoutine.js)
 		}
 		action-endpoint (GetNextExe) {
