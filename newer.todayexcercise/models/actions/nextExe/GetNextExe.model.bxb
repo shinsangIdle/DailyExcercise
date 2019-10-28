@@ -1,5 +1,6 @@
 action (GetNextExe) {
   description (다음 운동 가져오는 액션)
   
+  type(Search)
   output (Exercise)
 }

@@ -3,6 +3,11 @@ train (t-o144di6suxot8gzyekf33kvsr) {
   plan (Y2BkEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2UAAUYQAQA=)
   last-modified (1572173479875)
 }
+train (t-o5c36bgdadwdrla416c2tb07h) {
+  utterance ("[g:RecommendPart] (하체)[v:PartInput:하체] 터트리고 싶은데")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572240508254)
+}
 train (t-okwdnganb7v3llfjeao3on306) {
   utterance ("[g:InformGrade] 나 현재 (등급)[v:Grade:Grade] 뭐야")
   plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
