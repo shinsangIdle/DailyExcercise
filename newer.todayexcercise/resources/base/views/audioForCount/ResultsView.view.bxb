@@ -20,32 +20,15 @@ result-view{
           }
         }
       }
-      // section{
-      //   content {
-      //     cell-card {
-      //       on-click{
-      //         intent{   //이거 누르면 DB 저장 하게 자바 스크립트 짜주세요
-      //           goal: PlayCount
-      //         }
-      //       }
-
-      //       slot2 {
-      //         content {
-      //           order (PrimarySecondary)
-      //           primary ("데드리프트")
-      //           secondary ("15회")
-      //         }
-      //       }
-
-      //     }
-      //   }
-      // }
     }
   }
 
   conversation-drivers{  // 맨 아래 팔로우 업
     conversation-driver{
       template ("다음 운동 할래")
+    }
+    conversation-driver{
+      template ("오늘 한 운동 알려줘")
     }
   }
 

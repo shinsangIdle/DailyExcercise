@@ -1,0 +1,4 @@
+enum (Next) {
+  description (__DESCRIPTION__)
+  symbol (다음)
+}
