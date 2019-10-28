@@ -1,3 +1,8 @@
+train (t-mmb1p2efb58k31wbnrd0tcwj5) {
+  utterance ([g:GetNextExe] 아직 해야되는거 더있어)
+  plan (Y2BikM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMTACIQMUA0kA)
+  last-modified (1572251102029)
+}
 train (t-my470nmwys8g4z6blbziu6vba) {
   utterance ("[g:PlayCount] (14)[v:SearchTerm:14](번)[v:Count:회] 운동 가자")
   last-modified (1572198671274)

@@ -13,3 +13,8 @@ train (t-1ih31jjs1ng3sewp62rbp00xt) {
   plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
   last-modified (1572236578863)
 }
+train (t-1zsxluyot9lraig0awvuxdbr8) {
+  utterance ([g:GetNextExe] 뭐 남았어)
+  plan (Y2BikM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMTACIQMUA0kA)
+  last-modified (1572250795629)
+}

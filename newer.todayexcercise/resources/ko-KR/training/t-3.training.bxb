@@ -3,6 +3,11 @@ train (t-3is0tco18ndhtryw6kpywuj4o) {
   plan (nY9NDoIwFIQHRfzjBGJ064o7qImJG0PUCwCtsQm0SWkj3N62mLihLuzbTL6ZeS9FjDWnLypTJUje0baksmQNTa+00ZVqsBl0syrvjkJzhaRgbdGluSZMWGqye6vP/CGwGywfNKuIa3+Tq8Fkf+Jfb+v33GHP306Mk1/LM2GgZ/mN5rJ83qmskXgC6qJrLBFghDFCTBBhihnmWBgKxwPDQ+NabidwHIjN9Kp/kdG2/+m+AQ==)
   last-modified (1572238117135)
 }
+train (t-3tr9mrplu05q1ey8cu9l3mfzp) {
+  utterance ("[g:GetNextExe] (잔여)[v:Next:다음] 운동 확인시켜줘")
+  plan (Y2BmkM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMUhiVQCSZWBiYARiBiDJyAACUD4A)
+  last-modified (1572251053909)
+}
 train (t-3xej1xmo8dnuhjf402thvy7rf) {
   utterance ("[g:PlayCount] (빠르게)[v:Power:빠르게] (13)[v:SearchTerm:13](회)[v:Count:회] 운동")
   plan (dY7dCsIwDIVP/Zn6Cip669XeQQXBu6G+QLdFLNQWuhW3tzftEG/Wi4Tk5MtJsMLW0Idc3tpa9tRV5CrVUH6jxuu2wW50WmjZn603LTal6so+l75WNqjMHkN9NU+Lw+jyyStdx+0/uR4lhxP79CwaJH68KDNcSZgXlsWE+Z2kq14Pcm8sITDBFDPMkWHBPaIiWAtKxhVi/DKYFRyR/QI=)

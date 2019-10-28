@@ -5,8 +5,8 @@ train (t-galcfj3htlg7dj883jt901hyv) {
 }
 train (t-gjy6fdv1xbs5anquqezwb4i2s) {
   utterance ("[g:PlayCount] (빠르게)[v:Power:빠르게] 카운트 해조")
-  plan (dU5LCsIwEH3xewcV3brKHbRQcCfeIG1GGAgJNAk2tzdpF3URFwPvOzzscbL0oUEGp1WisaehZ0/yRT6a4HGuuk+jUuOiDTh2PHZJqqjZFTVnbwU/7NvhWi3fIxs9tZfkpZpcQn92tGznTzjUd7osYgeBFdbYYJsxfpiY2HzIqij+Fw==)
-  last-modified (1572248741421)
+  plan (Y2BhkMlLLU8t0ivJT0msTK1ITi1KzixO1QtKLS7NKSlmkMMqG5CTWOmcX5pXwiCdlFmRVKmXWJqSmQ8SBap1BLE989LyGaSwa84HCjIwMzAyMAFJBiANghDABGQBxQA=)
+  last-modified (1572249322101)
 }
 train (t-gq4pcdtfxyg8dx6bytspzkmkk) {
   utterance ("[g:Routine] (루틴)[v:Recommend:Routine] 추천 부탁해")
