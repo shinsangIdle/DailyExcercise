@@ -68,14 +68,3 @@ function getSet(exInfo, grade) {
   }
 
 }
-
-function getImg(part) {
-  switch (part) {
-    case "상체":
-      return "images/upper.png";
-    case "하체":
-      return "images/lower.png";
-    case "코어":
-      return "images/core.png";
-  }
-}

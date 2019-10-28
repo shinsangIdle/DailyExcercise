@@ -20,6 +20,6 @@ module.exports.function = function saveRoutine ($vivContext,routine) {
   var routine_id = "&routine_id=" + routine.routineNum;
   http.getUrl(baseUrl+action+user_id+routine_id ,options );
 
-  console.log("저장함")
+  console.log(baseUrl+action+user_id+routine_id ,options );
   return routine;
 }
