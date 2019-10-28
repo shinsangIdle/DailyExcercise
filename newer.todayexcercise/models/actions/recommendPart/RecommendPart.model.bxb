@@ -7,5 +7,5 @@ action (RecommendPart) {
 			min (Required) max (One)
 		}
 	}
-	output (RecommendResult)
+	output (Routine)
 }
