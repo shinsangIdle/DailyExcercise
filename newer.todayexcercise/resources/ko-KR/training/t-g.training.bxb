@@ -1,3 +1,8 @@
+train (t-galcfj3htlg7dj883jt901hyv) {
+  utterance ("[g:ManageGrade] 운동의 (초고수)[v:Need:up]가 되고싶어")
+  plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572246236893)
+}
 train (t-gq4pcdtfxyg8dx6bytspzkmkk) {
   utterance ("[g:Routine] (루틴)[v:Recommend:Routine] 추천 부탁해")
   plan (Y2BmEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2WQQhV2Ty0JSk3Oz81NzUthEEfTApdgYmAEYgYgycgAAkwQDAA=)

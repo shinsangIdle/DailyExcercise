@@ -13,3 +13,8 @@ train (t-vku4p8yw1uxisamb43bqm3zsz) {
   plan (Y2BkkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlAAFGEAEA)
   last-modified (1572236275111)
 }
+train (t-vlmdsm35u6htutrr7oo11op7t) {
+  utterance ([g:PlayCount] 카운트 해줘)
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QtKLS7NKSlmkMMqG5CTWOmcX5pXwiCdlFmRVKmXWJqSmQ8SBap1BLE989LyGZgYGIGYAUgyMjDAaAA=)
+  last-modified (1572245952437)
+}
