@@ -1,3 +1,5 @@
+var secret=require('secret');
+var audioid=secret.get('audioid');
 const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 구조체
     id: 1,
     stream: [
@@ -132,7 +134,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     id: 11,
     stream: [
       {
-        url: "https://docs.google.com/uc?id=1BjbjSn3VSwEM5zZBXQ4c1iLDypH9NWVk&export=dowload", 
+        url: "https://docs.google.com/uc?id="+audioid+"&export=dowload", 
         format: "mp3"
       }
     ],

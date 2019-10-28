@@ -1,3 +1,8 @@
+train (t-pahdqd5yb8vay6slfhnok0ipg) {
+  utterance ("[g:PlayCount] (천천히)[v:Power:천천히] 운동 세봐")
+  plan (dU5LCsIwEH3xewcV3brKHbRQcCfeIG1GGAgJNAk2tzdpF3URFwPvOzzscbL0oUEGp1WisaehZ0/yRT6a4HGuuk+jUuOiDTh2PHZJqqjZFTVnbwU/7NvhWi3fIxs9tZfkpZpcQn92tGznTzjUd7osYgeBFdbYYJsxfpiY2HzIqij+Fw==)
+  last-modified (1572248637510)
+}
 train (t-pbq63y8g14372pj138pxgtdui) {
   utterance ("[g:YoutubeSearchResults] (파워 스쿼트 머신)[v:Keyword] 좀 검색해")
   plan (Y2BmUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFgYmBEYgZgCQjAwgwQTAA)
