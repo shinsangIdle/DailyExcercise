@@ -5,26 +5,30 @@ var fail = require('fail')
 module.exports.function = function findCount(power, searchTerm, setNum) { //searchTerm이 11회, 12회, 13회가 됨
   const keysToSearchOn = ['title', 'artist', 'subtitle', 'albumName']
   let countAudioFound = []
-
+  console.log("power"+power)
+  console.log("searchTerm" + searchTerm)
+  
   if(!searchTerm){  //카운트 횟수를 지정하지 않았다면
     if(!power){ //빠르게 할지 천천히 할지 지정하지 않았다면
       console.log("searchTerm")
       countAudioFound = countAudio.audioItems[0]
 
     }else{
+      console.log(power)
       var temp = function (audioItem) {
         return keysToSearchOn.some(function (key) {
           return audioItem[key] && audioItem[key].toLowerCase().includes(power)
         })
       }
       countAudioFound = countAudio.audioItems.filter(temp)
-        var temp2 = function (audioItem) {
-          return keysToSearchOn.some(function (key) {
-            return audioItem[key] && audioItem[key].toLowerCase().includes('10')
-          })
-        }
+      var temp2 = function (audioItem) {
+        return keysToSearchOn.some(function (key) {
+          return audioItem[key] && audioItem[key].toLowerCase().includes('10')
+        })
+      }
       countAudioFound = countAudioFound.filter(temp2)
     }
+    console.log(countAudioFound)
     return countAudioFound
 
   }else{

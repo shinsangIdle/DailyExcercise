@@ -1,7 +1,7 @@
 endpoints {
 	action-endpoints {
 		action-endpoint (PlayCount) {
-			accepted-inputs (count, power)
+			accepted-inputs (count)
 			local-endpoint (audioForCount/PlayCount.js)
 		}
 		action-endpoint (BuildCountAudioInfo) {
@@ -65,10 +65,5 @@ endpoints {
 			accepted-inputs (routineNum)
 			local-endpoint (recommend/getRoutine.js)
 		}
-
-    // action-endpoint (SelectRoutine) {
-		// 	accepted-inputs (routineNum)
-		// 	local-endpoint (recommend/getRoutine.js)
-		// }
 	}
 }
