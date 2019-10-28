@@ -14,12 +14,12 @@ endpoints {
 		}
 		
 		action-endpoint (GetCountSet) {
-			accepted-inputs (countCom, exerciseName)
+			accepted-inputs ($vivContext,countCom, exerciseName)
 			local-endpoint (getCount/getCountSet.js)
 		}
 		
 		action-endpoint (GetCountSetNoCom) {
-			accepted-inputs (exerciseName)
+			accepted-inputs ($vivContext,exerciseName)
 			local-endpoint (getCount/getCountSet.js)
 		}
 		
@@ -48,16 +48,16 @@ endpoints {
 		}
 		
 		action-endpoint (SaveRoutine) {
-			accepted-inputs (routine)
+			accepted-inputs ($vivContext,routine)
 			local-endpoint (recommend/saveRoutine.js)
 		}
 		action-endpoint (GetNextExe) {
-      accepted-inputs (next)
+      accepted-inputs ($vivContext,next)
 			local-endpoint (nextExe/nextExeInfo.js)
 		}
 		
 		action-endpoint (RecommendPart) {
-			accepted-inputs (partInput)
+			accepted-inputs ($vivContext,partInput)
 			local-endpoint (recommendPart/recommendPart.js)
 		}		
 	}

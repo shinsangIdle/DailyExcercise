@@ -61,7 +61,7 @@ module.exports.function = function recommendPart($vivContext, partInput) {
      console.log(exerList);
      console.log(partInput);
     routineList.push({
-      routineNum: iter,
+      routineNum: exerciseInfo[iter*4].routine_id,
       exercisePart: partInput,
       exercise: exerList
     })
