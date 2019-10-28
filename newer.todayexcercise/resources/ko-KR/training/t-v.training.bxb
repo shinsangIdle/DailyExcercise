@@ -3,8 +3,13 @@ train (t-v04wx9rw1t3o5tfbs3rlme6b4) {
   plan (Y2BmEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2WQQhV2Ty0JSk3Oz81NzUthEEfTApdgYmAEYgYgycgAAkwQDAA=)
   last-modified (1572184274429)
 }
+train (t-v141a5x88qxulf19xtt68yd0y) {
+  utterance ("[g:resultManageGrade] 좀 (힘든)[v:Need:down] 듯")
+  plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQIAJggE=)
+  last-modified (1572236899526)
+}
 train (t-vku4p8yw1uxisamb43bqm3zsz) {
-  utterance ([g:newer.todayexcercise.RecommendResult] 운동 추천해줘)
-  plan (Y2BkUMlLLU8t0ivJT0msTK1ITi1KzixO1QtKTc7PzU3NSwlKLS7NKWEAAUYQAQA=)
-  last-modified (1572199101327)
+  utterance ([g:Routine] 운동 추천해줘)
+  plan (Y2BkkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlAAFGEAEA)
+  last-modified (1572236275111)
 }

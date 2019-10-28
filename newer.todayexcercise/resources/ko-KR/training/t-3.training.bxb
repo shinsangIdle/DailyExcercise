@@ -1,5 +1,5 @@
 train (t-3is0tco18ndhtryw6kpywuj4o) {
-  utterance ("[g:PlayCount] (천천히)[v:Power] (10)[v:SearchTerm:10](회)[v:Count:회] (3)[v:SetNum:3](세트)[v:Count:세트] 카운트 해줘")
-  plan (jY7NCsIwEISnWutfbyoKnnyBvIMKghcp6gukNtJAm0CaoH17k1SQlh7cuQzf7gyLGCutWaVJlXORU0GurDKFrrBu46Sg9VEaobFN+TutCTUZl44yRfbOn8VTYtdOHQwvMh/7nSzaJ03p/3DTA3159+MTF1lvTyJfTHV7boyqR35nqsSyu9EXU2KOAAMMEWKECGNMMMXMUngeWB7areNOgedAbNW4ZiLrXf6b/QA=)
-  last-modified (1572175017340)
+  utterance ("[g:PlayCount] (천천히)[v:Power:천천히] (10)[v:SearchTerm:10](회)[v:Count:회] (3)[v:SetNum:3](세트)[v:Count:세트] 카운트 해줘")
+  plan (nY9NDoIwFIQHRfzjBGJ064o7qImJG0PUCwCtsQm0SWkj3N62mLihLuzbTL6ZeS9FjDWnLypTJUje0baksmQNTa+00ZVqsBl0syrvjkJzhaRgbdGluSZMWGqye6vP/CGwGywfNKuIa3+Tq8Fkf+Jfb+v33GHP306Mk1/LM2GgZ/mN5rJ83qmskXgC6qJrLBFghDFCTBBhihnmWBgKxwPDQ+NabidwHIjN9Kp/kdG2/+m+AQ==)
+  last-modified (1572238117135)
 }
