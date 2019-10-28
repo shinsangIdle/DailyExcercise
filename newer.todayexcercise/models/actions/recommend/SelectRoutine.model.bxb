@@ -1,5 +1,6 @@
 action (SelectRoutine) {
   description (__DESCRIPTION__)
+  type(Search)
   collect {
     input (routineNum) {
       type (RoutineNum)

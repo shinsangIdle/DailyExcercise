@@ -1,5 +1,6 @@
 action (GetRoutine) {
   description (루틴명으로 루틴을 불러오는 액션)
+  type(Search)
   collect {
     input (routineNum) {
       type (RoutineNum)
