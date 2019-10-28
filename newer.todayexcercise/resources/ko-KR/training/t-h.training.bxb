@@ -3,3 +3,8 @@ train (t-h5vpoyg37bl05dncb260lry5n) {
   plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
   last-modified (1572244887798)
 }
+train (t-hbs733e06o2tiwi2x6j069hdr) {
+  utterance ("[g:GetNextExe] (다음)[v:Next:다음]거 계속")
+  plan (Y2BmkM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMUhiVQCSZWBiYARiBiDJyAACUD4A)
+  last-modified (1572250474941)
+}

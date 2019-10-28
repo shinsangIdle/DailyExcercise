@@ -3,6 +3,11 @@ train (t-l0vs8l58gwy9lx7x91mzorshv) {
   plan (Y2BmUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmywDEwMjEDMASUYGEIDyAQ==)
   last-modified (1572073569811)
 }
+train (t-l4vznbmfkk0klj7c0oru0lcmy) {
+  utterance ("[g:GetNextExe] 할게 (아직)[v:Next:다음] 남았어")
+  plan (Y2BmkM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMUhiVQCSZWBiYARiBiDJyAACUD4A)
+  last-modified (1572250876684)
+}
 train (t-lbtnvolplfwuss4dfva1ttq2l) {
   utterance ("[g:RecommendPart] (태평양)[v:PartInput:상체]같은 (어깨)[v:PartInput:상체]가 필요해")
   plan (Y2BlkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoJRyeRYGRgYmBmYgzQBmMQFJBgYeIGQAijJCZAA=)
