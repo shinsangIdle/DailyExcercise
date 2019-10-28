@@ -1,7 +1,7 @@
 train (t-79ksb6wjhqe9qujwha4p4eje5) {
   utterance ("[g:RecommendPart] (상체)[v:PartInput:상체] 운동 추천해줘")
-  plan (Y2BmUMlLLU8t0ivJT0msTK1ITi1KzixO1QtKTc7PzU3NSwlKLS7NKWFQwq8qILGohEEOqxqQlGdeQWkJAxMDIxAzAElGBhCA8gE=)
-  last-modified (1572229316933)
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572236704982)
 }
 train (t-7cpgyb3bm2icrn1aphf2l33d6) {
   utterance ("[g:resultManageGrade] 좀 더 (빡세게)[v:Need:up] 할래")
