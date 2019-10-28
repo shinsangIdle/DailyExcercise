@@ -1,18 +1,18 @@
 endpoints {
-  action-endpoints {
-    action-endpoint (PlayCount) {
-      accepted-inputs (count)
-      local-endpoint (audioForCount/PlayCount.js)
-    }
-     action-endpoint (BuildCountAudioInfo) {
-      accepted-inputs (countAudio)
-      local-endpoint (audioForCount/BuildCountAudioInfo.js)
-    }
-    action-endpoint (FindCount) {
-      accepted-inputs (power, searchTerm, setNum)
-      local-endpoint (audioForCount/FindCount.js)
-    }
-
+	action-endpoints {
+		action-endpoint (PlayCount) {
+			accepted-inputs (count)
+			local-endpoint (audioForCount/PlayCount.js)
+		}
+		action-endpoint (BuildCountAudioInfo) {
+			accepted-inputs (countAudio)
+			local-endpoint (audioForCount/BuildCountAudioInfo.js)
+		}
+		action-endpoint (FindCount) {
+			accepted-inputs (power, searchTerm, setNum)
+			local-endpoint (audioForCount/FindCount.js)
+		}
+		
     action-endpoint (GetCountSet) {
       accepted-inputs (countCom, exerciseName)
       local-endpoint (getCount/getCountSet.js)
@@ -55,4 +55,10 @@ endpoints {
       local-endpoint (nextExe/nextExeInfo.js)
     }
   }
+
+		action-endpoint (RecommendPart) {
+			accepted-inputs ( partInput)
+		local-endpoint (recommendPart/recommendPart.js)
+		}
+	}
 }
