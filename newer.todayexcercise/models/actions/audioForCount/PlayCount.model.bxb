@@ -6,10 +6,10 @@ action (PlayCount) {  //명령어가 들어왔을때 가장 먼저 실행되는�
       min (Optional) max (Many)
     }
 
-    input(power){
-      type(Power)
-      min(Optional) max (One)
-    }
+    // input(power){
+    //   type(Power)
+    //   min(Optional) max (One)
+    // }
 
     input (countToPlay) {
       description (재생을 위한 플레이리스트를 만듬)
