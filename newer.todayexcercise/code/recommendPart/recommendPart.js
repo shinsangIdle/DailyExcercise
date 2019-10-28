@@ -18,7 +18,6 @@ module.exports.function = function recommendPart($vivContext, partInput) {
   http.getUrl(url, options);
   //////////////////////////////////////////////////////////가장 기본이 되는 코드///////////////////////////////////////////
 
-  // let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
   let action = "";
   let user_id = "&user_id=" //input 
 
