@@ -9,7 +9,6 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "천천히",  //제목
     subtitle: "10",
     artist: "hajung",
-    albumName: "Catatonic",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/ten.PNG"
   },
   {
@@ -23,7 +22,6 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     title: "천천히",
     subtitle: "11",
     artist: "hajung",
-    albumName: "You gotta be kitten me!",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/eleven.PNG"
   },
   {
@@ -127,7 +125,7 @@ const audioItems = [{  //하나의 오디오 아이템들을 여러개 묶은 �
     ],
     title: "빠르게",
     subtitle: "13",
-    artist: "Radi-claw",
+    artist: "sangyeop",
     albumArtUrl: "https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/img/album/thirteen.PNG"
   },
   {

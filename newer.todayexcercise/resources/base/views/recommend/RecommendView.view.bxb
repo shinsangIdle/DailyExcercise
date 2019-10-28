@@ -21,11 +21,8 @@ result-view{
 											goal: SaveRoutine
 											value: $expr(routine)
 										}
-									
 									}
-									
 									content {
-										
 										title-area{
 											halign (Center)
 											slot2{

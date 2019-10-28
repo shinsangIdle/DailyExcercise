@@ -3,6 +3,11 @@ train (t-l0vs8l58gwy9lx7x91mzorshv) {
   plan (Y2BmUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmywDEwMjEDMASUYGEIDyAQ==)
   last-modified (1572073569811)
 }
+train (t-lbtnvolplfwuss4dfva1ttq2l) {
+  utterance ("[g:RecommendPart] (태평양)[v:PartInput:상체]같은 (어깨)[v:PartInput:상체]가 필요해")
+  plan (Y2BlkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoJRyeRYGRgYmBmYgzQBmMQFJBgYeIGQAijJCZAA=)
+  last-modified (1572245025958)
+}
 train (t-lmvoqyzscwrrwm0j80hm63pqb) {
   utterance ("[g:YoutubeSearchResults] (굿모닝)[v:Keyword] (운동법)[v:Pose] 보여줘")
   plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)
