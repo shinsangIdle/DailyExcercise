@@ -40,8 +40,8 @@ module.exports.function = function yesterdayExercise($vivContext) {
       exercisePart: obj.part,
       exerciseGrade: obj.grade,
       exerciseImgUrl: obj.img,
-
     })
+     console.log(obj.img);
   }
   if (result.length > 0) {
     let date = result[0].date;
