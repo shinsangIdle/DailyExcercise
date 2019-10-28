@@ -1,8 +1,3 @@
-train (t-26xu67ps3umgoh09qob4cqivg) {
-  utterance ("[g:YoutubeSearchResults] (데드리프트)[v:Keyword] (자세)[v:Pose] 검색해줘")
-  plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)
-  last-modified (1572093291787)
-}
 train (t-2io5b16rm3qx9jyoj0xquf0kq) {
   utterance ("[g:PlayCount] (빠르게)[v:Power] (4)[v:SetNum:4](세트)[v:Count:세트] (15)[v:SearchTerm:15](회)[v:Count:회] 해볼게")
   plan (jY5LCsIwFEVvtdZfZyoKjtxA9qCC4ESKuoHURhpoE2gStLs3SQVp6cC8yeW8dw9BjJXWTGmici5yKsiVKVNohXUbJwWtj9IIjW3K32lNqMm4dJRVZO/yWTwldu3WwfAi87XfyaJ90kj/h5se6OXdH5+4yHo9iXyxquu5MVo98jurSiy7G30xJeYIMMAQIUaIMMYEU8wsheeB5aHdOu4m8ByI7TSpeZHNkTV8ux8=)
