@@ -6,14 +6,30 @@ module.exports.function = function findCount(power, searchTerm, setNum) { //sear
   const keysToSearchOn = ['title', 'artist', 'subtitle', 'albumName']
   let countAudioFound = []
 
-  if(!searchTerm){
-    console.log("searchTerm")
-    countAudioFound = countAudio.audioItems[0]
+  if(!searchTerm){  //카운트 횟수를 지정하지 않았다면
+    if(!power){ //빠르게 할지 천천히 할지 지정하지 않았다면
+      console.log("searchTerm")
+      countAudioFound = countAudio.audioItems[0]
+
+    }else{
+      var temp = function (audioItem) {
+        return keysToSearchOn.some(function (key) {
+          return audioItem[key] && audioItem[key].toLowerCase().includes(power)
+        })
+      }
+      countAudioFound = countAudio.audioItems.filter(temp)
+        var temp2 = function (audioItem) {
+          return keysToSearchOn.some(function (key) {
+            return audioItem[key] && audioItem[key].toLowerCase().includes('10')
+          })
+        }
+      countAudioFound = countAudioFound.filter(temp2)
+    }
     return countAudioFound
 
   }else{
     searchTerm = searchTerm.toLowerCase()
-    if(searchTerm<10 || searchTerm>15){
+    if(searchTerm<10 || searchTerm>15){  //가능한 카운트 횟수를 넘겼다면
       console.log(searchTerm)
       throw fail.checkedError('myError', 'UnsupportedCondition',{})
     
