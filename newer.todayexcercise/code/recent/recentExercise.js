@@ -3,7 +3,7 @@ module.exports.function = function yesterdayExercise($vivContext) {
   const console = require('console');
   let http = require('http')
   let result = null
-  const bixbyUserId = $vivContext.userId;
+  const bixbyUserId = $vivContext.bixbyUserId;
 
   let user_id = "&user_id=" + bixbyUserId;
 
