@@ -1,0 +1,12 @@
+action (GetCountSetNoCom) {
+  description (세줘 없이 실행 되는 액션)
+  collect {
+    input (exerciseName) {
+      type (ExerciseName)
+      min (Required) max (One)
+    }
+    
+  }
+  type(Search)
+  output (CountAudio)
+}

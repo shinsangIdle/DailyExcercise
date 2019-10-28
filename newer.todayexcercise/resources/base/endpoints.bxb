@@ -14,7 +14,12 @@ endpoints {
     }
 
     action-endpoint (GetCountSet) {
-      accepted-inputs ($vivContext,countCom, exeName)
+      accepted-inputs (countCom, exerciseName)
+      local-endpoint (getCount/getCountSet.js)
+    }
+
+    action-endpoint (GetCountSetNoCom) {
+      accepted-inputs (exerciseName)
       local-endpoint (getCount/getCountSet.js)
     }
 
