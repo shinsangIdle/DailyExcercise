@@ -8,6 +8,11 @@ train (t-xlhszc97i1z3nvofzx9hykq4n) {
   plan (Y2Bh0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAZJrLIB+cWpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1572258269172)
 }
+train (t-xmxtlgmdqghfhnki2oo7iywm6) {
+  utterance ("[g:SaveRoutine] (1)[v:RoutineNum:1]번 루틴 선택할게")
+  plan (Y2BhkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMAqG5xYlgpTgV+/PD5Zv9JcBmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1572259912812)
+}
 train (t-xw4332yo113an6uymkuibc7ra) {
   utterance ("[g:SaveRoutine] (5)[v:RoutineNum:5]번 시작할게")
   plan (Y2BhkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMAqG5xYlgpTgV+/PD5Zv9JcBmYGRgYmIMkApEEQApiALKAYAA==)
