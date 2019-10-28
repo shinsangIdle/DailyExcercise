@@ -1,8 +1,8 @@
-module.exports.function = function nextExe ($vivContext) {
-  var secret=require('secret');
-  var apikey=secret.get('apikey');
+module.exports.function = function nextExe($vivContext) {
+  var secret = require('secret');
+  var apikey = secret.get('apikey');
   var config = require('config');
-  var baseUrl=config.get('baseUrl');
+  var baseUrl = config.get('baseUrl');
   const console = require('console');
   let options = {
     format: 'json',
@@ -11,36 +11,39 @@ module.exports.function = function nextExe ($vivContext) {
       'X-API-Key': apikey
     }
   };
- 
+
   // if bixby id == null >> insert 
   const bixbyUserId = $vivContext.userId;
   let http = require('http');
-  http.getUrl(baseUrl+"isExist&user_id="+bixbyUserId ,options);
-  
+  http.getUrl(baseUrl + "isExist&user_id=" + bixbyUserId, options);
+
   //-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
+
   //My Logic
 
-  let user_id = "&user_id="+bixbyUserId;
+  let user_id = "&user_id=" + bixbyUserId;
   let action = "count_exercise_get_grade";
-  let user_data = http.getUrl(baseUrl+action+user_id, options );
+  let user_data = http.getUrl(baseUrl + action + user_id, options);
 
   let user_grade = user_data[0].user_grade;
 
 
-  action = "nextExe";  
-  let exerciseInfo = http.getUrl(baseUrl+action+user_id,options);
-  
+  action = "nextExe";
+  let exerciseInfo = http.getUrl(baseUrl + action + user_id, options);
+
   let exerList = [];
-  exerList.push({
-    exerciseID: exerciseInfo[0].exe_id,
-    exerciseName: exerciseInfo[0].name,
-    exercisePart: exerciseInfo[0].part,
-    exerciseGrade: user_grade,
-    exerciseSet: getSet(exerciseInfo[0], user_grade),
-    exerciseCnt: getCnt(exerciseInfo[0], user_grade),
-    exerciseImgUrl: exerciseInfo[0].img
-  })
+  for (let it = 0; it < exerciseInfo.length; it++) {
+    exerList.push({
+      exerciseID: exerciseInfo[it].exe_id,
+      exerciseName: exerciseInfo[it].name,
+      exercisePart: exerciseInfo[it].part,
+      exerciseGrade: user_grade,
+      exerciseSet: getSet(exerciseInfo[it], user_grade),
+      exerciseCnt: getCnt(exerciseInfo[it], user_grade),
+      exerciseImgUrl: exerciseInfo[it].img
+    })
+  }
+
   console.log(exerList);
   return exerList;
 }
