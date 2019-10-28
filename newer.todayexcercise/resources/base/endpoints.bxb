@@ -1,4 +1,3 @@
-
 endpoints {
 	action-endpoints {
 		action-endpoint (PlayCount) {
@@ -50,7 +49,6 @@ endpoints {
 		
 		action-endpoint (SaveRoutine) {
 			accepted-inputs (routineNum,routine)
-			accepted-inputs ($vivContext,routine)
 			local-endpoint (recommend/saveRoutine.js)
 		}
 		action-endpoint (GetNextExe) {
@@ -67,10 +65,5 @@ endpoints {
 			accepted-inputs (routineNum)
 			local-endpoint (recommend/getRoutine.js)
 		}
-
-    // action-endpoint (SelectRoutine) {
-		// 	accepted-inputs (routineNum)
-		// 	local-endpoint (recommend/getRoutine.js)
-		// }
 	}
 }
