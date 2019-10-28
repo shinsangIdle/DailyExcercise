@@ -1,7 +1,7 @@
 train (t-v04wx9rw1t3o5tfbs3rlme6b4) {
   utterance ("[g:Routine] (루틴)[v:Recommend:Routine] 보여줘")
-  plan (Y2BmEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2WQQhV2Ty0JSk3Oz81NzUthEEfTApdgYmAEYgYgycgAAkwQDAA=)
-  last-modified (1572184274429)
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QC4PBMDIxAzAElGBhBggmAA)
+  last-modified (1572258268420)
 }
 train (t-v141a5x88qxulf19xtt68yd0y) {
   utterance ("[g:resultManageGrade] 좀 (힘든)[v:Need:down] 듯")

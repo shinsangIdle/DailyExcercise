@@ -1,10 +1,10 @@
 train (t-i54sz9op9bbpnw736bayv5a6e) {
   utterance ("[g:RecentExercise] (최근)[v:Recent:Recent](한)[v:Recent:Past] 운동 보여줘")
-  plan (Y2BlUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmyxJoiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)
-  last-modified (1572073498064)
+  plan (Y2Bl0MxLLU8t0ivJT0msTK1ITi1KzixO1QtKTU7NK3GtgHCDUotLc0oYlIlQyiCNRxEFkiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)
+  last-modified (1572258264411)
 }
 train (t-ir4bzm31ut0hzu1pvqtjyaf9c) {
   utterance ("[g:resultManageGrade] 지금 좀 (쉬운거같아)[v:Need:up]")
-  plan (Y2BmkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwlhCrll5qawsDEwAjEDECSkQEEmCAYAA==)
-  last-modified (1572179135928)
+  plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQIAJggE=)
+  last-modified (1572258264506)
 }

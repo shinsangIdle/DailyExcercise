@@ -5,11 +5,11 @@ train (t-td8hhsmhrfzpn9j8rgwogs2ox) {
 }
 train (t-tie8zcb5anh0vgwhnsa1ilyyn) {
   utterance ([g:Routine] 오늘 운동 추천좀 해줘)
-  plan (Y2BkEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2UAAUYQAQA=)
-  last-modified (1572181618878)
+  plan (Y2BkkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlAAFGEAEA)
+  last-modified (1572258267723)
 }
 train (t-twakbyr40oin7f4705092rg4b) {
   utterance ("[g:InformGrade] 내 (등급)[v:Grade:Grade] 알려줘")
-  plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
-  last-modified (1572080462000)
+  plan (Y2BmUMpLLU8t0ivJT0msTK1ITi1KzixO1fMvykzPzEvMcS9KTEllUMCqxjMvLb8oF6JCCqsKiBwTAyMQMwBJRgYQgPIB)
+  last-modified (1572258267813)
 }

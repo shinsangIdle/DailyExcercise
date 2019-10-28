@@ -5,5 +5,6 @@ train (t-mmb1p2efb58k31wbnrd0tcwj5) {
 }
 train (t-my470nmwys8g4z6blbziu6vba) {
   utterance ("[g:PlayCount] (14)[v:SearchTerm:14](번)[v:Count:회] 운동 가자")
-  last-modified (1572198671274)
+  plan (Y+BgkMlLLU8t0ivJT0msTK1ITi1KzixO1QtKLS7NKSlmkMMqG5CTWOmcX5pXwiCdlFmRVKmXWJqSmQ8SBap1BLE989LyGTSwanYqzcxJAetGqJTCqhJihTxuObABONzolpmXgs+A4NTEouSMkNSiXAZ2BkYGJgZmBhYGVgY2II8BzGcEioD4jGA+A5xkBtIsIFUA)
+  last-modified (1572258265612)
 }

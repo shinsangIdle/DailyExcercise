@@ -1,7 +1,7 @@
 train (t-3is0tco18ndhtryw6kpywuj4o) {
   utterance ("[g:PlayCount] (천천히)[v:Power:천천히] (10)[v:SearchTerm:10](회)[v:Count:회] (3)[v:SetNum:3](세트)[v:Count:세트] 카운트 해줘")
-  plan (nY9NDoIwFIQHRfzjBGJ064o7qImJG0PUCwCtsQm0SWkj3N62mLihLuzbTL6ZeS9FjDWnLypTJUje0baksmQNTa+00ZVqsBl0syrvjkJzhaRgbdGluSZMWGqye6vP/CGwGywfNKuIa3+Tq8Fkf+Jfb+v33GHP306Mk1/LM2GgZ/mN5rJ83qmskXgC6qJrLBFghDFCTBBhihnmWBgKxwPDQ+NabidwHIjN9Kp/kdG2/+m+AQ==)
-  last-modified (1572238117135)
+  plan (nY9LDoIwFEUvivhjBWJ06og9qImJE0PUDRRaYxNoE2gj7N62mDihDuybvJz7eSlirAV7sTpVkpKOtQWrC96w9MoaXaoGm0E1K0l3lFooJDlv8y4lmnJpqfHu7X4WD4ndYPigeUld+utcDTr7E/9qW7/mDnv+duKC/irPpIGe8hsjdfG8s7pC4jGoi66wRIARxggxQYQpZphjYSgcDwwPjWq5ncBxIDbTb/2LzB6Zhk/2DQ==)
+  last-modified (1572258261252)
 }
 train (t-3tr9mrplu05q1ey8cu9l3mfzp) {
   utterance ("[g:GetNextExe] (잔여)[v:Next:다음] 운동 확인시켜줘")

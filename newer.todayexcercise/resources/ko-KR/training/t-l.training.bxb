@@ -1,7 +1,7 @@
 train (t-l0vs8l58gwy9lx7x91mzorshv) {
   utterance ("[g:RecentExercise] 내가 (했던)[v:Recent:Past] 운동 궁금해")
-  plan (Y2BmUCopSS0u0SvOyMzLSMzTC0pNTs0rca1ILUrOLE4NSi0uzSlhkMGnhkEEmywDEwMjEDMASUYGEIDyAQ==)
-  last-modified (1572073569811)
+  plan (Y2Bm0MxLLU8t0ivJT0msTK1ITi1KzixO1QtKTU7NK3GtgHCDUotLc0oYlIlQyiCNRxEDEwMjEDMASUYGEIDyAQ==)
+  last-modified (1572258264913)
 }
 train (t-l4vznbmfkk0klj7c0oru0lcmy) {
   utterance ("[g:GetNextExe] 할게 (아직)[v:Next:다음] 남았어")
@@ -15,16 +15,16 @@ train (t-lbtnvolplfwuss4dfva1ttq2l) {
 }
 train (t-lmvoqyzscwrrwm0j80hm63pqb) {
   utterance ("[g:YoutubeSearchResults] (굿모닝)[v:Keyword] (운동법)[v:Pose] 보여줘")
-  plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)
-  last-modified (1572094171461)
+  plan (Y2Bh0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAZJrLIB+cWpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1572258265197)
 }
 train (t-lnbx4801yjofxhbhxi9m76krp) {
   utterance ("[g:resultManageGrade] 이건 너무 (쉬운데)[v:Need:up]")
-  plan (Y2BmkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwlhCrll5qawsDEwAjEDECSkQEEmCAYAA==)
-  last-modified (1572179347628)
+  plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQIAJggE=)
+  last-modified (1572258265288)
 }
 train (t-lnsc5x790xhuski1msk1ogr4t) {
   utterance ("[g:PlayCount] (빠르게)[v:Power:빠르게] (3)[v:SetNum:3](세트)[v:Count:세트] (12)[v:SearchTerm:12](회)[v:Count:회] 세줘")
-  plan (nY9NDoIwFIQHRfzjBGJ064o7qImJG0PUCwCtsQm0SWkj3N62mLihLuzbTL6ZeS9FjDWnLypTJUje0baksmQNTa+00ZVqsBl0syrvjkJzhaRgbdGluSZMWGqye6vP/CGwGywfNKuIa3+Tq8Fkf+Jfb+v33GHP306Mk1/LM2GgZ/mN5rJ83qmskXgC6qJrLBFghDFCTBBhihnmWBgKxwPDQ+NabidwHIjN9Kp/kdG2/+m+AQ==)
-  last-modified (1572254477405)
+  plan (nY9LDoIwFEUvivhjBWJ06og9qImJE0PUDRRaYxNoE2gj7N62mDihDuybvJz7eSlirAV7sTpVkpKOtQWrC96w9MoaXaoGm0E1K0l3lFooJDlv8y4lmnJpqfHu7X4WD4ndYPigeUld+utcDTr7E/9qW7/mDnv+duKC/irPpIGe8hsjdfG8s7pC4jGoi66wRIARxggxQYQpZphjYSgcDwwPjWq5ncBxIDbTb/2LzB6Zhk/2DQ==)
+  last-modified (1572258265416)
 }
