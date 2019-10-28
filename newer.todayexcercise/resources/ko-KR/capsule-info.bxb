@@ -11,8 +11,6 @@ capsule-info {
     keyword(건강)
     keyword(오늘)
 	}
-	
-	
 	dispatch-name (오늘운동)
 	dispatch-aliases{
 		alias (오늘 운동)
@@ -20,7 +18,5 @@ capsule-info {
 		alias (매일운동)
 	}
 	
-	
-	
-	
+	privacy-policy-url (https://raw.githubusercontent.com/shinsangIdle/DailyExcercise/master/개인정보처리방침/privacy_policy.docx)
 }

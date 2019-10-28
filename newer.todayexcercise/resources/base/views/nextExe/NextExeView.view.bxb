@@ -9,8 +9,8 @@ result-view{
 	}
 	
 	render{
-		if (size(this)>1){
-      layout{
+		if (size(this)>=1){
+			layout{
 				section{
 					content{
 						for-each (this){
@@ -34,8 +34,8 @@ result-view{
 									image-position (Start)
 									on-click {
 										intent {
-											goal: Exercise
-											value: $expr(result)
+											goal: PlayCount
+											value: $expr(result.exerciseName)
 										}
 									}
 								}
@@ -45,13 +45,30 @@ result-view{
 				}
 			}
 		}else{
-		layout{
-      section{
-        title("아무것도 아직")
-      }
-    }
-
+			layout{
+				section{
+					title("해당 운동이 없습니다. 새로운 루틴을 추가하세요.")
+				}
+			}
+			
 		}
 	}
-	
+	conversation-drivers{
+		if (size(this)>=1){
+			conversation-driver{
+				template ("#{value(this[0].exerciseName)} 시작할게")
+			}
+			conversation-driver{
+				template ("#{value(this[0].exerciseName)} 카운트 해줘")
+			}
+		}
+		else{
+			conversation-driver{
+				template ("상체 운동으로 추천해줘")
+			}
+			conversation-driver{
+				template ("오늘 해야 될 운동 알려줘")
+			}
+		}
+	}
 }

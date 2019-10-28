@@ -1,5 +1,10 @@
 train (t-2io5b16rm3qx9jyoj0xquf0kq) {
-  utterance ("[g:PlayCount] (빠르게)[v:Power] (4)[v:SetNum:4](세트)[v:Count:세트] (15)[v:SearchTerm:15](회)[v:Count:회] 해볼게")
-  plan (jY5LCsIwFEVvtdZfZyoKjtxA9qCC4ESKuoHURhpoE2gStLs3SQVp6cC8yeW8dw9BjJXWTGmici5yKsiVKVNohXUbJwWtj9IIjW3K32lNqMm4dJRVZO/yWTwldu3WwfAi87XfyaJ90kj/h5se6OXdH5+4yHo9iXyxquu5MVo98jurSiy7G30xJeYIMMAQIUaIMMYEU8wsheeB5aHdOu4m8ByI7TSpeZHNkTV8ux8=)
-  last-modified (1572174995710)
+  utterance ("[g:PlayCount] (빠르게)[v:Power:빠르게] (4)[v:SetNum:4](세트)[v:Count:세트] (15)[v:SearchTerm:15](회)[v:Count:회] 해볼게")
+  plan (nY9NDoIwFIQHRfzjBGJ064o7qImJG0PUCwCtsQm0SWkj3N62mLihLuzbTL6ZeS9FjDWnLypTJUje0baksmQNTa+00ZVqsBl0syrvjkJzhaRgbdGluSZMWGqye6vP/CGwGywfNKuIa3+Tq8Fkf+Jfb+v33GHP306Mk1/LM2GgZ/mN5rJ83qmskXgC6qJrLBFghDFCTBBhihnmWBgKxwPDQ+NabidwHIjN9Kp/kdG2/+m+AQ==)
+  last-modified (1572238061368)
+}
+train (t-2u64myf3tuzow6ha13ioixlrq) {
+  utterance ("[g:RecommendPart] 오늘은 (상체운동)[v:PartInput:상체] 해볼래 알려줘봐")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572247139830)
 }

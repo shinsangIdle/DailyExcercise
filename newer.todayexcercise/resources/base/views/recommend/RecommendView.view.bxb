@@ -21,11 +21,8 @@ result-view{
 											goal: SaveRoutine
 											value: $expr(routine)
 										}
-									
 									}
-									
 									content {
-										
 										title-area{
 											halign (Center)
 											slot2{
@@ -33,7 +30,7 @@ result-view{
 													text{
 														color (Blue)
 														style(Title_S)
-														value("#{value(routine.exercisePart)} 운동")
+														value("루틴 #{value(routine.routineNum)}(#{value(routine.exercisePart)} 운동)")
 													}
 												}
 												
@@ -59,11 +56,10 @@ result-view{
 					}
 				}
 			}
-			
-			
 		}else{
 			layout{
 				section{
+					title("선택된 루틴 운동 목록")
 					content{
 						for-each (this.exercise){
 							as (result){
@@ -86,7 +82,7 @@ result-view{
 									image-position (Start)
 									on-click {
 										intent {
-											goal: GetCountSetNoCom
+											goal: PlayCount
 											value: $expr(result.exerciseName)
 										}
 									}
@@ -98,5 +94,12 @@ result-view{
 			}
 		}
 	}
-	
+	conversation-drivers{
+		conversation-driver{
+			template ("상체 운동으로 추천해줘")
+		}
+		conversation-driver{
+			template ("말벅지가 되고 싶어")
+		}
+	}
 }

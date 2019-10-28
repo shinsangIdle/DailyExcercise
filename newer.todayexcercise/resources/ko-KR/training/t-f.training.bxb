@@ -1,5 +1,15 @@
+train (t-fcg6h053ej9jdpjjc1d2yvjki) {
+  utterance ([g:Routine] 추천좀)
+  plan (Y2BkkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlAAFGEAEA)
+  last-modified (1572241353468)
+}
 train (t-fgxaaqvs7per3boo15tbhpi1e) {
   utterance ("[g:resultManageGrade] 지금보다 (세게)[v:Need:up] 해줘")
-  plan (Y2BhkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwljCoFERRCFfRLTU1hYGZgZGACkgxAGgQhgAmIgWIA)
-  last-modified (1572080780064)
+  plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQIAJggE=)
+  last-modified (1572238003528)
+}
+train (t-fixlnrcox6nhhvf7wu2fudsia) {
+  utterance ("[g:PlayCount] (파워풀)[v:Power:빠르게]하게 (12)[v:SearchTerm:12]회 가보자")
+  plan (Y+BgkMlLLU8t0ivJT0msTK1ITi1KzixO1QtKLS7NKSlmkMMqG5CTWOmcX5pXwiCdlFmRVKmXWJqSmQ8SBap1BLE989LyGTSwanYqzcxJAetGqJTHqhKhCIc73DLzICYxSGF3Zz5QEIfhwamJRckZIalFuQzsDIwMTAzMDCwMrAxsQB4DEp8VyGaAYxBgBrLAqgA=)
+  last-modified (1572244668325)
 }

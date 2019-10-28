@@ -1,5 +1,5 @@
 train (t-qq9rk1niaymnz7uzo26ifm1td) {
-  utterance ("[g:PlayCount] (스쿼트)[v:ExeName] (세줘)[v:CountCom]")
-  plan (bU5LCsIwEH1aq17AH668QO6gRcSNiJ4gpVMaSBMwE2hvb9KFNeLAwPvCwxIrZnIsXKNMI414kPOaHTapfNeyL6w3jH2purIX0lfKRpVe4hjx1dQWh7R18kpXQ22MbNPI6GKXOhfiwXwSY/2nVNj2d/y5o5tsCQtMMEWGGXLMA8MXzwPG5+NlAQ2pNw==)
-  last-modified (1572068217401)
+  utterance ("[g:PlayCount] (스쿼트)[v:ExerciseName] 세줘")
+  plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
+  last-modified (1572235754072)
 }

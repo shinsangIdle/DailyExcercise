@@ -7,5 +7,6 @@ action (RecommendPart) {
 			min (Required) max (One)
 		}
 	}
-	output (RecommendResult)
+	type(Search)
+	output (Routine)
 }

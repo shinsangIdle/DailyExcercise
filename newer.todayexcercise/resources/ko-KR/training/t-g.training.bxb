@@ -1,3 +1,8 @@
+train (t-galcfj3htlg7dj883jt901hyv) {
+  utterance ("[g:ManageGrade] 운동의 (초고수)[v:Need:up]가 되고싶어")
+  plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572246236893)
+}
 train (t-gq4pcdtfxyg8dx6bytspzkmkk) {
   utterance ("[g:Routine] (루틴)[v:Recommend:Routine] 추천 부탁해")
   plan (Y2BmEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2WQQhV2Ty0JSk3Oz81NzUthEEfTApdgYmAEYgYgycgAAkwQDAA=)
@@ -7,4 +12,9 @@ train (t-gsmbdhiykhp4lxiqz7v183uu4) {
   utterance ("[g:InformGrade] 지금 (레벨)[v:Grade:Grade]이 어떻게 돼")
   plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
   last-modified (1572080603400)
+}
+train (t-gw7xiy3ds3nc7jocs894wkmqc) {
+  utterance ("[g:RecommendPart] (어깨)[v:PartInput:상체] 넓어지고싶다")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572244774858)
 }

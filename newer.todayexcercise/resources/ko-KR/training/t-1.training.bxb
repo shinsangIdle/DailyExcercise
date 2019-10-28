@@ -1,5 +1,15 @@
+train (t-18x7ldsw7nassdoxei48ummxg) {
+  utterance ("[g:YoutubeSearchResults] (바이셉스컬)[v:Keyword] (어떻게)[v:Pose]해")
+  plan (Y2Bh0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAZJrLIB+cWpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1572242945069)
+}
 train (t-19xhghssfn7pab92m3r05iso3) {
   utterance ("[g:YoutubeSearchResults] (암컬머신)[v:Keyword] 띄워줘")
   plan (Y2BmUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFgYmBEYgZgCQjAwgwQTAA)
   last-modified (1572179984491)
+}
+train (t-1ih31jjs1ng3sewp62rbp00xt) {
+  utterance ("[g:PlayCount] (런지)[v:ExerciseName] 시작")
+  plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
+  last-modified (1572236578863)
 }

@@ -16,8 +16,6 @@ module.exports.function = function recommendPart($vivContext, partInput) {
   const bixbyUserId = $vivContext.userId;
   let url = baseUrl + "isExist&user_id=" + bixbyUserId;
   http.getUrl(url, options);
-  //////////////////////////////////////////////////////////가장 기본이 되는 코드///////////////////////////////////////////
-
   let action = "";
   let user_id = "&user_id=" //input 
 
@@ -51,16 +49,17 @@ module.exports.function = function recommendPart($vivContext, partInput) {
       exerList.push({
         exerciseID: exerciseInfo[iter * 4 + it].exe_id,
         exerciseName: exerciseInfo[iter * 4 + it].name,
-        exercisePart: exerciseInfo[iter * 4 + it].partInput,
+        exercisePart: partInput,
         exerciseGrade: grade,
         exerciseSet: exerciseInfo[iter * 4 + it].setn,
         exerciseCnt: exerciseInfo[iter * 4 + it].cnt,
-        exerciseImgUrl: getImg(exerciseInfo[iter * 4 + it].partInput)
+        exerciseImgUrl: exerciseInfo[iter * 4 + it].img
       })
 
     }
 
-    // console.log(exerList);
+     console.log(exerList);
+     console.log(partInput);
     routineList.push({
       routineNum: iter,
       exercisePart: partInput,
@@ -71,10 +70,8 @@ module.exports.function = function recommendPart($vivContext, partInput) {
 
   console.log(routineList);
 
-  return {
-    exerciseGrade: grade,
-    routine: routineList
-  };
+  return routineList;
+  
 }
 
 
@@ -104,15 +101,3 @@ function getSet(exInfo, grade) {
 
 }
 
-
-function getImg(part) {
-
-  switch (part) {
-    case "상체":
-      return "images/upper.png";
-    case "하체":
-      return "images/lower.png";
-    case "코어":
-      return "images/core.png";
-  }
-}

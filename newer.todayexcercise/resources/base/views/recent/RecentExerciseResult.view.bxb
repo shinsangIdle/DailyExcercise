@@ -3,7 +3,9 @@ result-view {
 	
 	message{
 		if (size(this.exercise) >= 1){
-			template ("#{value(this.date)}의 운동기록입니다")
+			template ("마지막 운동기록은 #{value(this.date)}이에요."){
+				speech ("가장 최근 운동 결과를 알려드릴게요.")
+			}
 		}else{
 			template ("최근 일주일간 운동기록이 없습니다.")
 		}
@@ -48,6 +50,9 @@ result-view {
 	conversation-drivers{
 		conversation-driver{
 			template ("루틴 추천해줘")
+		}
+		conversation-driver{
+			template ("오늘은 상체 운동 할래 알려줘")
 		}
 	}
 }

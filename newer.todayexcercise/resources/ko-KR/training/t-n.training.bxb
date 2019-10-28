@@ -1,3 +1,13 @@
+train (t-n609jzlakg9t7edneayx66u9n) {
+  utterance ([g:PlayCount] 나 운동하는것좀 봐줘)
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QtKLS7NKSlmkMMqG5CTWOmcX5pXwiCdlFmRVKmXWJqSmQ8SBap1BLE989LyGZgYGIGYAUgyMjDAaAA=)
+  last-modified (1572246142981)
+}
+train (t-n7145tvdyoe6gbe4prsqah8e9) {
+  utterance ("[g:RecentExercise] 나 (저번주)[v:Recent:Recent]에 무슨운동 (했지)[v:Recent:Past]")
+  plan (Y2Bl0MxLLU8t0ivJT0msTK1ITi1KzixO1QtKTU7NK3GtgHCDUotLc0oYlIlQyiCNRxEFkiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)
+  last-modified (1572245448885)
+}
 train (t-ny0rc5zlwmo5mig59fp1eu4kj) {
   utterance ("[g:OriginalGrade] 현재 (강도)[v:Grade:Grade]가 뭐야")
   plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygAATBAMA)
