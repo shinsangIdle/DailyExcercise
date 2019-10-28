@@ -1,3 +1,8 @@
+train (t-di4871rlna04clui13enxzw91) {
+  utterance ("[g:PlayCount] (빠르게)[v:Power:빠르게] (4)[v:SetNum:4](세트)[v:Count:세트] (15)[v:SearchTerm:15](회)[v:Count:회] 해볼게")
+  plan (nY9NDoIwFIQHRfzjBGJ064o7qImJG0PUCwCtsQm0SWkj3N62mLihLuzbTL6ZeS9FjDWnLypTJUje0baksmQNTa+00ZVqsBl0syrvjkJzhaRgbdGluSZMWGqye6vP/CGwGywfNKuIa3+Tq8Fkf+Jfb+v33GHP306Mk1/LM2GgZ/mN5rJ83qmskXgC6qJrLBFghDFCTBBhihnmWBgKxwPDQ+NabidwHIjN9Kp/kdG2/+m+AQ==)
+  last-modified (1572259598903)
+}
 train (t-dm8kliahvtltty8nx0quke6sv) {
   utterance ("[g:PlayCount] (빠른)[v:Power:빠르게] 템포 스타트")
   plan (dU5LCsIwEH3xewcV3brKHbRQcCfeIG1GGAgJNAk2tzdpF3URFwPvOzzscbL0oUEGp1WisaehZ0/yRT6a4HGuuk+jUuOiDTh2PHZJqqjZFTVnbwU/7NvhWi3fIxs9tZfkpZpcQn92tGznTzjUd7osYgeBFdbYYJsxfpiY2HzIqij+Fw==)

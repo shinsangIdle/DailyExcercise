@@ -26,5 +26,5 @@ train (t-lnbx4801yjofxhbhxi9m76krp) {
 train (t-lnsc5x790xhuski1msk1ogr4t) {
   utterance ("[g:PlayCount] (빠르게)[v:Power:빠르게] (3)[v:SetNum:3](세트)[v:Count:세트] (12)[v:SearchTerm:12](회)[v:Count:회] 세줘")
   plan (nY9LDoIwFEUvivhjBWJ06og9qImJE0PUDRRaYxNoE2gj7N62mDihDuybvJz7eSlirAV7sTpVkpKOtQWrC96w9MoaXaoGm0E1K0l3lFooJDlv8y4lmnJpqfHu7X4WD4ndYPigeUld+utcDTr7E/9qW7/mDnv+duKC/irPpIGe8hsjdfG8s7pC4jGoi66wRIARxggxQYQpZphjYSgcDwwPjWq5ncBxIDbTb/2LzB6Zhk/2DQ==)
-  last-modified (1572258265416)
+  last-modified (1572258771051)
 }
