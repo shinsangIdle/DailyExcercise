@@ -1,7 +1,7 @@
 endpoints {
 	action-endpoints {
 		action-endpoint (PlayCount) {
-			accepted-inputs (count)
+			accepted-inputs (count, power)
 			local-endpoint (audioForCount/PlayCount.js)
 		}
 		action-endpoint (BuildCountAudioInfo) {
