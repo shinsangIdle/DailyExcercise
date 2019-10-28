@@ -1,6 +1,6 @@
 endpoints {
-		action-endpoints {
-      action-endpoint(PlayCount){
+	action-endpoints {
+		action-endpoint(PlayCount){
 			accepted-inputs (count)
 			local-endpoint (audioForCount/PlayCount.js)
 		}

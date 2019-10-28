@@ -5,8 +5,8 @@ action (GetCountSet) {
       type (CountCom)
       min (Required) max (One)
     }
-    input (exeName) {
-      type (ExeName)
+    input (exerciseName) {
+      type (ExerciseName)
       min (Optional) max (One)
     }
     
