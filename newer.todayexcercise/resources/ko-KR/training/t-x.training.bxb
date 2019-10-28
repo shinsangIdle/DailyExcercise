@@ -3,6 +3,11 @@ train (t-xedacrk3uyf6sn29ny0ssluna) {
   plan (nY9LDoIwFEUvivhjBWJ06og9qImJE0PUDRRaYxNoE2gj7N62mDihDuybvJz7eSlirAV7sTpVkpKOtQWrC96w9MoaXaoGm0E1K0l3lFooJDlv8y4lmnJpqfHu7X4WD4ndYPigeUld+utcDTr7E/9qW7/mDnv+duKC/irPpIGe8hsjdfG8s7pC4jGoi66wRIARxggxQYQpZphjYSgcDwwPjWq5ncBxIDbTb/2LzB6Zhk/2DQ==)
   last-modified (1572237986384)
 }
+train (t-xfjobtaxrnn5fv6ay2xg3o6kf) {
+  utterance ("[g:RecommendPart] (코어)[v:PartInput:코어] 근육 키우는 운동엔 뭐가 있을까")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572243568389)
+}
 train (t-xlhszc97i1z3nvofzx9hykq4n) {
   utterance ("[g:YoutubeSearchResults] (레그프레스)[v:Keyword] (동작)[v:Pose]을 찾아줘")
   plan (Y2BhUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFQQhVOCC/OJWBmYGRgQlIMgBpEIQAEB8sCgA=)

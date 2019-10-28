@@ -52,6 +52,7 @@ endpoints {
 			local-endpoint (recommend/saveRoutine.js)
 		}
 		action-endpoint (GetNextExe) {
+      accepted-inputs (next)
 			local-endpoint (nextExe/nextExeInfo.js)
 		}
 		

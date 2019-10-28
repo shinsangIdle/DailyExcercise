@@ -4,7 +4,7 @@ action (FindCount) {
   collect {
     input (searchTerm) {
       type (SearchTerm)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
     
     input(setNum){

@@ -21,11 +21,8 @@ result-view{
 											goal: SaveRoutine
 											value: $expr(routine)
 										}
-									
 									}
-									
 									content {
-										
 										title-area{
 											halign (Center)
 											slot2{
@@ -98,5 +95,12 @@ result-view{
 			}
 		}
 	}
-	
+	conversation-drivers{
+		conversation-driver{
+			template ("상체 운동으로 추천해줘")
+		}
+		conversation-driver{
+			template ("말벅지가 되고 싶어")
+		}
+	}
 }

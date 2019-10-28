@@ -8,6 +8,11 @@ train (t-o5c36bgdadwdrla416c2tb07h) {
   plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
   last-modified (1572240508254)
 }
+train (t-oaikrbfe7fr8d7a8qo2qo37d6) {
+  utterance ("[g:ManageGrade] (쉽지않)[v:Need:down]더라")
+  plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572245191966)
+}
 train (t-oeaj1qljfjbrlvie3oviebgwj) {
   utterance ("[g:ManageGrade] (별거)[v:Need:up] 아니네")
   plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQADKBwA=)

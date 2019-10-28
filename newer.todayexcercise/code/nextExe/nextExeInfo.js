@@ -32,7 +32,7 @@ module.exports.function = function nextExe($vivContext) {
   let exerciseInfo = http.getUrl(baseUrl + action + user_id, options);
 
   let exerList = [];
-  for (let it = 0; it < exerciseInfo.length; it++) {
+  for (var it = 0; it < exerciseInfo.length; it++) {
     exerList.push({
       exerciseID: exerciseInfo[it].exe_id,
       exerciseName: exerciseInfo[it].name,
@@ -43,7 +43,6 @@ module.exports.function = function nextExe($vivContext) {
       exerciseImgUrl: exerciseInfo[it].img
     })
   }
-
   console.log(exerList);
   return exerList;
 }

@@ -1,3 +1,8 @@
+train (t-n7145tvdyoe6gbe4prsqah8e9) {
+  utterance ("[g:RecentExercise] 나 (저번주)[v:Recent:Recent]에 무슨운동 (했지)[v:Recent:Past]")
+  plan (Y2Bl0MxLLU8t0ivJT0msTK1ITi1KzixO1QtKTU7NK3GtgHCDUotLc0oYlIlQyiCNRxEFkiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)
+  last-modified (1572245448885)
+}
 train (t-ny0rc5zlwmo5mig59fp1eu4kj) {
   utterance ("[g:OriginalGrade] 현재 (강도)[v:Grade:Grade]가 뭐야")
   plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygAATBAMA)

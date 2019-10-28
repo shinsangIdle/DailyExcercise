@@ -1,3 +1,8 @@
+train (t-18x7ldsw7nassdoxei48ummxg) {
+  utterance ("[g:YoutubeSearchResults] (바이셉스컬)[v:Keyword] (어떻게)[v:Pose]해")
+  plan (Y2Bh0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAZJrLIB+cWpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1572242945069)
+}
 train (t-19xhghssfn7pab92m3r05iso3) {
   utterance ("[g:YoutubeSearchResults] (암컬머신)[v:Keyword] 띄워줘")
   plan (Y2BmUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFgYmBEYgZgCQjAwgwQTAA)

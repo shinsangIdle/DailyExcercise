@@ -8,6 +8,11 @@ train (t-rc8g2u5z4uhq2ies7rsnhfp7r) {
   plan (Y2BhkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwljCoFERRCFfRLTU1hYGZgZGACkgxAGgQhAMQHiwIA)
   last-modified (1572079804604)
 }
+train (t-rmmi3ulgvrpfc2cx3as9g2xs8) {
+  utterance ("[g:RecommendPart] 오늘 (팔씨름)[v:PartInput:상체] 졌어")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572245535205)
+}
 train (t-rskho0xhrbmmhz7hb2vbcmq07) {
   utterance ("[g:resultManageGrade] 나의 (레벨)[v:Grade:Grade] (낮출래)[v:Need:down]")
   plan (Y2BhkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwljCoFERRCFfRLTU1hYGZgZGACkgxAGgQhAMQHiwIA)
