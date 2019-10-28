@@ -115,8 +115,6 @@ result-view{
 			conversation-driver{
 				template ("다음 운동 알려줘")
 			}
-			
 		}
-		
 	}
 }
