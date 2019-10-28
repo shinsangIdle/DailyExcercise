@@ -30,7 +30,7 @@ result-view{
 													text{
 														color (Blue)
 														style(Title_S)
-														value("루틴 #{value(routine.routineNum)}(#{value(routine.exercisePart)} 운동)")
+														value("루틴 #{value(routine.routineNum)} (#{value(routine.exercisePart)} 운동)")
 													}
 												}
 												
@@ -96,10 +96,10 @@ result-view{
 	}
 	conversation-drivers{
 		conversation-driver{
-			template ("상체 운동으로 추천해줘")
+			template ("#{value(this[0].routineNum)}번 루틴 선택할게")
 		}
 		conversation-driver{
-			template ("말벅지가 되고 싶어")
+			template ("상체 운동으로 추천해줘")
 		}
 	}
 }

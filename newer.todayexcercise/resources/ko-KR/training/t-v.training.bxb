@@ -8,6 +8,11 @@ train (t-v141a5x88qxulf19xtt68yd0y) {
   plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQIAJggE=)
   last-modified (1572236899526)
 }
+train (t-vghmn6ei89y56jjc2o2n9k7g9) {
+  utterance ("[g:RecommendPart] (이두)[v:PartInput:상체] 조져죠")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572248028885)
+}
 train (t-vku4p8yw1uxisamb43bqm3zsz) {
   utterance ([g:Routine] 운동 추천해줘)
   plan (Y2BkkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlAAFGEAEA)

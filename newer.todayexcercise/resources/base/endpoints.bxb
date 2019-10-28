@@ -1,7 +1,7 @@
 endpoints {
 	action-endpoints {
 		action-endpoint (PlayCount) {
-			accepted-inputs (count)
+			accepted-inputs (count, power)
 			local-endpoint (audioForCount/PlayCount.js)
 		}
 		action-endpoint (BuildCountAudioInfo) {
@@ -14,12 +14,12 @@ endpoints {
 		}
 		
 		action-endpoint (GetCountSet) {
-			accepted-inputs (countCom, exerciseName)
+			accepted-inputs ($vivContext,countCom, exerciseName)
 			local-endpoint (getCount/getCountSet.js)
 		}
 		
 		action-endpoint (GetCountSetNoCom) {
-			accepted-inputs (exerciseName)
+			accepted-inputs ($vivContext,exerciseName)
 			local-endpoint (getCount/getCountSet.js)
 		}
 		
@@ -48,17 +48,31 @@ endpoints {
 		}
 		
 		action-endpoint (SaveRoutine) {
-			accepted-inputs (routine)
+<<<<<<< HEAD
+			accepted-inputs (routineNum,routine)
+=======
+			accepted-inputs ($vivContext,routine)
+>>>>>>> a7c807075978cd67b88004d7d6978e0c657c5b4e
 			local-endpoint (recommend/saveRoutine.js)
 		}
 		action-endpoint (GetNextExe) {
-      accepted-inputs (next)
+      accepted-inputs ($vivContext,next)
 			local-endpoint (nextExe/nextExeInfo.js)
 		}
 		
 		action-endpoint (RecommendPart) {
-			accepted-inputs (partInput)
+			accepted-inputs ($vivContext,partInput)
 			local-endpoint (recommendPart/recommendPart.js)
-		}		
+		}	
+
+		action-endpoint (GetRoutine) {
+			accepted-inputs (routineNum)
+			local-endpoint (recommend/getRoutine.js)
+		}
+
+    // action-endpoint (SelectRoutine) {
+		// 	accepted-inputs (routineNum)
+		// 	local-endpoint (recommend/getRoutine.js)
+		// }
 	}
 }
