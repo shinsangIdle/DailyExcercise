@@ -3,3 +3,8 @@ train (t-07yk52rgiu67ifkx9pgxwbbq3) {
   plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
   last-modified (1572236451695)
 }
+train (t-0h9mhdta2kue09srrf7vypea3) {
+  utterance ("[g:RecommendPart] (맨몸운동)[v:PartInput:코어]만 가능해")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572245619309)
+}
