@@ -18,10 +18,6 @@ module.exports.function = function manageGrade($vivContext) {
     }
   };
 
-
-  // let http = require('http');
-  // http.getUrl("https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=isExist" + user_id);
-
   let action = "isExist";
   http.getUrl(baseUrl + action + user_id, options);
 
