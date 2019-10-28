@@ -5,8 +5,8 @@ train (t-18x7ldsw7nassdoxei48ummxg) {
 }
 train (t-19xhghssfn7pab92m3r05iso3) {
   utterance ("[g:YoutubeSearchResults] (암컬머신)[v:Keyword] 띄워줘")
-  plan (Y2BmUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFgYmBEYgZgCQjAwgwQTAA)
-  last-modified (1572179984491)
+  plan (Y2Bm0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAYmBkYgZgCSjAwgwATBAA==)
+  last-modified (1572258260463)
 }
 train (t-1ih31jjs1ng3sewp62rbp00xt) {
   utterance ("[g:PlayCount] (런지)[v:ExerciseName] 시작")

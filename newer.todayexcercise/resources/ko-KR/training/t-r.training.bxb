@@ -5,8 +5,8 @@ train (t-r5rcjyx5lq8r4095bd9i7d4js) {
 }
 train (t-rc8g2u5z4uhq2ies7rsnhfp7r) {
   utterance ("[g:resultManageGrade] 루틴 (강도)[v:Grade:Grade] (세게)[v:Need:up]하고싶어")
-  plan (Y2BhkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwljCoFERRCFfRLTU1hYGZgZGACkgxAGgQhAMQHiwIA)
-  last-modified (1572079804604)
+  plan (Y2BhUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhRRWFRA5SaxyfqmpKQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1572258267127)
 }
 train (t-rmmi3ulgvrpfc2cx3as9g2xs8) {
   utterance ("[g:RecommendPart] 오늘 (팔씨름)[v:PartInput:상체] 졌어")
@@ -20,6 +20,6 @@ train (t-rnykv53aeej115w92260dabko) {
 }
 train (t-rskho0xhrbmmhz7hb2vbcmq07) {
   utterance ("[g:resultManageGrade] 나의 (레벨)[v:Grade:Grade] (낮출래)[v:Need:down]")
-  plan (Y2BhkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwljCoFERRCFfRLTU1hYGZgZGACkgxAGgQhAMQHiwIA)
-  last-modified (1572079249492)
+  plan (Y2BhUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhRRWFRA5SaxyfqmpKQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1572258267408)
 }

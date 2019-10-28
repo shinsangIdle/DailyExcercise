@@ -1,7 +1,7 @@
 train (t-o144di6suxot8gzyekf33kvsr) {
   utterance ([g:Routine] 오늘 운동 추천해줘)
-  plan (Y2BkEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2UAAUYQAQA=)
-  last-modified (1572173479875)
+  plan (Y2BkkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlAAFGEAEA)
+  last-modified (1572258265738)
 }
 train (t-o5c36bgdadwdrla416c2tb07h) {
   utterance ("[g:RecommendPart] (하체)[v:PartInput:하체] 터트리고 싶은데")
@@ -20,6 +20,6 @@ train (t-oeaj1qljfjbrlvie3oviebgwj) {
 }
 train (t-okwdnganb7v3llfjeao3on306) {
   utterance ("[g:InformGrade] 나 현재 (등급)[v:Grade:Grade] 뭐야")
-  plan (Y2BmkC4pSS0u0SvOyMzLSMzT8y/KTM/MS8xxL0pMSWWQRJX0zEvLL8qFSAmjSkEEmRgYgZgBSDIygACUDwA=)
-  last-modified (1572194180398)
+  plan (Y2BmUMpLLU8t0ivJT0msTK1ITi1KzixO1fMvykzPzEvMcS9KTEllUMCqxjMvLb8oF6JCCqsKiBwTAyMQMwBJRgYQgPIB)
+  last-modified (1572258266121)
 }

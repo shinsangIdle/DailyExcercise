@@ -1,6 +1,7 @@
 train (t-yhfy8tmj5mbbubr02ubkrqfwo) {
   utterance ("[g:PlayCount] (11)[v:SearchTerm:11](회)[v:Count:회] (3)[v:SetNum:3](세트)[v:Count:세트] 틀어줘")
-  last-modified (1572198633023)
+  plan (nY9NCsIwFISn2mr9OYEV3brqHVQQ3IioF2ibJwbaBNIE29ubpAs3rQsTApNvZvIIFlgLepNKtWRZS01BquA1pTeqTalrbHrda5m1R2mERpLzJm/TzDAuHbXZvdNn8ZTY9ZYPhpfMt7/JVW+yG/Gvtx32/OCBv524YL8euFOmiteDVIVkIKAvpsIcAUYYI0SECaaIMbMMngaWhtZzNLY3+LO0u1NuRVa5pm99AA==)
+  last-modified (1572258269352)
 }
 train (t-yv06spqu38k2c5hzlgxspkpgy) {
   utterance ("[g:RecommendPart] (다리)[v:PartInput:하체] 좀 혹사시켜볼까")
@@ -14,6 +15,6 @@ train (t-yvefhxdyg8n7m42wwrlmwcjpo) {
 }
 train (t-yxwgqotbolfqr08vxnnisuf19) {
   utterance ("[g:YoutubeSearchResults] (힙 레이즈)[v:Keyword] 보여줘봐")
-  plan (Y2BmUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFgYmBEYgZgCQjAwgwQTAA)
-  last-modified (1572180112692)
+  plan (Y2Bm0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAYmBkYgZgCSjAwgwATBAA==)
+  last-modified (1572258269566)
 }
