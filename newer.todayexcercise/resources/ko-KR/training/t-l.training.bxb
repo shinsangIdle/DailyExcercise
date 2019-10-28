@@ -23,3 +23,8 @@ train (t-lnbx4801yjofxhbhxi9m76krp) {
   plan (Y2BmkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwlhCrll5qawsDEwAjEDECSkQEEmCAYAA==)
   last-modified (1572179347628)
 }
+train (t-lnsc5x790xhuski1msk1ogr4t) {
+  utterance ("[g:PlayCount] (빠르게)[v:Power:빠르게] (3)[v:SetNum:3](세트)[v:Count:세트] (12)[v:SearchTerm:12](회)[v:Count:회] 세줘")
+  plan (nY9NDoIwFIQHRfzjBGJ064o7qImJG0PUCwCtsQm0SWkj3N62mLihLuzbTL6ZeS9FjDWnLypTJUje0baksmQNTa+00ZVqsBl0syrvjkJzhaRgbdGluSZMWGqye6vP/CGwGywfNKuIa3+Tq8Fkf+Jfb+v33GHP306Mk1/LM2GgZ/mN5rJ83qmskXgC6qJrLBFghDFCTBBhihnmWBgKxwPDQ+NabidwHIjN9Kp/kdG2/+m+AQ==)
+  last-modified (1572254477405)
+}

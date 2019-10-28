@@ -1,5 +1,5 @@
-module.exports.function = function recommend($vivContext) {
-​
+module.exports.function = function getRoutine($vivContext, routineNum) {
+
   var secret=require('secret');
   var apikey=secret.get('apikey');
   var config = require('config');
@@ -14,15 +14,11 @@ module.exports.function = function recommend($vivContext) {
     }
   };
   const bixbyUserId = $vivContext.bixbyUserId;
-  console.log(bixbyUserId);
-
   let url = baseUrl+"isExist&user_id="+bixbyUserId;
   http.getUrl(url ,options);
   
   let action = "";
   let user_id = "&user_id=" //input 
-​
-  let result = new Array();
 ​
   user_id += bixbyUserId;
   action = "count_exercise_get_grade";
@@ -33,15 +29,10 @@ module.exports.function = function recommend($vivContext) {
   let user_grade = user_data[0].user_grade;
 ​
   console.log("user_grade: " + user_grade);
-  action = "getRoutines";
-  let routines = http.getUrl(baseUrl + action + user_id, options); //3개 날라올거임
-​
-  let routineList = [];
-  for (var iter = 0; iter < 3; iter++) {
-​
+  
   action = "getExercises";
     let routine = "&routineId=";
-    routine += routines[iter]["routineNum"];
+    routine += routineNum;
     let grade_param = "&user_grade="+user_grade;
     let exerciseInfo = http.getUrl(baseUrl + action + routine+grade_param, options);
     
@@ -50,10 +41,7 @@ module.exports.function = function recommend($vivContext) {
 ​
     let part = "";
     for (var it = 0; it < 4; it++) {
-      // let exercise = "&exe_id=";
-      // action = "getInfo";
-      // exercise += exercises[it]["exe_id"];
-      // let exerciseInfo = http.getUrl(baseUrl + action + exercise, options);
+     
       part = exerciseInfo[it].part;
       exerList.push({
         exerciseID: exerciseInfo[it].exe_id,
@@ -68,17 +56,11 @@ module.exports.function = function recommend($vivContext) {
     }
     
     console.log(exerList);
-    routineList.push({
-      routineNum: routines[iter]["routineNum"],
+    return {
+      routineNum: routineNum,
       exercisePart: part,
       exercise: exerList
-    })
-​
-  }
-​
-  console.log(routineList);
-​
-  return  routineList;
+    };
 }
 ​
 ​

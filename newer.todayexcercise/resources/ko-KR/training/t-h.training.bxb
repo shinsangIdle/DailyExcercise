@@ -8,3 +8,8 @@ train (t-hbs733e06o2tiwi2x6j069hdr) {
   plan (Y2BmkM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMUhiVQCSZWBiYARiBiDJyAACUD4A)
   last-modified (1572250474941)
 }
+train (t-hr44vkvus3mftic3n9h37cufu) {
+  utterance ("[g:InformGrade] 운동 (등급)[v:Grade:Grade] 알려줘")
+  plan (Y2BmUMpLLU8t0ivJT0msTK1ITi1KzixO1fMvykzPzEvMcS9KTEllUMCqxjMvLb8oF6JCCqsKiBwTAyMQMwBJRgYQgPIB)
+  last-modified (1572252088206)
+}

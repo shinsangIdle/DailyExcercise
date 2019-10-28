@@ -13,7 +13,7 @@ module.exports.function = function nextExe($vivContext) {
   };
 
   // if bixby id == null >> insert 
-  const bixbyUserId = $vivContext.userId;
+  const bixbyUserId = $vivContext.bixbyUserId;
   let http = require('http');
   http.getUrl(baseUrl + "isExist&user_id=" + bixbyUserId, options);
 

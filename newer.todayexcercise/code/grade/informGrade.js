@@ -7,7 +7,7 @@ module.exports.function = function manageGrade($vivContext) {
   var config = require('config');
   var baseUrl = config.get('baseUrl');
 
-  const bixbyUserId = $vivContext.userId;
+  const bixbyUserId = $vivContext.bixbyUserId;
 
   let user_id = "&user_id=" + bixbyUserId;
   let options = {

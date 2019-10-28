@@ -14,7 +14,7 @@ module.exports.function = function getCountSet ($vivContext,exerciseName){
   };
  
   console.log(baseUrl);
-  const bixbyUserId = $vivContext.userId;
+  const bixbyUserId = $vivContext.bixbyUserId;
   let http = require('http');
   http.getUrl(baseUrl+"isExist&user_id="+bixbyUserId ,options);
 

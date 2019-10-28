@@ -13,7 +13,7 @@ module.exports.function = function recommendPart($vivContext, partInput) {
       'X-API-Key': apikey
     }
   };
-  const bixbyUserId = $vivContext.userId;
+  const bixbyUserId = $vivContext.bixbyUserId;
   let url = baseUrl + "isExist&user_id=" + bixbyUserId;
   http.getUrl(url, options);
   let action = "";
