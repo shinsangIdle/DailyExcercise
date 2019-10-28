@@ -47,7 +47,7 @@ result-view{
 		}else{
 			layout{
 				section{
-					title("아직 오늘의 루틴을 설정 하지 않았어요.")
+					title("해당 운동이 없습니다. 새로운 루틴을 추가하세요.")
 				}
 			}
 			
