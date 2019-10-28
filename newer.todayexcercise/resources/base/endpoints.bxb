@@ -65,10 +65,5 @@ endpoints {
 			accepted-inputs (routineNum)
 			local-endpoint (recommend/getRoutine.js)
 		}
-
-    // action-endpoint (SelectRoutine) {
-		// 	accepted-inputs (routineNum)
-		// 	local-endpoint (recommend/getRoutine.js)
-		// }
 	}
 }

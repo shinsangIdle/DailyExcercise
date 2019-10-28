@@ -95,11 +95,22 @@ result-view{
 		}
 	}
 	conversation-drivers{
-		conversation-driver{
-			template ("#{value(this[0].routineNum)}번 루틴 선택할게")
+		if (size(this)>1){
+			conversation-driver{
+				template ("#{value(this[0].routineNum)}번 루틴 선택할게")
+			}
+			conversation-driver{
+				template ("상체 운동으로 추천해줘")
+			}
+		}else{
+			conversation-driver{
+				template ("#{value(this.exercise[0].exerciseName)} 시작할게")
+			}
+			conversation-driver{
+				template ("다음 운동 알려줘")
+			}
+			
 		}
-		conversation-driver{
-			template ("상체 운동으로 추천해줘")
-		}
+		
 	}
 }
