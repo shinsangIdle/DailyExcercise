@@ -1,0 +1,5 @@
+train (t-866ibp7gaoxkyg7j0emgc4v4n) {
+  utterance ("[g:GetNextExe] (이어서)[v:Next:다음] (계속)[v:Next:다음] 할게")
+  plan (Y2BlkM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMUhiVQCSJVOKhYGRgYmBGUgzgFlMQJKBgQcIGYCijBAZAA==)
+  last-modified (1572247596140)
+}

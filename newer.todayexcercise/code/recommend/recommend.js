@@ -40,25 +40,27 @@ module.exports.function = function recommend($vivContext) {
   action = "getExercises";
     let routine = "&routineId=";
     routine += routines[iter]["routineNum"];
+    let grade_param = "&user_grade="+user_grade;
+    let exerciseInfo = http.getUrl(baseUrl + action + routine+grade_param, options);
+    
     let exerList = [];
-    let exercises = http.getUrl(baseUrl + action + routine, options);
+    console.log(exerciseInfo);
 
     let part = "";
     for (var it = 0; it < 4; it++) {
-      let exercise = "&exe_id=";
-      action = "getInfo";
-      exercise += exercises[it]["exe_id"];
-      let exerciseInfo = http.getUrl(baseUrl + action + exercise, options);
-      console.log(exerciseInfo);
-      part = exerciseInfo[0].part;
+      // let exercise = "&exe_id=";
+      // action = "getInfo";
+      // exercise += exercises[it]["exe_id"];
+      // let exerciseInfo = http.getUrl(baseUrl + action + exercise, options);
+      part = exerciseInfo[it].part;
       exerList.push({
-        exerciseID: exerciseInfo[0].exe_id,
-        exerciseName: exerciseInfo[0].name,
-        exercisePart: exerciseInfo[0].part,
+        exerciseID: exerciseInfo[it].exe_id,
+        exerciseName: exerciseInfo[it].name,
+        exercisePart: exerciseInfo[it].part,
         exerciseGrade: user_grade,
-        exerciseSet: getSet(exerciseInfo[0], user_grade),
-        exerciseCnt: getCnt(exerciseInfo[0], user_grade),
-        exerciseImgUrl: exerciseInfo[0].img
+        exerciseSet: exerciseInfo[it].sett,
+        exerciseCnt: exerciseInfo[it].cnt,
+        exerciseImgUrl: exerciseInfo[it].img
       })
 
     }
