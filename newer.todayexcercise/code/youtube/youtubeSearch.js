@@ -6,13 +6,13 @@ module.exports.function = function youtubeSearch (keyword, pose) {
   if(pose != null){
     keyword = keyword + " " + pose;
   }
-
+  var secret=require('secret');
+  var youtubeapikey=secret.get('youtubeapikey');
   var optionParams={
     q:keyword,
     part:"snippet",
-    key:"AIzaSyD_QZMRiFxZNzC23zfDT-6gw-MiJwKaPHo",
+    key:youtubeapikey,
 };   
-
 
 optionParams.q = encodeURI(optionParams.q);
 

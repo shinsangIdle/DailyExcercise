@@ -26,7 +26,6 @@ module.exports.function = function manageGrade($vivContext, need) {
   console.log(user_id);
 
   action = "count_exercise_get_grade";
-  //console.log(baseUrl+action+user_id);
   let user_data = http.getUrl(baseUrl + action + user_id, options);
   console.log("need: " + need);
 

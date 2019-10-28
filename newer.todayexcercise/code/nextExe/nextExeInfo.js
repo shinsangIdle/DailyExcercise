@@ -20,14 +20,14 @@ module.exports.function = function nextExe ($vivContext) {
   //-------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
   //My Logic
-  //let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action="
+
   let user_id = "&user_id="+bixbyUserId;
   let action = "count_exercise_get_grade";
   let user_data = http.getUrl(baseUrl+action+user_id, options );
 
   let user_grade = user_data[0].user_grade;
 
- // var link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
+
   action = "nextExe";  
   let exerciseInfo = http.getUrl(baseUrl+action+user_id,options);
   
