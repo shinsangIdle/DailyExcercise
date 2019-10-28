@@ -86,7 +86,7 @@ result-view{
 									image-position (Start)
 									on-click {
 										intent {
-											goal: GetCountSetNoCom
+											goal: PlayCount
 											value: $expr(result.exerciseName)
 										}
 									}
