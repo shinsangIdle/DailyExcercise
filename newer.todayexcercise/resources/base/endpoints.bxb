@@ -1,3 +1,4 @@
+
 endpoints {
 	action-endpoints {
 		action-endpoint (PlayCount) {
@@ -48,11 +49,8 @@ endpoints {
 		}
 		
 		action-endpoint (SaveRoutine) {
-<<<<<<< HEAD
 			accepted-inputs (routineNum,routine)
-=======
 			accepted-inputs ($vivContext,routine)
->>>>>>> a7c807075978cd67b88004d7d6978e0c657c5b4e
 			local-endpoint (recommend/saveRoutine.js)
 		}
 		action-endpoint (GetNextExe) {
