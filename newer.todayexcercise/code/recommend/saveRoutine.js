@@ -16,7 +16,7 @@ module.exports.function = function saveRoutine ($vivContext,routine) {
 
   //insert rocord
   action = "insertRouRecord";
-  let user_id = "&user_id="+$vivContext.userId;
+  let user_id = "&user_id="+$vivContext.bixbyUserId;
   var routine_id = "&routine_id=" + routine.routineNum;
   http.getUrl(baseUrl+action+user_id+routine_id ,options );
 

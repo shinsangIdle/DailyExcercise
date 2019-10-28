@@ -16,7 +16,7 @@ module.exports.function = function manageGrade($vivContext, need) {
     }
   };
 
-  const bixbyUserId = $vivContext.userId;
+  const bixbyUserId = $vivContext.bixbyUserId;
 
   http.getUrl(baseUrl+"isExist&user_id=" + bixbyUserId,options);
 

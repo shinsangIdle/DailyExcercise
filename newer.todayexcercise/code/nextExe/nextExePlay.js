@@ -16,7 +16,7 @@ module.exports.function = function nextExePlay ($vivContext, exercise) {
   action = "insertExeRocord";
 
   var exe_id = "&exe_id=" + exercise.exerciseID;
-  let user_id = "&user_id="+$vivContext.userId;
+  let user_id = "&user_id="+$vivContext.bixbyUserId;
   var grade = "&grade=" + exercise.exerciseGrade;
   http.getUrl(baseUrl+action+exe_id+user_id+grade ,options );
 
