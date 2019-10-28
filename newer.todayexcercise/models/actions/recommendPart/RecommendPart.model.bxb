@@ -1,0 +1,12 @@
+action (RecommendPart) {
+	description (부위별 루틴 추천)
+	collect {
+
+		input (partInput) {
+			type (PartInput)
+			min (Required) max (One)
+		}
+	}
+	type(Search)
+	output (Routine)
+}

@@ -3,3 +3,13 @@ train (t-ukculkgiz82w53hgn50w8tdll) {
   plan (Y2BmkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwlhCrll5qawsDEwAjEDECSkQEEmCAYAA==)
   last-modified (1572081363489)
 }
+train (t-ukhwmi3cjg1440qja2uuu3kpy) {
+  utterance ("[g:Routine] 이제 (운동)[v:Recommend:Routine]할 준비 됐어")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QC4PBMDIxAzAElGBhBggmAA)
+  last-modified (1572241238001)
+}
+train (t-uozdzh9o214338cw14yxk3oxw) {
+  utterance ("[g:PlayCount] (세게)[v:Power:빠르게] (1)[v:SetNum:1](세트)[v:Count:세트] (14)[v:SearchTerm:14](회)[v:Count:회] 시작")
+  plan (nY9LDoIwFEUvivhjBWJ06og9qImJE0PUDRRaYxNoE2gj7N62mDihDuybvJz7eSlirAV7sTpVkpKOtQWrC96w9MoaXaoGm0E1K0l3lFooJDlv8y4lmnJpqfHu7X4WD4ndYPigeUld+utcDTr7E/9qW7/mDnv+duKC/irPpIGe8hsjdfG8s7pC4jGoi66wRIARxggxQYQpZphjYSgcDwwPjWq5ncBxIDbTb/2LzB6Zhk/2DQ==)
+  last-modified (1572238006143)
+}

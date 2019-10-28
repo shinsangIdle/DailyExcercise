@@ -1,3 +1,8 @@
+train (t-r5rcjyx5lq8r4095bd9i7d4js) {
+  utterance ("[g:PlayCount] (슈퍼맨)[v:ExerciseName] 시작할게")
+  plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
+  last-modified (1572235990383)
+}
 train (t-rc8g2u5z4uhq2ies7rsnhfp7r) {
   utterance ("[g:resultManageGrade] 루틴 (강도)[v:Grade:Grade] (세게)[v:Need:up]하고싶어")
   plan (Y2BhkC8pSS0u0SvOyMzLSMzTK0otLs0p8U3MS0xPdS9KTEllkERVgCwljCoFERRCFfRLTU1hYGZgZGACkgxAGgQhAMQHiwIA)

@@ -16,9 +16,7 @@ module.exports.function = function recommend($vivContext) {
   const bixbyUserId = $vivContext.userId;
   let url = baseUrl+"isExist&user_id="+bixbyUserId;
   http.getUrl(url ,options);
-  //////////////////////////////////////////////////////////가장 기본이 되는 코드///////////////////////////////////////////
   
- // let link = "https://hd3agys9gh.execute-api.ap-northeast-2.amazonaws.com/default/bixbygatewayapi?action=";
   let action = "";
   let user_id = "&user_id=" //input 
 
@@ -67,7 +65,7 @@ module.exports.function = function recommend($vivContext) {
     
     console.log(exerList);
     routineList.push({
-      routineNum: iter,
+      routineNum: routines[iter]["routineNum"],
       exercisePart: part,
       exercise: exerList
     })

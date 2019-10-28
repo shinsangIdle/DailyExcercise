@@ -1,12 +1,12 @@
+train (t-td8hhsmhrfzpn9j8rgwogs2ox) {
+  utterance ("[g:YoutubeSearchResults] (데드리프트)[v:Keyword] (자세)[v:Pose] 검색해줘")
+  plan (Y2Bh0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAZJrLIB+cWpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1572220508796)
+}
 train (t-tie8zcb5anh0vgwhnsa1ilyyn) {
   utterance ([g:Routine] 오늘 운동 추천좀 해줘)
   plan (Y2BkEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2UAAUYQAQA=)
   last-modified (1572181618878)
-}
-train (t-tiio112e5c7mmr520c4uibibp) {
-  utterance ([g:Routine] 오늘 운동 추천해줘)
-  plan (Y2BkEC0pSS0u0SvOyMzLSMzTC8ovLcnMS2UAAUYQAQA=)
-  last-modified (1572181158502)
 }
 train (t-twakbyr40oin7f4705092rg4b) {
   utterance ("[g:InformGrade] 내 (등급)[v:Grade:Grade] 알려줘")

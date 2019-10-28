@@ -26,14 +26,14 @@ module.exports.function = function manageGrade($vivContext, need) {
   console.log(user_id);
 
   action = "count_exercise_get_grade";
-  //console.log(baseUrl+action+user_id);
   let user_data = http.getUrl(baseUrl + action + user_id, options);
   console.log("need: " + need);
 
   action = "manage_grade";
   let originalGrade = user_data[0].user_grade;
+  console.log(originalGrade);
   let isValid = "no", afterGrade = originalGrade;
-  let grades = ["초급", "중급", "고급"];
+  let grades = ["초급", "중급", "상급"];
 
   if (need == "up") {
     if (originalGrade == 3) {

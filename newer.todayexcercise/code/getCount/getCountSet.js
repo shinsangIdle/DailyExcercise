@@ -1,4 +1,4 @@
-module.exports.function = function getCountSet ($vivContext,countCom, exeName){
+module.exports.function = function getCountSet ($vivContext,exerciseName){
   // if bixby id == null >> insert 
   var secret = require('secret');
   var apikey = secret.get('apikey');
@@ -28,7 +28,7 @@ module.exports.function = function getCountSet ($vivContext,countCom, exeName){
 
   let user_grade = user_data[0].user_grade;
 
-  let name = "&name=" + exeName;
+  let name = "&name=" + exerciseName;
   action="count_exercise_get_exercise";
   var enc = encodeURI(baseUrl+action+name);
   let exercise = http.getUrl(enc, options );
