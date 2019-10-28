@@ -89,7 +89,7 @@ result-view {
 	
 	conversation-drivers{
 		conversation-driver{
-			template ("등급 올려줘")
+			template ("지금 내 등급 뭐야")
 		}
 		conversation-driver{
 			template ("등급 내려줘")

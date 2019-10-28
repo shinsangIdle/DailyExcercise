@@ -49,6 +49,9 @@ result-view {
 		conversation-driver{
 			template ("루틴 추천해줘")
 		}
+		conversation-driver{
+			template ("오늘은 상체 운동 할래 알려줘")
+		}
 	}
 }
 
