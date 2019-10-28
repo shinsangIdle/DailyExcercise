@@ -6,5 +6,6 @@ action (GetNextExe) {
       min (Optional) max (Many)
     }
   }
+  type(Search)
   output (Exercise)
 }

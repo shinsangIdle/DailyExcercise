@@ -5,6 +5,7 @@ capsule {
   targets {
     target (bixby-mobile-ko-KR)
   }
+  
   runtime-flags {
     concepts-inherit-super-type-features
     modern-prompt-rejection
@@ -17,7 +18,7 @@ capsule {
     section (Sports)
     section (HealthAndFitness)
   }
-
+  
   permissions {
       bixby-user-id-access
   }
