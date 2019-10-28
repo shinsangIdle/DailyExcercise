@@ -8,9 +8,9 @@ train (t-yv06spqu38k2c5hzlgxspkpgy) {
   last-modified (1572244218214)
 }
 train (t-yvefhxdyg8n7m42wwrlmwcjpo) {
-  utterance ([g:GetNextExe] 다음 운동 할래)
-  plan (Y2BikM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMTACIQMUA0kA)
-  last-modified (1572246729542)
+  utterance ("[g:GetNextExe] (다음)[v:Next:다음] 운동 할래")
+  plan (Y2BmkM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMUhiVQCSZWBiYARiBiDJyAACUD4A)
+  last-modified (1572247515493)
 }
 train (t-yxwgqotbolfqr08vxnnisuf19) {
   utterance ("[g:YoutubeSearchResults] (힙 레이즈)[v:Keyword] 보여줘봐")
