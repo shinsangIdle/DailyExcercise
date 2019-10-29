@@ -18,6 +18,11 @@ train (t-gsmbdhiykhp4lxiqz7v183uu4) {
   plan (Y2BmUMpLLU8t0ivJT0msTK1ITi1KzixO1fMvykzPzEvMcS9KTEllUMCqxjMvLb8oF6JCCqsKiBwTAyMQMwBJRgYQgPIB)
   last-modified (1572258263907)
 }
+train (t-gw194gyt4v8cufa6yquq9gl4t) {
+  utterance ("[g:PlayCount] (체스트프레스머신)[v:ExerciseName] 카운트해줘")
+  plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
+  last-modified (1572336246453)
+}
 train (t-gw7xiy3ds3nc7jocs894wkmqc) {
   utterance ("[g:RecommendPart] (어깨)[v:PartInput:상체] 넓어지고싶다")
   plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)

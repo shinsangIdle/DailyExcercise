@@ -8,8 +8,8 @@ train (t-fgxaaqvs7per3boo15tbhpi1e) {
   plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQIAJggE=)
   last-modified (1572238003528)
 }
-train (t-fixlnrcox6nhhvf7wu2fudsia) {
-  utterance ("[g:PlayCount] (파워풀)[v:Power:빠르게]하게 (12)[v:SearchTerm:12]회 가보자")
-  plan (Y+BgkMlLLU8t0ivJT0msTK1ITi1KzixO1QtKLS7NKSlmkMMqG5CTWOmcX5pXwiCdlFmRVKmXWJqSmQ8SBap1BLE989LyGTSwanYqzcxJAetGqJTHqhKhCIc73DLzICYxSGF3Zz5QEIfhwamJRckZIalFuQzsDIwMTAzMDCwMrAxsQB4DEp8VyGaAYxBgBrLAqgA=)
-  last-modified (1572244668325)
+train (t-ftpn53v30mp2qxewzjrczwwjs) {
+  utterance ("[g:Routine] (오늘)[v:Recommend:Today] (운동)[v:Recommend:Routine] 추천해저")
+  plan (Y2BlkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QCqybMwMDIwMTADaQYwiwlIMjDwACEDUJQBIgMA)
+  last-modified (1572335055174)
 }

@@ -1,8 +1,3 @@
-train (t-yhfy8tmj5mbbubr02ubkrqfwo) {
-  utterance ("[g:PlayCount] (11)[v:SearchTerm:11](회)[v:Count:회] (3)[v:SetNum:3](세트)[v:Count:세트] 틀어줘")
-  plan (nY9NCsIwFISn2mr9OYEV3brqHVQQ3IioF2ibJwbaBNIE29ubpAs3rQsTApNvZvIIFlgLepNKtWRZS01BquA1pTeqTalrbHrda5m1R2mERpLzJm/TzDAuHbXZvdNn8ZTY9ZYPhpfMt7/JVW+yG/Gvtx32/OCBv524YL8euFOmiteDVIVkIKAvpsIcAUYYI0SECaaIMbMMngaWhtZzNLY3+LO0u1NuRVa5pm99AA==)
-  last-modified (1572258269352)
-}
 train (t-yv06spqu38k2c5hzlgxspkpgy) {
   utterance ("[g:RecommendPart] (다리)[v:PartInput:하체] 좀 혹사시켜볼까")
   plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)

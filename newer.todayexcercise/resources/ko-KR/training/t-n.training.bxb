@@ -1,7 +1,7 @@
 train (t-n33y58fjbmzlxekoqhexr4wnm) {
-  utterance ("[g:SaveRoutine] (10)[v:RoutineNum:10]번 루틴 선택할게")
+  utterance ("[g:SaveRoutine] (10번)[v:RoutineNum:10] 루틴 선택할게")
   plan (Y2BhkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMAqG5xYlgpTgV+/PD5Zv9JcBmYGRgYmIMkApEEQApiALKAYAA==)
-  last-modified (1572256156917)
+  last-modified (1572333541836)
 }
 train (t-n609jzlakg9t7edneayx66u9n) {
   utterance ([g:PlayCount] 나 운동하는것좀 봐줘)
@@ -12,6 +12,11 @@ train (t-n7145tvdyoe6gbe4prsqah8e9) {
   utterance ("[g:RecentExercise] 나 (저번주)[v:Recent:Recent]에 무슨운동 (했지)[v:Recent:Past]")
   plan (Y2Bl0MxLLU8t0ivJT0msTK1ITi1KzixO1QtKTU7NK3GtgHCDUotLc0oYlIlQyiCNRxEFkiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)
   last-modified (1572245448885)
+}
+train (t-nsckuslbdlyu1g0tf64c0h82o) {
+  utterance ("[g:PlayCount] (12회)[v:SearchTerm:12] (3세트)[v:SetNum:3] 틀어줘")
+  plan (Y+BgkMlLLU8t0ivJT0msTK1ITi1KzixO1QtKLS7NKSlmkMMqG5CTWOmcX5pXwiCdlFmRVKmXWJqSmQ8SBap1BLE989LyGTSwanYqzcxJAetGqJTHqhKhCIc73DLzICbhMCA4NbEoOSMktSiXQRqHghK/0lwGdgZGBiYGZgYWBlYGNiCPAYnPCmQzwDEIMANZYFUA)
+  last-modified (1572331343446)
 }
 train (t-ny0rc5zlwmo5mig59fp1eu4kj) {
   utterance ("[g:OriginalGrade] 현재 (강도)[v:Grade:Grade]가 뭐야")

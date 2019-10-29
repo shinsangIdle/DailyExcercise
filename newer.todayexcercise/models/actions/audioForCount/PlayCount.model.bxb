@@ -1,11 +1,6 @@
 action (PlayCount) {  //명령어가 들어왔을때 가장 먼저 실행되는곳
   type (Search)
   collect {
-     input (count) {
-      type (Count)
-      min (Optional) max (Many)
-    }
-
     // input(power){
     //   type(Power)
     //   min(Optional) max (One)

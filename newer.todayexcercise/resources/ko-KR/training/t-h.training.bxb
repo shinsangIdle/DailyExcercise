@@ -1,3 +1,8 @@
+train (t-h3dbzdty350fnu9m4duhflv8u) {
+  utterance ("[g:PlayCount] (로잉머신)[v:ExerciseName] 기록해줘")
+  plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
+  last-modified (1572336022704)
+}
 train (t-h5vpoyg37bl05dncb260lry5n) {
   utterance ("[g:RecommendPart] (등)[v:PartInput:상체]이 넓은 남자가 되려면 어떻게 해")
   plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
@@ -12,4 +17,14 @@ train (t-hr44vkvus3mftic3n9h37cufu) {
   utterance ("[g:InformGrade] 운동 (등급)[v:Grade:Grade] 알려줘")
   plan (Y2BmUMpLLU8t0ivJT0msTK1ITi1KzixO1fMvykzPzEvMcS9KTEllUMCqxjMvLb8oF6JCCqsKiBwTAyMQMwBJRgYQgPIB)
   last-modified (1572252088206)
+}
+train (t-hsasqxwtztl232ax6e7spyaew) {
+  utterance ("[g:PlayCount] (12회)[v:SearchTerm:12] 세줘")
+  plan (dU5JCsIwFH1xPISiW1e5gwqCO1EvkCZfDMQEMmBze5N2URft4sOb+Vhja+lLnkenRKZWkpc6EL9TSCYG7EbdmxH57JKN2DS6bTIXSWlX1ZI9Vny1L4fDaPmUtFFde0juR5NDaOKPi7b90sTAg4SX7yf5D1ZgmGGOBZYF44+xjvWHorLq/wA=)
+  last-modified (1572331768071)
+}
+train (t-hwd34tky5l3g97vl3kjgy733k) {
+  utterance ("[g:SaveRoutine] 루틴(8번)[v:RoutineNum:8] 시작해볼까말까")
+  plan (Y2BhkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMAqG5xYlgpTgV+/PD5Zv9JcBmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1572335823842)
 }

@@ -1,5 +1,0 @@
-enum (Count) {
-  description (-)
-  symbol (회)
-  symbol (세트)
-}

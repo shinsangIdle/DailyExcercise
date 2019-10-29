@@ -23,3 +23,8 @@ train (t-vlmdsm35u6htutrr7oo11op7t) {
   plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QtKLS7NKSlmkMMqG5CTWOmcX5pXwiCdlFmRVKmXWJqSmQ8SBap1BLE989LyGZgYGIGYAUgyMjDAaAA=)
   last-modified (1572245952437)
 }
+train (t-voxodvwnq4cd4r4j4tod8mjvn) {
+  utterance ("[g:SaveRoutine] (5번)[v:RoutineNum:5]으로할게")
+  plan (Y2BhkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMAqG5xYlgpTgV+/PD5Zv9JcBmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1572335393000)
+}
