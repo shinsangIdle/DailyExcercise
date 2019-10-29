@@ -1,4 +1,4 @@
-train (t-jmdvx3xm2fzm581rotwpzgp72) {
+﻿train (t-jmdvx3xm2fzm581rotwpzgp72) {
   utterance ("[g:Routine] (지금)[v:Recommend:Today] 할만한 (운동)[v:Recommend:Routine] 알려줘")
   plan (Y2BlkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QCqybMwMDIwMTADaQYwiwlIMjDwACEDUJQBIgMA)
   last-modified (1572258264599)
