@@ -5,8 +5,8 @@ train (t-pahdqd5yb8vay6slfhnok0ipg) {
 }
 train (t-pbq63y8g14372pj138pxgtdui) {
   utterance ("[g:YoutubeSearchResults] (파워 스쿼트 머신)[v:Keyword] 좀 검색해")
-  plan (Y2BmUCopSS0u0SvOyMzLSMzTi8wvLSlNSg1OTSxKzghKLS7NKSlmkMajhkEUVdI7tbI8vyiFgYmBEYgZgCQjAwgwQTAA)
-  last-modified (1572144734391)
+  plan (Y2Bm0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAYmBkYgZgCSjAwgwATBAA==)
+  last-modified (1572258266747)
 }
 train (t-pp3nlsa2thly01bvsr3j757kz) {
   utterance ("[g:RecommendPart] 나 (코어)[v:PartInput:코어] 운동 추천좀")

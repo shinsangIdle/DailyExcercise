@@ -5,5 +5,6 @@ train (t-bjtj5wyyn25673ryjg5r33shk) {
 }
 train (t-bu4bv4qz3fdodboffkru2j538) {
   utterance ("[g:PlayCount] (15)[v:SearchTerm:15](회)[v:Count:회] 시작해")
-  last-modified (1572198684194)
+  plan (Y+BgkMlLLU8t0ivJT0msTK1ITi1KzixO1QtKLS7NKSlmkMMqG5CTWOmcX5pXwiCdlFmRVKmXWJqSmQ8SBap1BLE989LyGTSwanYqzcxJAetGqJTCqhJihTxuObABONzolpmXgs+A4NTEouSMkNSiXAZ2BkYGJgZmBhYGVgY2II8BzGcEioD4jGA+A5xkBtIsIFUA)
+  last-modified (1572258262491)
 }
