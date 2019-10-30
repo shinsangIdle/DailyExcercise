@@ -5,9 +5,10 @@ var fail = require('fail')
 module.exports.function = function findCount(power, searchTerm, setNum) { //searchTerm이 11회, 12회, 13회가 됨
   const keysToSearchOn = ['title', 'artist', 'subtitle', 'albumName']
   let countAudioFound = []
-  console.log("power"+power)
-  console.log("searchTerm" + searchTerm)
   
+
+  //카운트 횟수를 지정하지 않을대 지정했을때 
+
   if(!searchTerm){  //카운트 횟수를 지정하지 않았다면
     if(!power){ //빠르게 할지 천천히 할지 지정하지 않았다면
       console.log("searchTerm")
