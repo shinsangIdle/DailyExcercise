@@ -1,3 +1,8 @@
+train (t-p05wh7b0eoe3jcxdjtnfwtxy6) {
+  utterance ("[g:Routine] (지금)[v:Recommend:Today] 할만한 (운동)[v:Recommend:Routine] 알려줘")
+  plan (Y2BlkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QCqybMwMDIwMTADaQYwiwlIMjDwACEDUJQBIgMA)
+  last-modified (1572405629665)
+}
 train (t-p8oodq1dzzs4ncx24xhyxdlgy) {
   utterance ("[g:SaveRoutine] (일곱번째)[v:RoutineNum:7] 가자")
   plan (Y2BhkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMAqG5xYlgpTgV+/PD5Zv9JcBmYGRgYmIMkApEEQApiALKAYAA==)
