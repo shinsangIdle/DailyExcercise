@@ -31,5 +31,4 @@ result-view{
       template ("오늘 한 운동 알려줘")
     }
   }
-
 }
