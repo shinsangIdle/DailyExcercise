@@ -1,0 +1,25 @@
+train (t-o144di6suxot8gzyekf33kvsr) {
+  utterance ([g:Routine] 오늘 운동 추천해줘)
+  plan (Y2BkkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlAAFGEAEA)
+  last-modified (1572258265738)
+}
+train (t-o5c36bgdadwdrla416c2tb07h) {
+  utterance ("[g:RecommendPart] (하체)[v:PartInput:하체] 터트리고 싶은데")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572240508254)
+}
+train (t-oaikrbfe7fr8d7a8qo2qo37d6) {
+  utterance ("[g:ManageGrade] (쉽지않)[v:Need:down]더라")
+  plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572245191966)
+}
+train (t-oeaj1qljfjbrlvie3oviebgwj) {
+  utterance ("[g:ManageGrade] (별거)[v:Need:up] 아니네")
+  plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1572241923871)
+}
+train (t-okwdnganb7v3llfjeao3on306) {
+  utterance ("[g:InformGrade] 나 현재 (등급)[v:Grade:Grade] 뭐야")
+  plan (Y2BmUMpLLU8t0ivJT0msTK1ITi1KzixO1fMvykzPzEvMcS9KTEllUMCqxjMvLb8oF6JCCqsKiBwTAyMQMwBJRgYQgPIB)
+  last-modified (1572258266121)
+}

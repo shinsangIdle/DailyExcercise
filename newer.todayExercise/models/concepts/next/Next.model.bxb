@@ -1,0 +1,4 @@
+enum (Next) {
+  description (다음 운동 추천 받는 변수)
+  symbol (다음)
+}

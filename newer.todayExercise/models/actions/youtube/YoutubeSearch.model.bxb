@@ -1,0 +1,16 @@
+action (YoutubeSearch) {
+  description (원하는 동작 자세를 검색하는 액션)
+  collect {
+    input (keyword) {
+      type (Keyword)
+      min (Required) max (One)
+    }
+
+    input (pose) {
+      type (Pose)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (YoutubeSearchResults)  
+}

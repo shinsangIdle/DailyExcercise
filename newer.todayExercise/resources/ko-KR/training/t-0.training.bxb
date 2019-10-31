@@ -1,0 +1,15 @@
+train (t-07yk52rgiu67ifkx9pgxwbbq3) {
+  utterance ("[g:PlayCount] (롤아웃)[v:ExerciseName] 할게")
+  plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
+  last-modified (1572236451695)
+}
+train (t-0h9mhdta2kue09srrf7vypea3) {
+  utterance ("[g:RecommendPart] (맨몸운동)[v:PartInput:코어]만 가능해")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572245619309)
+}
+train (t-0umc15bbf527nh3vr3hxdz9cd) {
+  utterance ("[g:GetNextExe] 아직 (남은)[v:Next:다음] 해야할 운동 있으면 알려줘")
+  plan (Y2BmkM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMUhiVQCSZWBiYARiBiDJyAACUD4A)
+  last-modified (1572254457747)
+}

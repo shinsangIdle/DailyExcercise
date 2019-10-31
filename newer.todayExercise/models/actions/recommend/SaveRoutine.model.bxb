@@ -1,0 +1,23 @@
+action (SaveRoutine) {
+	description (루틴 선택 시 저장되는 액션)
+	collect {
+		input (routineNum) {
+			type (RoutineNum)
+			min (Optional) max (One)
+		}
+		input (routine) {
+			type (Routine)
+			default-init {
+				if (not exists(routine)){
+					intent {
+						goal: GetRoutine
+						value: $expr(routineNum)
+					}
+				}
+			}
+			min (Required) max (One)
+		}
+	}
+	type(Search)
+	output (Routine)
+}

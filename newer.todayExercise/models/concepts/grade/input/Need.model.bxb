@@ -1,0 +1,5 @@
+enum (Need) {
+  description (난이도 올릴지, 내릴지 입력받음)
+  symbol (up)
+  symbol (down)
+}

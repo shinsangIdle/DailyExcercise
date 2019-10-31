@@ -1,0 +1,48 @@
+layout-macro-def (VideoCard) {
+  params {
+    param (youtubeVideo) {
+      type (YoutubeVideo)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    compound-card {
+      content {
+        image-card{
+          text-position (Below)
+          title-area {
+            slot1 {
+              text {
+                style(Title_S)
+                value ("#{value(youtubeVideo.videoTitle)}")
+              }
+            }
+          
+        }
+          image-url ("#{value(youtubeVideo.thumbnailUrl)}")
+
+        }
+        title-card{
+          title-area {
+            halign (End)
+          slot2{
+								paragraph{
+									style(Detail_M_Soft)
+									value("#{value(youtubeVideo.channelTitle)}")
+								}
+							}
+         }
+        }
+        
+      }
+      on-click {
+        intent {
+          goal: YoutubeVideo
+          value: $expr(youtubeVideo)
+        }
+      }
+    }
+  }
+
+}

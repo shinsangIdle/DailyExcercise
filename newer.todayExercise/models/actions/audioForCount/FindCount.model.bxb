@@ -1,0 +1,34 @@
+action (FindCount) {
+  type (Search)
+  description (키값으로 해당되는 오디오 찾기)
+  collect {
+    input (searchTerm) {
+      type (SearchTerm)
+      min (Optional) max (One)
+    }
+    
+    input(setNum){
+      type(SetNum)
+      min (Optional) max (One)
+    }
+
+    input(power){
+      type(Power)
+      min(Optional) max (One)
+    }
+  }
+  
+  output (CountAudio){
+    throws {
+      error (UnsupportedCondition) {
+        on-catch {
+          halt {
+            dialog{
+              template ("카운트 횟수는 10회에서 15회까지 지원합니다.")
+            }
+          }
+        }
+      }
+    }
+  }
+}
