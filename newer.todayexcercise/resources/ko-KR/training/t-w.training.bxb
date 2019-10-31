@@ -3,3 +3,8 @@ train (t-wdbddpg2i7n6ixapqrl70m0hw) {
   plan (Y2Bl0MxLLU8t0ivJT0msTK1ITi1KzixO1QtKTU7NK3GtgHCDUotLc0oYlIlQyiCNRxEFkiwMjAxMDMxAmgHMYgKSDAw8QMgAFGWEyAAA)
   last-modified (1572258268921)
 }
+train (t-wzi5om0sw5c92nu29y4ebex29) {
+  utterance ("[g:resultManageGrade] 운동 (난이도)[v:Grade:Grade] (내릴게)[v:Need:down]")
+  plan (Y2BhUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhRRWFRA5SaxyfqmpKQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1572480164363)
+}
