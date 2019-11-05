@@ -1,5 +1,15 @@
+train (t-d7r7p4tk553igjlwnizk0uwo2) {
+  utterance ("[g:PlayCount] (채스트 플라이)[v:ExerciseName] 할래")
+  plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
+  last-modified (1572937501644)
+}
 train (t-dm8kliahvtltty8nx0quke6sv) {
   utterance ("[g:PlayCount] (빠른)[v:Power:빠르게] 템포 스타트")
   plan (dU5LCsIwEH3xewcV3brKHbRQcCfeIG1GGAgJNAk2tzdpF3URFwPvOzzscbL0oUEGp1WisaehZ0/yRT6a4HGuuk+jUuOiDTh2PHZJqqjZFTVnbwU/7NvhWi3fIxs9tZfkpZpcQn92tGznTzjUd7osYgeBFdbYYJsxfpiY2HzIqij+Fw==)
   last-modified (1572248977758)
+}
+train (t-dzochz6f1bhy7dy8lr5hu902n) {
+  utterance ("[g:Routine] (지금)[v:Recommend:Today] 할 만한 (운동)[v:Recommend:Routine]을 알려조")
+  plan (Y2BlkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QCqybMwMDIwMTADaQYwiwlIMjDwACEDUJQBIgMA)
+  last-modified (1572935320843)
 }

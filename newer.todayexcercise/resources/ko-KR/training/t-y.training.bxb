@@ -1,3 +1,8 @@
+train (t-y3mwhc9r1q5b9ez7bg7vv9adl) {
+  utterance ("[g:YoutubeSearchResults] 나 (체스트플라이)[v:Keyword] 좀 알려줘")
+  plan (Y2Bm0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAYmBkYgZgCSjAwgwATBAA==)
+  last-modified (1572937389973)
+}
 train (t-yv06spqu38k2c5hzlgxspkpgy) {
   utterance ("[g:RecommendPart] (다리)[v:PartInput:하체] 좀 혹사시켜볼까")
   plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)

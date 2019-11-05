@@ -3,3 +3,8 @@ train (t-qq9rk1niaymnz7uzo26ifm1td) {
   plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
   last-modified (1572235754072)
 }
+train (t-qsonad9vkq6b8io02o4feglcv) {
+  utterance ("[g:GetNextExe] (이제)[v:Next:다음] 뭐해야 돼")
+  plan (Y2BmkM1LLU8t0ivJT0msTK1ITi1KzixO1XOtgDAY5LFKu6eW+KVWlABVMUhiVQCSZWBiYARiBiDJyAACUD4A)
+  last-modified (1572938070110)
+}

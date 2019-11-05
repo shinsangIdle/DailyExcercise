@@ -1,0 +1,5 @@
+train (t-5odoyk7ewrxq7l53naxcarlwg) {
+  utterance ("[g:Routine] (지금)[v:Recommend:Today] 할만한 (운동)[v:Recommend:Routine]을 부탁해")
+  plan (Y2BlkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QCqybMwMDIwMTADaQYwiwlIMjDwACEDUJQBIgMA)
+  last-modified (1572939309151)
+}

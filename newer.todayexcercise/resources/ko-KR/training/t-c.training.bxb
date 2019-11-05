@@ -8,3 +8,8 @@ train (t-cgsaxb9kk4577a1zfyfiuvjwr) {
   plan (Y2BhkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMAqG5xYlgpTgV+/PD5Zv9JcBmYGRgYmIMkApEEQApiALKAYAA==)
   last-modified (1572333583667)
 }
+train (t-cn7yywp4443vydieu9kqzzc6t) {
+  utterance ("[g:Routine] (어깨 깡패)[v:PartInput:상체]로 만들어줘")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1572939133958)
+}

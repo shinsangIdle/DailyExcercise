@@ -1,3 +1,8 @@
+train (t-11qxb2iuc0of00iyxfwiqg8j1) {
+  utterance ("[g:Routine] (몸짱)[v:Recommend:Routine]이 되고싶어")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QC4PBMDIxAzAElGBhBggmAA)
+  last-modified (1572938228549)
+}
 train (t-18x7ldsw7nassdoxei48ummxg) {
   utterance ("[g:YoutubeSearchResults] (바이셉스컬)[v:Keyword] (어떻게)[v:Pose]해")
   plan (Y2Bh0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAZJrLIB+cWpDMwMjAxMQJIBSIMgBID4YFEA)

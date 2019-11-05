@@ -1,3 +1,8 @@
+train (t-x2dwu943975vklhjtbu9zwmw6) {
+  utterance ("[g:Routine] (지금)[v:Recommend:Today] 할만한 (운동)[v:Recommend:Routine] 있을까")
+  plan (Y2BlkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QCqybMwMDIwMTADaQYwiwlIMjDwACEDUJQBIgMA)
+  last-modified (1572937401180)
+}
 train (t-xfjobtaxrnn5fv6ay2xg3o6kf) {
   utterance ("[g:RecommendPart] (코어)[v:PartInput:코어] 근육 키우는 운동엔 뭐가 있을까")
   plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)

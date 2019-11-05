@@ -28,3 +28,8 @@ train (t-voxodvwnq4cd4r4j4tod8mjvn) {
   plan (Y2BhkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMAqG5xYlgpTgV+/PD5Zv9JcBmYGRgYmIMkApEEQApiALKAYAA==)
   last-modified (1572335393000)
 }
+train (t-vtdswuwl4nb7acw14b9zad8nl) {
+  utterance ("[g:YoutubeSearchResults] (데드리프트)[v:Keyword] (하는 법)[v:Pose] 보여줄래")
+  plan (Y2Bh0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAZJrLIB+cWpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1572938539614)
+}

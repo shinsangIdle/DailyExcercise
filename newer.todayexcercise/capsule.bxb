@@ -1,6 +1,6 @@
 capsule {
   id (newer.todayexcercise)
-  version (0.1.2) //public submission마다 버전 올려주기
+  version (0.1.3) //public submission마다 버전 올려주기
   format (3)
   targets {
     target (bixby-mobile-ko-KR)

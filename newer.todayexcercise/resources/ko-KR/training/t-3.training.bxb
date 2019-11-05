@@ -1,8 +1,3 @@
-train (t-321jldmthhszycnrv7o2uo2vs) {
-  utterance ("[g:YoutubeSearchResults] 나 (펙덱플라이)[v:Keyword] 좀 알려줘")
-  plan (Y2Bm0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAYmBkYgZgCSjAwgwATBAA==)
-  last-modified (1572260091963)
-}
 train (t-3czq151jjigedc7qm1hvbvubl) {
   utterance ("[g:resultManageGrade] 지금 좀 (쉬운거)[v:Need:up] 같아")
   plan (Y2BmUMtLLU8t0ivJT0msTK1ITi1KzixO1StKLS7NKfFNzEtMT3UvSkxJZVDAqg5ZhSRWFX6pqSkMTAyMQMwAJBkZQIAJggE=)

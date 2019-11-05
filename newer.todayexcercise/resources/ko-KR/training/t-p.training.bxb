@@ -18,6 +18,11 @@ train (t-pbq63y8g14372pj138pxgtdui) {
   plan (Y2Bm0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAYmBkYgZgCSjAwgwATBAA==)
   last-modified (1572258266747)
 }
+train (t-phwp81eyaophac2psqbrvtbi3) {
+  utterance ("[g:Routine] (지금)[v:Recommend:Today] 할만한 (운동)[v:Recommend:Routine]을 부탁해")
+  plan (Y2BlkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QCqybMwMDIwMTADaQYwiwlIMjDwACEDUJQBIgMA)
+  last-modified (1572935589212)
+}
 train (t-pp3nlsa2thly01bvsr3j757kz) {
   utterance ("[g:RecommendPart] 나 (코어)[v:PartInput:코어] 운동 추천좀")
   plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
