@@ -1,0 +1,10 @@
+result-view {
+  match: YoutubeVideo (this)
+
+  message()
+  
+  app-launch {
+    payload-uri ("#{value(this.videoUrl)}")
+  }
+}
+

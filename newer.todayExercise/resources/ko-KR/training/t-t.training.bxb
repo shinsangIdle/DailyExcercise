@@ -1,0 +1,15 @@
+train (t-td8hhsmhrfzpn9j8rgwogs2ox) {
+  utterance ("[g:YoutubeSearchResults] (데드리프트)[v:Keyword] (자세)[v:Pose] 검색해줘")
+  plan (Y2Bh0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAZJrLIB+cWpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1572220508796)
+}
+train (t-tie8zcb5anh0vgwhnsa1ilyyn) {
+  utterance ([g:Routine] 오늘 운동 추천좀 해줘)
+  plan (Y2BkkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlAAFGEAEA)
+  last-modified (1572258267723)
+}
+train (t-twakbyr40oin7f4705092rg4b) {
+  utterance ("[g:InformGrade] 내 (등급)[v:Grade:Grade] 알려줘")
+  plan (Y2BmUMpLLU8t0ivJT0msTK1ITi1KzixO1fMvykzPzEvMcS9KTEllUMCqxjMvLb8oF6JCCqsKiBwTAyMQMwBJRgYQgPIB)
+  last-modified (1572258267813)
+}

@@ -1,0 +1,25 @@
+train (t-p05wh7b0eoe3jcxdjtnfwtxy6) {
+  utterance ("[g:Routine] (지금)[v:Recommend:Today] 할만한 (운동)[v:Recommend:Routine] 알려줘")
+  plan (Y2BlkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMQq655aEpSanJ+bm5qXwiCH3QCqybMwMDIwMTADaQYwiwlIMjDwACEDUJQBIgMA)
+  last-modified (1572405629665)
+}
+train (t-p8oodq1dzzs4ncx24xhyxdlgy) {
+  utterance ("[g:SaveRoutine] (일곱번째)[v:RoutineNum:7] 가자")
+  plan (Y2BhkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMAqG5xYlgpTgV+/PD5Zv9JcBmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1572335561619)
+}
+train (t-pahdqd5yb8vay6slfhnok0ipg) {
+  utterance ("[g:PlayCount] (천천히)[v:Power:천천히] 운동 세봐")
+  plan (dU5LCsIwEH3xewcV3brKHbRQcCfeIG1GGAgJNAk2tzdpF3URFwPvOzzscbL0oUEGp1WisaehZ0/yRT6a4HGuuk+jUuOiDTh2PHZJqqjZFTVnbwU/7NvhWi3fIxs9tZfkpZpcQn92tGznTzjUd7osYgeBFdbYYJsxfpiY2HzIqij+Fw==)
+  last-modified (1572248637510)
+}
+train (t-pbq63y8g14372pj138pxgtdui) {
+  utterance ("[g:YoutubeSearchResults] (파워 스쿼트 머신)[v:Keyword] 좀 검색해")
+  plan (Y2Bm0MxLLU8t0ivJT0msTK1ITi1KzixO1YvMLy0pTUoNTk0sSs4ISi0uzSkpZlAirJRBBqsa79TK8vyiFAYmBkYgZgCSjAwgwATBAA==)
+  last-modified (1572258266747)
+}
+train (t-pp3nlsa2thly01bvsr3j757kz) {
+  utterance ("[g:RecommendPart] 나 (코어)[v:PartInput:코어] 운동 추천좀")
+  plan (Y2BmkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlUMIum5qcn5ubmpcSkFhUwiCHVQ1IyjOvoLSEgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1572243224653)
+}

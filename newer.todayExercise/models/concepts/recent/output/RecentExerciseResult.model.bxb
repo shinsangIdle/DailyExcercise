@@ -1,0 +1,12 @@
+structure (RecentExerciseResult) {
+  description (어제 한 운동 검색 결과)
+
+  property (exercise) {
+    type (Exercise)
+    min (Required) max (Many)
+  }
+  property (date) {
+    type (Date)
+    min (Required)
+  }
+}

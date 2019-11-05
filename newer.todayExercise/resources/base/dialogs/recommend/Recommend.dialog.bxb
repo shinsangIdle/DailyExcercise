@@ -1,0 +1,22 @@
+
+// dialog (Result) {
+// 	match: Routine (result)
+	// if(result.exerciseGrade=='1'){
+	// 	template("초급등급 추천 루틴입니다.") {
+	// 		speech ("오늘의 추천 루틴입니다. 현재 설정된 등급은 초급입니다.")
+	// 	}
+	// }
+	// else-if(result.exerciseGrade=='2'){
+	// 	template("중급등급 추천 루틴입니다.") {
+	// 		speech ("오늘의 추천 루틴입니다. 현재 설정된 등급은 중급입니다.")
+	// 	}
+	// }
+	// else-if(result.exerciseGrade=='3'){
+		// template("상급등급 추천 루틴입니다.") {
+		// 	speech ("오늘의 추천 루틴입니다. 현재 설정된 등급은 상급입니다.")
+		// }
+//	}
+// 	template("오늘의 추천 루틴이에요.") {
+// 			speech ("오늘의 추천 루틴이에요. 항목을 눌러 상세 내용을 확인해보세요.")
+// 		}
+// }

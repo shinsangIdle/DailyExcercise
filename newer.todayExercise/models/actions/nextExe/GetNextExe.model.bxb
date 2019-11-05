@@ -1,0 +1,11 @@
+action (GetNextExe) {
+  description (다음 운동 가져오는 액션)
+  collect {
+    input (next) {
+      type (Next)
+      min (Optional) max (Many)
+    }
+  }
+  type(Search)
+  output (Exercise)
+}

@@ -1,0 +1,35 @@
+action (PlayCount) {  //명령어가 들어왔을때 가장 먼저 실행되는곳
+  type (Search)
+  collect {
+    // input(power){
+    //   type(Power)
+    //   min(Optional) max (One)
+    // }
+
+    input (countToPlay) {
+      description (재생을 위한 플레이리스트를 만듬)
+      type (audioPlayer.AudioInfo)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: BuildCountAudioInfo
+        }
+      }
+      hidden
+    }
+
+    computed-input (Count) {
+      description (클라이언트에게 만들어진 플레이리스트를 보냄)
+      type (audioPlayer.Result)
+      compute {
+        intent {
+          goal: audioPlayer.PlayAudio
+          value: $expr(countToPlay)
+        }
+      }
+      hidden
+    }
+  }
+  
+  output (Results)
+}

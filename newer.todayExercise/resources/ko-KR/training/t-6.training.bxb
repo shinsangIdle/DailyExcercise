@@ -1,0 +1,10 @@
+train (t-607w92x8eoiup23clu0m3hn8x) {
+  utterance ([g:Routine] 나 뭐할까)
+  plan (Y2BkkMlLLU8t0ivJT0msTK1ITi1KzixO1QvKLy3JzEtlAAFGEAEA)
+  last-modified (1572241030463)
+}
+train (t-6i5rigw3d1qladvpkryqczyxk) {
+  utterance ("[g:PlayCount] (업다운 플랭크)[v:ExerciseName] 고")
+  plan (bYtLCsIwGISnPg+hKC4EV7mDFhE3RfQEafsXAm1/aBJMbm+aLuoii4F5fIMt9j19aRCGa+nJVTRUSpN4k7at0Tgk11crfc62N9iVypVeSFsrHtvAXkf/7BvGJXm+WdXW8T2TxyQ5QzgngQeZyHzIFJxzh1MSu7vJFLIjbJBhgSVWWAePv5TFNAmhzcb9Bw==)
+  last-modified (1572236751511)
+}
