@@ -1,9 +1,0 @@
-enum (SetNum) {
-  description (몇 세트 반복해야하는지)
-  symbol (1)
-  symbol (2)
-  symbol (3)
-  symbol (4)
-  symbol (5)
-  symbol (6)
-}

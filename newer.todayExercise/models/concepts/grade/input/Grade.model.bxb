@@ -1,4 +1,0 @@
-enum (Grade) {
-  description (등급 변경 요청)
-  symbol (Grade)
-}

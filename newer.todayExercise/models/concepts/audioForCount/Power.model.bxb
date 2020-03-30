@@ -1,5 +1,0 @@
-enum (Power) {
-  description (카운트 빠르기 결정)
-  symbol (천천히)
-  symbol (빠르게)
-}

@@ -1,5 +1,0 @@
-enum (Recommend) {
-  description (오늘 운동 루틴 추천 요청)
-  symbol (Today)
-  symbol (Routine)
-}
